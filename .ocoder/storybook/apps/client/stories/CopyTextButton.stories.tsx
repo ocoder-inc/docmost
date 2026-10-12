@@ -9,4 +9,6 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Default: Story = {};
+export const Default: Story = {
+  args: { text: 'https://docs.acme.com/api/sso/oidc/019a1c2e/callback' },
+};

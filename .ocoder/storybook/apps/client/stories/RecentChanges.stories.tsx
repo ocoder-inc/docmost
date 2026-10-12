@@ -1,6 +1,8 @@
 import type { Meta, StoryObj } from '@storybook/react-vite';
 
 import RecentChanges from '@source/apps/client/src/components/common/recent-changes';
+import { withQueryData } from '../fixtures/query-data';
+import { recentChangesData } from '../fixtures/pages';
 
 const meta = {
   title: 'Components/RecentChanges',
@@ -9,4 +11,7 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Default: Story = {};
+// Across all spaces, as on the home dashboard.
+export const Default: Story = {
+  decorators: [withQueryData([[['recent-changes', undefined], recentChangesData]])],
+};

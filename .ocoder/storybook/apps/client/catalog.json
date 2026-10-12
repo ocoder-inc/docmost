@@ -26,6 +26,25 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Login"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Sign In"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Google"
+        },
+        {
+          "kind": "visible",
+          "selector": "#password"
         }
       ]
     },
@@ -43,6 +62,17 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "attribute",
+          "selector": "button[aria-haspopup=menu]",
+          "name": "aria-label",
+          "equals": "Jane Cooper – Change avatar"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "JC"
         }
       ]
     },
@@ -60,6 +90,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "button[aria-label='Copy link']"
         }
       ]
     },
@@ -77,6 +111,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "button[aria-label='Copy']"
         }
       ]
     },
@@ -94,6 +132,25 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Export page"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Include subpages"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Include attachments"
+        },
+        {
+          "kind": "visible",
+          "selector": "[aria-label='Select export format']"
         }
       ]
     },
@@ -111,6 +168,17 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "No results found..."
+        },
+        {
+          "kind": "attribute",
+          "selector": "td",
+          "name": "colspan",
+          "equals": "3"
         }
       ]
     },
@@ -128,6 +196,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root svg",
+          "equals": 1
         }
       ]
     },
@@ -145,6 +218,21 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root button",
+          "equals": 2
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Prev"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Next"
         }
       ]
     },
@@ -162,6 +250,26 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root tbody tr",
+          "equals": 4
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Onboarding checklist"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Q3 roadmap"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Engineering"
         }
       ]
     },
@@ -179,6 +287,12 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "attribute",
+          "selector": "input",
+          "name": "placeholder",
+          "equals": "Search members..."
         }
       ]
     },
@@ -196,6 +310,16 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Jane Cooper"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "jane.cooper@acme.com"
         }
       ]
     },
@@ -502,6 +626,76 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "exportmodal-24af0d7a",
+      "scenario_key": "space",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/common/export-modal.tsx",
+        "export_name": "ExportModal"
+      },
+      "storybook_story_id": "components-exportmodal--space",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Export space"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Include attachments"
+        }
+      ]
+    },
+    {
+      "component_key": "pagelisticon-1c22816c",
+      "scenario_key": "with-emoji",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/common/page-list-icon.tsx",
+        "export_name": "PageListIcon"
+      },
+      "storybook_story_id": "components-pagelisticon--with-emoji",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "🚀"
+        }
+      ]
+    },
+    {
+      "component_key": "pagelisticon-1c22816c",
+      "scenario_key": "base",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/common/page-list-icon.tsx",
+        "export_name": "PageListIcon"
+      },
+      "storybook_story_id": "components-pagelisticon--base",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root svg.tabler-icon-table"
         }
       ]
     }
