@@ -22,7 +22,7 @@ export default function CopyTextButton({ text, size, label }: CopyProps) {
         <Tooltip
           label={copied ? t("Copied") : copyLabel}
           withArrow
-          position="right"
+          position="left"
         >
           <ActionIcon
             color={copied ? "teal" : "gray"}
