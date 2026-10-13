@@ -1,6 +1,6 @@
 {
   "generator_version": "ocoder-storybook-generator-v1",
-  "base_git_sha": "28793727827ce52beabeb346fa3c43f002442756",
+  "base_git_sha": "cee24790129862142187a306e21a4ca6a94fe935",
   "app_dir": "apps/client",
   "project_root": "apps/client",
   "unpinnable_dependencies": [],
@@ -109,15 +109,6 @@
       "story_id": "components-searchinput--default",
       "story_file": "stories/SearchInput.stories.tsx",
       "source_sha256": "c361d2119cc26c7460e9c5b5efe2d3c7524ea15ddb248160a2a94e61a41e89e2"
-    },
-    {
-      "stable_id": "cmp_8b5131ddeb6eb2eb7b286756",
-      "component_key": "statuspill-97e40a42",
-      "file_path": "apps/client/src/components/common/status-pill.tsx",
-      "export_name": "StatusPill",
-      "story_id": "components-statuspill--default",
-      "story_file": "stories/StatusPill.stories.tsx",
-      "source_sha256": "e0682f7c2bb643146394b3664dcb968fb3f9ed6006ca71be335f050f38d12c49"
     },
     {
       "stable_id": "cmp_d77733a64aa5c9598c14f671",
@@ -303,18 +294,17 @@
     "core-js"
   ],
   "last_update": {
-    "base_git_sha": "28793727827ce52beabeb346fa3c43f002442756",
-    "previous_base_git_sha": "8c505525f0aa98c77b31c71aa44f4577b52e186f",
-    "added": [
+    "base_git_sha": "cee24790129862142187a306e21a4ca6a94fe935",
+    "previous_base_git_sha": "28793727827ce52beabeb346fa3c43f002442756",
+    "added": [],
+    "changed": [],
+    "removed": [
       {
         "file_path": "apps/client/src/components/common/status-pill.tsx",
         "export_name": "StatusPill",
-        "story_file": "stories/StatusPill.stories.tsx",
-        "story_id": "components-statuspill--default"
+        "reason": "apps/client/src/components/common/status-pill.tsx no longer exists"
       }
     ],
-    "changed": [],
-    "removed": [],
     "dropped_cases": 0,
     "entry_module_changed": false
   }
