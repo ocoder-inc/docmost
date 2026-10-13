@@ -14,13 +14,13 @@ interface CopyProps {
 export default function CopyTextButton({ text, size, label }: CopyProps) {
   const { t } = useTranslation();
 
-  const copyLabel = label ?? t("Copy");
+  const copyLabel = label ?? t("Copy more");
 
   return (
     <CopyButton value={text} timeout={2000}>
       {({ copied, copy }) => (
         <Tooltip
-          label={copied ? t("Copied") : copyLabel}
+          label={copied ? t("Copied more") : copyLabel}
           withArrow
           position="right"
         >
