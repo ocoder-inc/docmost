@@ -1,6 +1,6 @@
 {
   "generator_version": "ocoder-storybook-generator-v1",
-  "base_git_sha": "5d37ff570bdd964c1abd038e5877affac80e1a15",
+  "base_git_sha": "8c505525f0aa98c77b31c71aa44f4577b52e186f",
   "app_dir": "apps/client",
   "project_root": "apps/client",
   "unpinnable_dependencies": [],
@@ -54,7 +54,7 @@
       "export_name": "CopyTextButton",
       "story_id": "components-copytextbutton--default",
       "story_file": "stories/CopyTextButton.stories.tsx",
-      "source_sha256": "f36cbe0c26130c0f0df2543ce99723d8f1bd1c037ba90e71b6daf49bcd5133e5"
+      "source_sha256": "26cff3980a6be5e5e743aa972d5dd232393b9abccd6987414658b110c0236e36"
     },
     {
       "stable_id": "cmp_c4f74503d44ca5e9254ebc74",
@@ -292,5 +292,21 @@
   ],
   "denied_install_scripts": [
     "core-js"
-  ]
+  ],
+  "last_update": {
+    "base_git_sha": "8c505525f0aa98c77b31c71aa44f4577b52e186f",
+    "previous_base_git_sha": "5d37ff570bdd964c1abd038e5877affac80e1a15",
+    "added": [],
+    "changed": [
+      {
+        "file_path": "apps/client/src/components/common/copy.tsx",
+        "export_name": "CopyTextButton",
+        "story_file": "stories/CopyTextButton.stories.tsx",
+        "story_id": "components-copytextbutton--default"
+      }
+    ],
+    "removed": [],
+    "dropped_cases": 0,
+    "entry_module_changed": false
+  }
 }
