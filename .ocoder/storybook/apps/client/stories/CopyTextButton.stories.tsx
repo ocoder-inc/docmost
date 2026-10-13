@@ -9,4 +9,17 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Default: Story = {};
+// As the publish tab uses it: copies the page's public share link.
+export const Default: Story = {
+  args: {
+    text: 'https://docs.example.com/share/k7f3x9q2/p/getting-started-Xa1b2C3d',
+  },
+};
+
+// As the AI chat uses it: a custom label disambiguates it for screen readers.
+export const WithLabel: Story = {
+  args: {
+    text: 'To invite a teammate, open Settings > Members and click "Invite members".',
+    label: 'Copy assistant response',
+  },
+};
