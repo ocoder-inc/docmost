@@ -26,6 +26,15 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root h1",
+          "includes": "Login"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root input[type=\"password\"]"
         }
       ]
     },
@@ -60,6 +69,12 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "attribute",
+          "selector": "#storybook-root button",
+          "name": "aria-label",
+          "equals": "Copy"
         }
       ]
     },
@@ -94,6 +109,48 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root .mantine-Modal-title",
+          "includes": "Export page"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root .mantine-Modal-body",
+          "includes": "Include subpages"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root .mantine-Modal-body input[type=\"checkbox\"]",
+          "equals": 2
+        }
+      ]
+    },
+    {
+      "component_key": "exportmodal-24af0d7a",
+      "scenario_key": "space",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/common/export-modal.tsx",
+        "export_name": "ExportModal"
+      },
+      "storybook_story_id": "components-exportmodal--space",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root .mantine-Modal-title",
+          "includes": "Export space"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root .mantine-Modal-body input[type=\"checkbox\"]",
+          "equals": 1
         }
       ]
     },
@@ -111,6 +168,39 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root td",
+          "includes": "No results found..."
+        },
+        {
+          "kind": "attribute",
+          "selector": "#storybook-root td",
+          "name": "colspan",
+          "equals": "4"
+        }
+      ]
+    },
+    {
+      "component_key": "notableresults-6977f6a3",
+      "scenario_key": "custom-text",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/common/no-table-results.tsx",
+        "export_name": "NoTableResults"
+      },
+      "storybook_story_id": "components-notableresults--custom-text",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root td",
+          "includes": "No authorized apps yet."
         }
       ]
     },
@@ -145,6 +235,48 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root button:not([disabled])",
+          "equals": 2
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Prev"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Next"
+        }
+      ]
+    },
+    {
+      "component_key": "paginate-a660a09f",
+      "scenario_key": "first-page",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/common/paginate.tsx",
+        "export_name": "Paginate"
+      },
+      "storybook_story_id": "components-paginate--first-page",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root button[disabled]",
+          "equals": 1
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root button:not([disabled])",
+          "text": "Next"
         }
       ]
     },
@@ -162,6 +294,70 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root tbody tr",
+          "equals": 4
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Onboarding guide"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Engineering"
+        }
+      ]
+    },
+    {
+      "component_key": "recentchanges-e7518728",
+      "scenario_key": "in-space",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/common/recent-changes.tsx",
+        "export_name": "RecentChanges"
+      },
+      "storybook_story_id": "components-recentchanges--in-space",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root tbody tr",
+          "equals": 2
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root tbody tr:first-child td",
+          "equals": 2
+        }
+      ]
+    },
+    {
+      "component_key": "recentchanges-e7518728",
+      "scenario_key": "empty",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/common/recent-changes.tsx",
+        "export_name": "RecentChanges"
+      },
+      "storybook_story_id": "components-recentchanges--empty",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "No pages yet"
         }
       ]
     },
@@ -179,6 +375,35 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "attribute",
+          "selector": "#storybook-root input",
+          "name": "placeholder",
+          "equals": "Search..."
+        }
+      ]
+    },
+    {
+      "component_key": "searchinput-4aa0d700",
+      "scenario_key": "with-placeholder",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/common/search-input.tsx",
+        "export_name": "SearchInput"
+      },
+      "storybook_story_id": "components-searchinput--with-placeholder",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "attribute",
+          "selector": "#storybook-root input",
+          "name": "placeholder",
+          "equals": "Search members..."
         }
       ]
     },
