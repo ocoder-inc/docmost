@@ -1,4 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react-vite';
+import { Button } from '@mantine/core';
 
 import { CopyButton } from '@source/apps/client/src/components/common/copy-button';
 
@@ -10,6 +11,13 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {
-  // Wrappers render what they are given; this shows the wrapper's own layout around it.
-  args: { children: 'Example content' },
+  args: {
+    value: 'https://acme.docmost.com/share/x7k2p9/p/q3-product-roadmap-a1b2c3d4e5',
+    timeout: 2000,
+    children: ({ copied, copy }) => (
+      <Button color={copied ? 'teal' : 'blue'} onClick={copy}>
+        {copied ? 'Copied link' : 'Copy link'}
+      </Button>
+    ),
+  },
 };

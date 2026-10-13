@@ -3,6 +3,7 @@ import { MemoryRouter } from 'react-router-dom';
 import { MantineProvider as Provider1 } from '@mantine/core';
 import { mantineCssResolver as value1_cssVariablesResolver, theme as value1_theme } from '@source/apps/client/src/theme';
 import { ModalsProvider as Provider2 } from '@mantine/modals';
+import { Notifications } from '@mantine/notifications';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { HelmetProvider as Provider4 } from 'react-helmet-async';
 import { PostHogProvider as Provider5 } from 'posthog-js/react';
@@ -42,6 +43,7 @@ export function Providers({ theme, children }: { theme: string; children: ReactN
         <Provider1 theme={value1_theme} cssVariablesResolver={value1_cssVariablesResolver} forceColorScheme={theme === 'dark' ? 'dark' : 'light'}>
           <Provider2>
             <StoryQueryClient>
+              <Notifications position="bottom-center" limit={3} zIndex={10000} />
               <Provider4>
                 <Provider5 client={value5_client}>
                   {children}

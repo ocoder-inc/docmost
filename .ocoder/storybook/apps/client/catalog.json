@@ -26,6 +26,20 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Login"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Sign In"
+        },
+        {
+          "kind": "visible",
+          "selector": "input#email"
         }
       ]
     },
@@ -43,6 +57,17 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "JC"
+        },
+        {
+          "kind": "attribute",
+          "selector": "button[aria-haspopup=\"menu\"]",
+          "name": "aria-label",
+          "equals": "Jane Cooper – Change avatar"
         }
       ]
     },
@@ -60,6 +85,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Copy link"
         }
       ]
     },
@@ -77,6 +107,12 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "attribute",
+          "selector": "#storybook-root button",
+          "name": "aria-label",
+          "equals": "Copy"
         }
       ]
     },
@@ -94,6 +130,20 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "body",
+          "includes": "Export page"
+        },
+        {
+          "kind": "text",
+          "selector": "body",
+          "includes": "Include subpages"
+        },
+        {
+          "kind": "visible",
+          "selector": ".mantine-Modal-content"
         }
       ]
     },
@@ -111,6 +161,17 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "No results found..."
+        },
+        {
+          "kind": "attribute",
+          "selector": "#storybook-root tbody td",
+          "name": "colspan",
+          "equals": "3"
         }
       ]
     },
@@ -128,6 +189,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root svg",
+          "equals": 1
         }
       ]
     },
@@ -145,6 +211,21 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Prev"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Next"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root button",
+          "equals": 2
         }
       ]
     },
@@ -162,6 +243,26 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root tbody tr",
+          "equals": 6
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Q3 Product Roadmap"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Engineering"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Load more"
         }
       ]
     },
@@ -179,6 +280,12 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "attribute",
+          "selector": "#storybook-root input",
+          "name": "placeholder",
+          "equals": "Search..."
         }
       ]
     },
@@ -196,6 +303,16 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Jane Cooper"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "jane.cooper@acme.dev"
         }
       ]
     },
@@ -502,6 +619,265 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "avataruploader-e42f82dd",
+      "scenario_key": "uploading",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/common/avatar-uploader.tsx",
+        "export_name": "AvatarUploader"
+      },
+      "storybook_story_id": "components-avataruploader--uploading",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root .mantine-Loader-root"
+        }
+      ]
+    },
+    {
+      "component_key": "avataruploader-e42f82dd",
+      "scenario_key": "workspace-icon",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/common/avatar-uploader.tsx",
+        "export_name": "AvatarUploader"
+      },
+      "storybook_story_id": "components-avataruploader--workspace-icon",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "attribute",
+          "selector": "button[aria-haspopup=\"menu\"]",
+          "name": "aria-label",
+          "equals": "Acme – Change workspace icon"
+        }
+      ]
+    },
+    {
+      "component_key": "copytextbutton-6a33294b",
+      "scenario_key": "with-label",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/common/copy.tsx",
+        "export_name": "CopyTextButton"
+      },
+      "storybook_story_id": "components-copytextbutton--with-label",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "attribute",
+          "selector": "#storybook-root button",
+          "name": "aria-label",
+          "equals": "Copy callback URL"
+        }
+      ]
+    },
+    {
+      "component_key": "exportmodal-24af0d7a",
+      "scenario_key": "space",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/common/export-modal.tsx",
+        "export_name": "ExportModal"
+      },
+      "storybook_story_id": "components-exportmodal--space",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "body",
+          "includes": "Export space"
+        },
+        {
+          "kind": "text",
+          "selector": "body",
+          "includes": "Include attachments"
+        }
+      ]
+    },
+    {
+      "component_key": "notableresults-6977f6a3",
+      "scenario_key": "custom-text",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/common/no-table-results.tsx",
+        "export_name": "NoTableResults"
+      },
+      "storybook_story_id": "components-notableresults--custom-text",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "No authorized apps yet."
+        }
+      ]
+    },
+    {
+      "component_key": "pagelisticon-1c22816c",
+      "scenario_key": "emoji",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/common/page-list-icon.tsx",
+        "export_name": "PageListIcon"
+      },
+      "storybook_story_id": "components-pagelisticon--emoji",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "🗺️"
+        }
+      ]
+    },
+    {
+      "component_key": "pagelisticon-1c22816c",
+      "scenario_key": "base",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/common/page-list-icon.tsx",
+        "export_name": "PageListIcon"
+      },
+      "storybook_story_id": "components-pagelisticon--base",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root svg",
+          "equals": 1
+        }
+      ]
+    },
+    {
+      "component_key": "paginate-a660a09f",
+      "scenario_key": "middle-page",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/common/paginate.tsx",
+        "export_name": "Paginate"
+      },
+      "storybook_story_id": "components-paginate--middle-page",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root button:not([disabled])",
+          "equals": 2
+        }
+      ]
+    },
+    {
+      "component_key": "recentchanges-e7518728",
+      "scenario_key": "in-space",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/common/recent-changes.tsx",
+        "export_name": "RecentChanges"
+      },
+      "storybook_story_id": "components-recentchanges--in-space",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root tbody tr",
+          "equals": 3
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "On-call Runbook"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Untitled"
+        }
+      ]
+    },
+    {
+      "component_key": "recentchanges-e7518728",
+      "scenario_key": "empty",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/common/recent-changes.tsx",
+        "export_name": "RecentChanges"
+      },
+      "storybook_story_id": "components-recentchanges--empty",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "No pages yet"
+        }
+      ]
+    },
+    {
+      "component_key": "searchinput-4aa0d700",
+      "scenario_key": "with-placeholder",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/common/search-input.tsx",
+        "export_name": "SearchInput"
+      },
+      "storybook_story_id": "components-searchinput--with-placeholder",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "attribute",
+          "selector": "#storybook-root input",
+          "name": "placeholder",
+          "equals": "Search attachments..."
         }
       ]
     }
