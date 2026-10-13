@@ -778,6 +778,33 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root .mantine-Badge-root",
+          "includes": "Draft"
+        }
+      ]
+    },
+    {
+      "component_key": "statuspill-97e40a42",
+      "scenario_key": "published",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/common/status-pill.tsx",
+        "export_name": "StatusPill"
+      },
+      "storybook_story_id": "components-statuspill--published",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root .mantine-Badge-root",
+          "includes": "Published"
         }
       ]
     }
