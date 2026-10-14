@@ -9,4 +9,10 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Default: Story = {};
+export const Default: Story = {
+  args: { text: 'https://docs.acme.com/share/x7k2p9/p/onboarding-guide-a1b2c3' },
+};
+
+export const WithLabel: Story = {
+  args: { text: 'https://docs.acme.com/mcp', label: 'Copy MCP server URL', size: 'lg' },
+};

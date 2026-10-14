@@ -10,3 +10,11 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {};
+
+export const Emoji: Story = {
+  args: { icon: '🚀' },
+};
+
+export const Base: Story = {
+  args: { isBase: true },
+};
