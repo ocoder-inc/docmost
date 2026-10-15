@@ -1,5 +1,6 @@
 import { type ReactNode, useLayoutEffect, useState } from 'react';
 import { MemoryRouter } from 'react-router-dom';
+import { Notifications } from '@mantine/notifications';
 import { MantineProvider as Provider1 } from '@mantine/core';
 import { mantineCssResolver as value1_cssVariablesResolver, theme as value1_theme } from '@source/apps/client/src/theme';
 import { ModalsProvider as Provider2 } from '@mantine/modals';
@@ -38,10 +39,11 @@ export function Providers({ theme, children }: { theme: string; children: ReactN
   useDocumentTheme(theme);
   return (
     <>
-      <MemoryRouter>
+      <MemoryRouter initialEntries={['/storybook-preview']}>
         <Provider1 theme={value1_theme} cssVariablesResolver={value1_cssVariablesResolver} forceColorScheme={theme === 'dark' ? 'dark' : 'light'}>
           <Provider2>
             <StoryQueryClient>
+              <Notifications position="bottom-center" limit={3} zIndex={10000} />
               <Provider4>
                 <Provider5 client={value5_client}>
                   {children}

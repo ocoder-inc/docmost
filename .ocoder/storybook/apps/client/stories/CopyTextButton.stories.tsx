@@ -9,4 +9,4 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Default: Story = {};
+export const Default: Story = { args: { text: 'https://example.com/shared-page', label: 'Copy page link' } };

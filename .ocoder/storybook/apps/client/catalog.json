@@ -26,6 +26,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "404! Page not found"
         }
       ]
     },
@@ -43,6 +48,12 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "attribute",
+          "selector": "#storybook-root button[aria-haspopup=\"menu\"]",
+          "name": "aria-label",
+          "equals": "Alex Morgan \u2013 Change avatar"
         }
       ]
     },
@@ -60,6 +71,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Copy link"
         }
       ]
     },
@@ -77,6 +93,12 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "attribute",
+          "selector": "#storybook-root button",
+          "name": "aria-label",
+          "equals": "Copy page link"
         }
       ]
     },
@@ -94,6 +116,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": ".mantine-Modal-content",
+          "includes": "Include subpages"
         }
       ]
     },
@@ -111,6 +138,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "No results found"
         }
       ]
     },
@@ -128,6 +160,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root svg"
         }
       ]
     },
@@ -145,6 +181,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Next"
         }
       ]
     },
@@ -162,6 +203,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Getting started"
         }
       ]
     },
@@ -179,6 +225,12 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "attribute",
+          "selector": "#storybook-root input",
+          "name": "placeholder",
+          "equals": "Search spaces..."
         }
       ]
     },
@@ -196,6 +248,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "alex@example.com"
         }
       ]
     },
