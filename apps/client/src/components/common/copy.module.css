@@ -1,0 +1,56 @@
+.wrapper {
+  position: relative;
+  display: inline-flex;
+}
+
+.sparkles {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.sparkle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 8px;
+  height: 8px;
+  margin: -4px 0 0 -4px;
+  background: var(--sparkle-color);
+  clip-path: polygon(
+    50% 0%,
+    62% 38%,
+    100% 50%,
+    62% 62%,
+    50% 100%,
+    38% 62%,
+    0% 50%,
+    38% 38%
+  );
+  opacity: 0;
+  animation: sparkle 600ms ease-out forwards;
+  animation-delay: var(--sparkle-delay);
+}
+
+@keyframes sparkle {
+  0% {
+    opacity: 1;
+    transform: rotate(var(--sparkle-angle)) translateY(0) scale(0.4);
+  }
+  60% {
+    opacity: 1;
+    transform: rotate(var(--sparkle-angle))
+      translateY(calc(var(--sparkle-distance) * -1)) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(var(--sparkle-angle))
+      translateY(calc(var(--sparkle-distance) * -1.2)) scale(0.2);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sparkles {
+    display: none;
+  }
+}
