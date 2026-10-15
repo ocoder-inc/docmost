@@ -9,4 +9,14 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Default: Story = {};
+// As on the OAuth consent page: the signed-in user.
+export const Default: Story = {
+  args: {
+    user: {
+      id: '01964d2a-2222-7c1e-9a4d-2b5e8f6c3a10',
+      name: 'Jane Cooper',
+      email: 'jane.cooper@example.com',
+      avatarUrl: null,
+    },
+  },
+};

@@ -9,4 +9,11 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Default: Story = {};
+// A middle page of a members list.
+export const Default: Story = {
+  args: { hasPrevPage: true, hasNextPage: true, onPrev: () => {}, onNext: () => {} },
+};
+
+export const FirstPage: Story = {
+  args: { hasPrevPage: false, hasNextPage: true, onPrev: () => {}, onNext: () => {} },
+};

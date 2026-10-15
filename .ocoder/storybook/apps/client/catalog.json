@@ -26,6 +26,20 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Docmost"
+        },
+        {
+          "kind": "visible",
+          "selector": "button[type=submit]",
+          "text": "Sign In"
+        },
+        {
+          "kind": "visible",
+          "selector": "#email"
         }
       ]
     },
@@ -43,6 +57,17 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "attribute",
+          "selector": "#storybook-root button[aria-haspopup=menu]",
+          "name": "aria-label",
+          "equals": "Jane Cooper – Change avatar"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "JC"
         }
       ]
     },
@@ -60,6 +85,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root button",
+          "text": "Copy codes"
         }
       ]
     },
@@ -77,6 +107,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root button",
+          "equals": 1
         }
       ]
     },
@@ -94,6 +129,20 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "body",
+          "includes": "Export page"
+        },
+        {
+          "kind": "text",
+          "selector": "body",
+          "includes": "Include subpages"
+        },
+        {
+          "kind": "visible",
+          "selector": ".mantine-Modal-content"
         }
       ]
     },
@@ -111,6 +160,17 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root tbody",
+          "includes": "No results found..."
+        },
+        {
+          "kind": "attribute",
+          "selector": "#storybook-root tbody td",
+          "name": "colspan",
+          "equals": "3"
         }
       ]
     },
@@ -128,6 +188,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root svg",
+          "equals": 1
         }
       ]
     },
@@ -145,6 +210,21 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root button",
+          "equals": 2
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Prev"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Next"
         }
       ]
     },
@@ -162,6 +242,26 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root tbody tr",
+          "equals": 5
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Deployment runbook"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Engineering"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Load more"
         }
       ]
     },
@@ -179,6 +279,12 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "attribute",
+          "selector": "#storybook-root input",
+          "name": "placeholder",
+          "equals": "Search..."
         }
       ]
     },
@@ -196,6 +302,16 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Jane Cooper"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "jane.cooper@example.com"
         }
       ]
     },
@@ -213,6 +329,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root svg",
+          "equals": 1
         }
       ]
     },
@@ -230,6 +351,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root svg",
+          "equals": 1
         }
       ]
     },
@@ -247,6 +373,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root svg",
+          "equals": 1
         }
       ]
     },
@@ -264,6 +395,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root svg",
+          "equals": 1
         }
       ]
     },
@@ -281,6 +417,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root svg",
+          "equals": 1
         }
       ]
     },
@@ -298,6 +439,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root svg",
+          "equals": 1
         }
       ]
     },
@@ -315,6 +461,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root svg",
+          "equals": 1
         }
       ]
     },
@@ -332,6 +483,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root svg",
+          "equals": 1
         }
       ]
     },
@@ -349,6 +505,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root svg",
+          "equals": 1
         }
       ]
     },
@@ -366,6 +527,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root svg",
+          "equals": 1
         }
       ]
     },
@@ -383,6 +549,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root svg",
+          "equals": 1
         }
       ]
     },
@@ -400,6 +571,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root svg",
+          "equals": 1
         }
       ]
     },
@@ -417,6 +593,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root svg",
+          "equals": 1
         }
       ]
     },
@@ -434,6 +615,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root svg",
+          "equals": 1
         }
       ]
     },
@@ -451,6 +637,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root svg",
+          "equals": 1
         }
       ]
     },
@@ -468,6 +659,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root svg",
+          "equals": 1
         }
       ]
     },
@@ -485,6 +681,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root svg",
+          "equals": 1
         }
       ]
     },
@@ -502,6 +703,203 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root svg",
+          "equals": 1
+        }
+      ]
+    },
+    {
+      "component_key": "avataruploader-e42f82dd",
+      "scenario_key": "workspace-icon-uploading",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/common/avatar-uploader.tsx",
+        "export_name": "AvatarUploader"
+      },
+      "storybook_story_id": "components-avataruploader--workspace-icon-uploading",
+      "required": true,
+      "checks": [
+        {
+          "kind": "attribute",
+          "selector": "#storybook-root button[aria-haspopup=menu]",
+          "name": "aria-label",
+          "equals": "Acme Corp – Change workspace icon"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root .mantine-Loader-root"
+        }
+      ]
+    },
+    {
+      "component_key": "exportmodal-24af0d7a",
+      "scenario_key": "space",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/common/export-modal.tsx",
+        "export_name": "ExportModal"
+      },
+      "storybook_story_id": "components-exportmodal--space",
+      "required": true,
+      "checks": [
+        {
+          "kind": "text",
+          "selector": "body",
+          "includes": "Export space"
+        },
+        {
+          "kind": "text",
+          "selector": "body",
+          "includes": "Include attachments"
+        },
+        {
+          "kind": "visible",
+          "selector": ".mantine-Modal-content"
+        }
+      ]
+    },
+    {
+      "component_key": "notableresults-6977f6a3",
+      "scenario_key": "custom-text",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/common/no-table-results.tsx",
+        "export_name": "NoTableResults"
+      },
+      "storybook_story_id": "components-notableresults--custom-text",
+      "required": true,
+      "checks": [
+        {
+          "kind": "text",
+          "selector": "#storybook-root tbody",
+          "includes": "No authorized apps yet."
+        }
+      ]
+    },
+    {
+      "component_key": "pagelisticon-1c22816c",
+      "scenario_key": "base",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/common/page-list-icon.tsx",
+        "export_name": "PageListIcon"
+      },
+      "storybook_story_id": "components-pagelisticon--base",
+      "required": true,
+      "checks": [
+        {
+          "kind": "count",
+          "selector": "#storybook-root svg",
+          "equals": 1
+        }
+      ]
+    },
+    {
+      "component_key": "pagelisticon-1c22816c",
+      "scenario_key": "emoji",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/common/page-list-icon.tsx",
+        "export_name": "PageListIcon"
+      },
+      "storybook_story_id": "components-pagelisticon--emoji",
+      "required": true,
+      "checks": [
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "📘"
+        }
+      ]
+    },
+    {
+      "component_key": "paginate-a660a09f",
+      "scenario_key": "first-page",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/common/paginate.tsx",
+        "export_name": "Paginate"
+      },
+      "storybook_story_id": "components-paginate--first-page",
+      "required": true,
+      "checks": [
+        {
+          "kind": "count",
+          "selector": "#storybook-root button[disabled]",
+          "equals": 1
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Next"
+        }
+      ]
+    },
+    {
+      "component_key": "recentchanges-e7518728",
+      "scenario_key": "in-space",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/common/recent-changes.tsx",
+        "export_name": "RecentChanges"
+      },
+      "storybook_story_id": "components-recentchanges--in-space",
+      "required": true,
+      "checks": [
+        {
+          "kind": "count",
+          "selector": "#storybook-root tbody tr",
+          "equals": 2
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root .mantine-Badge-root",
+          "equals": 0
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Bug triage tracker"
+        }
+      ]
+    },
+    {
+      "component_key": "recentchanges-e7518728",
+      "scenario_key": "empty",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/common/recent-changes.tsx",
+        "export_name": "RecentChanges"
+      },
+      "storybook_story_id": "components-recentchanges--empty",
+      "required": true,
+      "checks": [
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "No pages yet"
+        }
+      ]
+    },
+    {
+      "component_key": "searchinput-4aa0d700",
+      "scenario_key": "with-placeholder",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/common/search-input.tsx",
+        "export_name": "SearchInput"
+      },
+      "storybook_story_id": "components-searchinput--with-placeholder",
+      "required": true,
+      "checks": [
+        {
+          "kind": "attribute",
+          "selector": "#storybook-root input",
+          "name": "placeholder",
+          "equals": "Search attachments..."
         }
       ]
     }

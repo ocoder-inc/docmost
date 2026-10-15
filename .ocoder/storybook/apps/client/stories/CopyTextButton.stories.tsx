@@ -9,4 +9,7 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Default: Story = {};
+// As next to a share link in the share modal.
+export const Default: Story = {
+  args: { text: 'https://docs.example.com/share/k3j9x2/p/getting-started-a1B2c3' },
+};

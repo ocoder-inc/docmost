@@ -9,4 +9,15 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Default: Story = {};
+// A page without an emoji icon, as in the recent changes list.
+export const Default: Story = {
+  args: { icon: null, isBase: false },
+};
+
+export const Base: Story = {
+  args: { icon: null, isBase: true },
+};
+
+export const Emoji: Story = {
+  args: { icon: '📘', isBase: false },
+};
