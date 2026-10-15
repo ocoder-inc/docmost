@@ -93,6 +93,36 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "attribute",
+          "selector": "#storybook-root button",
+          "name": "aria-label",
+          "equals": "Copy public space link"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root button svg",
+          "equals": 1
+        }
+      ]
+    },
+    {
+      "component_key": "copytextbutton-6a33294b",
+      "scenario_key": "default-label",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/common/copy.tsx",
+        "export_name": "CopyTextButton"
+      },
+      "storybook_story_id": "components-copytextbutton--default-label",
+      "required": true,
+      "checks": [
+        {
+          "kind": "attribute",
+          "selector": "#storybook-root button",
+          "name": "aria-label",
+          "equals": "Copy"
         }
       ]
     },

@@ -9,4 +9,12 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Default: Story = { args: { text: 'https://example.com/shared-page', label: 'Copy page link' } };
+// As in publish-space-settings.tsx: a custom label disambiguates the button.
+export const Default: Story = {
+  args: { text: 'https://docs.example.com/share/engineering', label: 'Copy public space link' },
+};
+
+// As in share-modal.tsx / sso forms: no label, falls back to the translated "Copy".
+export const DefaultLabel: Story = {
+  args: { text: 'https://docs.example.com/api/sso/saml/callback' },
+};
