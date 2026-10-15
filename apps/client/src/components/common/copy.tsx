@@ -23,7 +23,7 @@ interface CopyProps {
 export default function CopyTextButton({ text, size, label }: CopyProps) {
   const { t } = useTranslation();
 
-  const copyLabel = label ?? t("Copymorish");
+  const copyLabel = label ?? t("Copy");
   // Bumped on each click so the sparkles remount and replay the animation.
   const [burst, setBurst] = useState(0);
 
@@ -32,7 +32,7 @@ export default function CopyTextButton({ text, size, label }: CopyProps) {
       {({ copied, copy }) => (
         <span className={classes.wrapper}>
           <Tooltip
-            label={copied ? t("Copied More") : copyLabel}
+            label={copied ? t("Copied") : copyLabel}
             withArrow
             position="right"
           >
