@@ -53,7 +53,7 @@
           "kind": "attribute",
           "selector": "#storybook-root button[aria-haspopup=\"menu\"]",
           "name": "aria-label",
-          "equals": "Alex Morgan \u2013 Change avatar"
+          "equals": "Alex Morgan – Change avatar"
         }
       ]
     },
@@ -93,12 +93,6 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
-        },
-        {
-          "kind": "attribute",
-          "selector": "#storybook-root button",
-          "name": "aria-label",
-          "equals": "Copy page link"
         }
       ]
     },
