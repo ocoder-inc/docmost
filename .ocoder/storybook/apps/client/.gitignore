@@ -1,0 +1,4 @@
+node_modules/
+storybook-static/
+# Tools leave these behind when a build fails (debug-storybook.log). They are never committed.
+*.log
