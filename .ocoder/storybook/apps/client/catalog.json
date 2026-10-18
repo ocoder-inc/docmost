@@ -107,11 +107,6 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
-        },
-        {
-          "kind": "count",
-          "selector": "#storybook-root button",
-          "equals": 1
         }
       ]
     },
@@ -900,6 +895,1077 @@
           "selector": "#storybook-root input",
           "name": "placeholder",
           "equals": "Search attachments..."
+        }
+      ]
+    },
+    {
+      "component_key": "youtubeicon-c504327f",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/icons/youtube-icon.tsx",
+        "export_name": "YoutubeIcon"
+      },
+      "storybook_story_id": "components-youtubeicon--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "appheader-f8247ab0",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/layouts/global/app-header.tsx",
+        "export_name": "AppHeader"
+      },
+      "storybook_story_id": "components-appheader--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "aside-7b2221b6",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/layouts/global/aside.tsx",
+        "export_name": "Aside"
+      },
+      "storybook_story_id": "components-aside--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "globalappshell-ffc33a47",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/layouts/global/global-app-shell.tsx",
+        "export_name": "GlobalAppShell"
+      },
+      "storybook_story_id": "components-globalappshell--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "globalsidebar-05393793",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/layouts/global/global-sidebar.tsx",
+        "export_name": "GlobalSidebar"
+      },
+      "storybook_story_id": "components-globalsidebar--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "layout-e9d014d0",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/layouts/global/layout.tsx",
+        "export_name": "Layout"
+      },
+      "storybook_story_id": "components-layout--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "topmenu-1e7b324c",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/layouts/global/top-menu.tsx",
+        "export_name": "TopMenu"
+      },
+      "storybook_story_id": "components-topmenu--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "appversion-3f257d98",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/settings/app-version.tsx",
+        "export_name": "AppVersion"
+      },
+      "storybook_story_id": "components-appversion--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "settingssidebar-faed8373",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/settings/settings-sidebar.tsx",
+        "export_name": "SettingsSidebar"
+      },
+      "storybook_story_id": "components-settingssidebar--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "settingstitle-8474b18e",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/settings/settings-title.tsx",
+        "export_name": "SettingsTitle"
+      },
+      "storybook_story_id": "components-settingstitle--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "themetoggle-7f90ffc4",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/theme-toggle.tsx",
+        "export_name": "ThemeToggle"
+      },
+      "storybook_story_id": "components-themetoggle--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "autotooltiptext-7da6bf76",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/ui/auto-tooltip-text.tsx",
+        "export_name": "AutoTooltipText"
+      },
+      "storybook_story_id": "components-autotooltiptext--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "cardcarousel-29324a53",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/ui/card-carousel.tsx",
+        "export_name": "CardCarousel"
+      },
+      "storybook_story_id": "components-cardcarousel--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "checkboxmenuitem-52dc301f",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/ui/checkbox-menu-item.tsx",
+        "export_name": "CheckboxMenuItem"
+      },
+      "storybook_story_id": "components-checkboxmenuitem--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "customavatar-7ff9d399",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/ui/custom-avatar.tsx",
+        "export_name": "CustomAvatar"
+      },
+      "storybook_story_id": "components-customavatar--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "destinationpickermodal-df895d0f",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/ui/destination-picker/destination-picker-modal.tsx",
+        "export_name": "DestinationPickerModal"
+      },
+      "storybook_story_id": "components-destinationpickermodal--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "destinationpicker-324633df",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/ui/destination-picker/destination-picker.tsx",
+        "export_name": "DestinationPicker"
+      },
+      "storybook_story_id": "components-destinationpicker--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "pagechildren-be64347e",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/ui/destination-picker/page-children.tsx",
+        "export_name": "PageChildren"
+      },
+      "storybook_story_id": "components-pagechildren--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "pagerow-d3c88c67",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/ui/destination-picker/page-row.tsx",
+        "export_name": "PageRow"
+      },
+      "storybook_story_id": "components-pagerow--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "spacerow-127f697c",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/ui/destination-picker/space-row.tsx",
+        "export_name": "SpaceRow"
+      },
+      "storybook_story_id": "components-spacerow--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "documenttitle-cd2d1517",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/ui/document-title.tsx",
+        "export_name": "DocumentTitle"
+      },
+      "storybook_story_id": "components-documenttitle--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "emojipicker-b61bcb72",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/ui/emoji-picker.tsx",
+        "export_name": "EmojiPicker"
+      },
+      "storybook_story_id": "components-emojipicker--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "emptystate-171e1bc7",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/ui/empty-state.tsx",
+        "export_name": "EmptyState"
+      },
+      "storybook_story_id": "components-emptystate--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "error404-a1797700",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/ui/error-404.tsx",
+        "export_name": "Error404"
+      },
+      "storybook_story_id": "components-error404--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "pagelistskeleton-4026da9a",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/ui/page-list-skeleton.tsx",
+        "export_name": "PageListSkeleton"
+      },
+      "storybook_story_id": "components-pagelistskeleton--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "radiomenuitem-3d13df30",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/ui/radio-menu-item.tsx",
+        "export_name": "RadioMenuItem"
+      },
+      "storybook_story_id": "components-radiomenuitem--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "responsivesettingscontent-cd213387",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/ui/responsive-settings-row.tsx",
+        "export_name": "ResponsiveSettingsContent"
+      },
+      "storybook_story_id": "components-responsivesettingscontent--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "responsivesettingscontrol-be83ea19",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/ui/responsive-settings-row.tsx",
+        "export_name": "ResponsiveSettingsControl"
+      },
+      "storybook_story_id": "components-responsivesettingscontrol--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "responsivesettingsrow-8502747c",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/ui/responsive-settings-row.tsx",
+        "export_name": "ResponsiveSettingsRow"
+      },
+      "storybook_story_id": "components-responsivesettingsrow--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "roleselectmenu-7d55e73c",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/ui/role-select-menu.tsx",
+        "export_name": "RoleSelectMenu"
+      },
+      "storybook_story_id": "components-roleselectmenu--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "sidebartoggle-11f819cf",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/ui/sidebar-toggle-button.tsx",
+        "export_name": "SidebarToggle"
+      },
+      "storybook_story_id": "components-sidebartoggle--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "skiptomain-7f9dfab2",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/ui/skip-to-main.tsx",
+        "export_name": "SkipToMain"
+      },
+      "storybook_story_id": "components-skiptomain--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "statusbadge-b519801a",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/ui/status-badge.tsx",
+        "export_name": "StatusBadge"
+      },
+      "storybook_story_id": "components-statusbadge--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "aichatlayout-1e1329cf",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/ai-chat/components/ai-chat-layout.tsx",
+        "export_name": "AiChatLayout"
+      },
+      "storybook_story_id": "components-aichatlayout--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "aichatreadonly-450ae597",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/ai-chat/components/ai-chat-read-only.tsx",
+        "export_name": "AiChatReadOnly"
+      },
+      "storybook_story_id": "components-aichatreadonly--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "aichatsidebaritem-e48759c8",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/ai-chat/components/ai-chat-sidebar-item.tsx",
+        "export_name": "AiChatSidebarItem"
+      },
+      "storybook_story_id": "components-aichatsidebaritem--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "aichatsidebar-81f7353b",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/ai-chat/components/ai-chat-sidebar.tsx",
+        "export_name": "AiChatSidebar"
+      },
+      "storybook_story_id": "components-aichatsidebar--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "aichatworkspaceknowledgeonly-6974b981",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/ai-chat/components/ai-chat-workspace-knowledge-only.tsx",
+        "export_name": "AiChatWorkspaceKnowledgeOnly"
+      },
+      "storybook_story_id": "components-aichatworkspaceknowledgeonly--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "asidechathistory-75825a5c",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/ai-chat/components/aside-chat-history.tsx",
+        "export_name": "AsideChatHistory"
+      },
+      "storybook_story_id": "components-asidechathistory--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "asidechatpanel-937ea1a6",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/ai-chat/components/aside-chat-panel.tsx",
+        "export_name": "AsideChatPanel"
+      },
+      "storybook_story_id": "components-asidechatpanel--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "chatemptystate-28abef2b",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/ai-chat/components/chat-empty-state.tsx",
+        "export_name": "ChatEmptyState"
+      },
+      "storybook_story_id": "components-chatemptystate--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "chatinput-f883624f",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/ai-chat/components/chat-input.tsx",
+        "export_name": "ChatInput"
+      },
+      "storybook_story_id": "components-chatinput--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "chatmessagelist-6155b13c",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/ai-chat/components/chat-message-list.tsx",
+        "export_name": "ChatMessageList"
+      },
+      "storybook_story_id": "components-chatmessagelist--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "chatmessage-c4e7ef23",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/ai-chat/components/chat-message.tsx",
+        "export_name": "ChatMessage"
+      },
+      "storybook_story_id": "components-chatmessage--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "chattoolgroup-35f21ba1",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/ai-chat/components/chat-tool-group.tsx",
+        "export_name": "ChatToolGroup"
+      },
+      "storybook_story_id": "components-chattoolgroup--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "chattoolresult-5587288f",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/ai-chat/components/chat-tool-result.tsx",
+        "export_name": "ChatToolResult"
+      },
+      "storybook_story_id": "components-chattoolresult--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "enableaichat-e8df4ee1",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/ai-chat/components/enable-ai-chat.tsx",
+        "export_name": "EnableAiChat"
+      },
+      "storybook_story_id": "components-enableaichat--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "aichat-4b317094",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/ai-chat/pages/ai-chat.tsx",
+        "export_name": "AiChat"
+      },
+      "storybook_story_id": "components-aichat--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "aisearchresult-759d8a44",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/ai/components/ai-search-result.tsx",
+        "export_name": "AiSearchResult"
+      },
+      "storybook_story_id": "components-aisearchresult--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "editoraimenu-3550d1c7",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/ai/components/editor/ai-menu/ai-menu.tsx",
+        "export_name": "EditorAiMenu"
+      },
+      "storybook_story_id": "components-editoraimenu--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "commandselector-25963d60",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/ai/components/editor/ai-menu/command-selector.tsx",
+        "export_name": "CommandSelector"
+      },
+      "storybook_story_id": "components-commandselector--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "resultpreview-cd009747",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/ai/components/editor/ai-menu/result-preview.tsx",
+        "export_name": "ResultPreview"
+      },
+      "storybook_story_id": "components-resultpreview--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "aisearchtoggle-2d1fb191",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/ai/components/enable-ai-search.tsx",
+        "export_name": "AiSearchToggle"
+      },
+      "storybook_story_id": "components-aisearchtoggle--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "enableaisearch-b54173aa",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/ai/components/enable-ai-search.tsx",
+        "export_name": "EnableAiSearch"
+      },
+      "storybook_story_id": "components-enableaisearch--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "enablegenerativeai-cbe3f085",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/ai/components/enable-generative-ai.tsx",
+        "export_name": "EnableGenerativeAi"
+      },
+      "storybook_story_id": "components-enablegenerativeai--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "mcpsettings-47d02d4a",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/ai/components/mcp-settings.tsx",
+        "export_name": "McpSettings"
+      },
+      "storybook_story_id": "components-mcpsettings--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "aisettings-904df232",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/ai/pages/ai-settings.tsx",
+        "export_name": "AiSettings"
+      },
+      "storybook_story_id": "components-aisettings--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "apikeycreatedmodal-72b7b34e",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/api-key/components/api-key-created-modal.tsx",
+        "export_name": "ApiKeyCreatedModal"
+      },
+      "storybook_story_id": "components-apikeycreatedmodal--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "apikeytable-080fc42e",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/api-key/components/api-key-table.tsx",
+        "export_name": "ApiKeyTable"
+      },
+      "storybook_story_id": "components-apikeytable--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "createapikeymodal-6991c220",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/api-key/components/create-api-key-modal.tsx",
+        "export_name": "CreateApiKeyModal"
+      },
+      "storybook_story_id": "components-createapikeymodal--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "restrictapitoadmins-82e3dfc7",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/api-key/components/restrict-api-to-admins.tsx",
+        "export_name": "RestrictApiToAdmins"
+      },
+      "storybook_story_id": "components-restrictapitoadmins--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "revokeapikeymodal-ca3d1027",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/api-key/components/revoke-api-key-modal.tsx",
+        "export_name": "RevokeApiKeyModal"
+      },
+      "storybook_story_id": "components-revokeapikeymodal--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "updateapikeymodal-a3141327",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/api-key/components/update-api-key-modal.tsx",
+        "export_name": "UpdateApiKeyModal"
+      },
+      "storybook_story_id": "components-updateapikeymodal--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
         }
       ]
     }

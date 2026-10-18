@@ -1,6 +1,6 @@
 {
   "generator_version": "ocoder-storybook-generator-v1",
-  "base_git_sha": "f2781e601087ad67f5ef889237558e5182238f63",
+  "base_git_sha": "e2224a42444446be1edb4ead6a62bfae154c56b3",
   "app_dir": "apps/client",
   "project_root": "apps/client",
   "unpinnable_dependencies": [],
@@ -54,7 +54,7 @@
       "export_name": "CopyTextButton",
       "story_id": "components-copytextbutton--default",
       "story_file": "stories/CopyTextButton.stories.tsx",
-      "source_sha256": "aa02f322078865e55e3af721330cfa5ce155c13ee65b481d72f2158f309c15df"
+      "source_sha256": "edd78037809f2855b46b404b580fec711dab87e50e51131888b8211ac24a4c56"
     },
     {
       "stable_id": "cmp_c4f74503d44ca5e9254ebc74",
@@ -280,6 +280,573 @@
       "story_id": "components-vimeoicon--default",
       "story_file": "stories/VimeoIcon.stories.tsx",
       "source_sha256": "0e71a6747f348b0b6e31f56989209bfb7296516b171e65feaa9da68fde6daaee"
+    },
+    {
+      "stable_id": "cmp_9230987bd2627a304b5ff249",
+      "component_key": "youtubeicon-c504327f",
+      "file_path": "apps/client/src/components/icons/youtube-icon.tsx",
+      "export_name": "YoutubeIcon",
+      "story_id": "components-youtubeicon--default",
+      "story_file": "stories/YoutubeIcon.stories.tsx",
+      "source_sha256": "67ebf25e080ecc75533e96dc09ea4568cce056332ee7584156548b966e49a3d7"
+    },
+    {
+      "stable_id": "cmp_afe36401b05f96f574b33cda",
+      "component_key": "appheader-f8247ab0",
+      "file_path": "apps/client/src/components/layouts/global/app-header.tsx",
+      "export_name": "AppHeader",
+      "story_id": "components-appheader--default",
+      "story_file": "stories/AppHeader.stories.tsx",
+      "source_sha256": "759245d7fd231c48fedc3dc9afd9d187567b05a4dbe7f43738e54092d8398e5d"
+    },
+    {
+      "stable_id": "cmp_49e228667f5eaed5dbab2bf7",
+      "component_key": "aside-7b2221b6",
+      "file_path": "apps/client/src/components/layouts/global/aside.tsx",
+      "export_name": "Aside",
+      "story_id": "components-aside--default",
+      "story_file": "stories/Aside.stories.tsx",
+      "source_sha256": "5a0ddc24e6ca2d1db87e005421662d77907e9c503885991a183b60996bf6c5a5"
+    },
+    {
+      "stable_id": "cmp_db608086bf20c0e79a8f7457",
+      "component_key": "globalappshell-ffc33a47",
+      "file_path": "apps/client/src/components/layouts/global/global-app-shell.tsx",
+      "export_name": "GlobalAppShell",
+      "story_id": "components-globalappshell--default",
+      "story_file": "stories/GlobalAppShell.stories.tsx",
+      "source_sha256": "3896ff5f23e7aece5eb495b33923f234482ab2a15f84bdbfeb40b9832b53d87f"
+    },
+    {
+      "stable_id": "cmp_5c0831b638bb6ded74251da5",
+      "component_key": "globalsidebar-05393793",
+      "file_path": "apps/client/src/components/layouts/global/global-sidebar.tsx",
+      "export_name": "GlobalSidebar",
+      "story_id": "components-globalsidebar--default",
+      "story_file": "stories/GlobalSidebar.stories.tsx",
+      "source_sha256": "9ac1e2399aa44857988485b3d2f87621ce6932273a4c3f080641195c14e4d4cf"
+    },
+    {
+      "stable_id": "cmp_9efa1376c3f66aac298b0fe0",
+      "component_key": "layout-e9d014d0",
+      "file_path": "apps/client/src/components/layouts/global/layout.tsx",
+      "export_name": "Layout",
+      "story_id": "components-layout--default",
+      "story_file": "stories/Layout.stories.tsx",
+      "source_sha256": "66bf1945376580879bb1a0e914f5c68c19ef53ea29ab1c377afb45ef2e66b5bd"
+    },
+    {
+      "stable_id": "cmp_bb848adb6c1db819e529e5e6",
+      "component_key": "topmenu-1e7b324c",
+      "file_path": "apps/client/src/components/layouts/global/top-menu.tsx",
+      "export_name": "TopMenu",
+      "story_id": "components-topmenu--default",
+      "story_file": "stories/TopMenu.stories.tsx",
+      "source_sha256": "999b9f301b18f3408eefdb18e0143b1d674530f6796e11153fbe152a876eb61c"
+    },
+    {
+      "stable_id": "cmp_e4dff7f6b98589608b6df75e",
+      "component_key": "appversion-3f257d98",
+      "file_path": "apps/client/src/components/settings/app-version.tsx",
+      "export_name": "AppVersion",
+      "story_id": "components-appversion--default",
+      "story_file": "stories/AppVersion.stories.tsx",
+      "source_sha256": "744f9e9b4a383a998c2042455ee33eb5cdb8271e15dbca77ee67645586ff4458"
+    },
+    {
+      "stable_id": "cmp_8c5fc0bba870bad1bb58ec59",
+      "component_key": "settingssidebar-faed8373",
+      "file_path": "apps/client/src/components/settings/settings-sidebar.tsx",
+      "export_name": "SettingsSidebar",
+      "story_id": "components-settingssidebar--default",
+      "story_file": "stories/SettingsSidebar.stories.tsx",
+      "source_sha256": "d8f9e62f422e04cfbad13475d30c65b536367ffe4596d0589ad3f1cc73ae60dc"
+    },
+    {
+      "stable_id": "cmp_1c9ec315ba4cc438d9bfe6fc",
+      "component_key": "settingstitle-8474b18e",
+      "file_path": "apps/client/src/components/settings/settings-title.tsx",
+      "export_name": "SettingsTitle",
+      "story_id": "components-settingstitle--default",
+      "story_file": "stories/SettingsTitle.stories.tsx",
+      "source_sha256": "e2654f8705324677491c8f3b2318c695da04c099986f1498c3ff7c286fbedf84"
+    },
+    {
+      "stable_id": "cmp_883bc1e00beac565b3c44022",
+      "component_key": "themetoggle-7f90ffc4",
+      "file_path": "apps/client/src/components/theme-toggle.tsx",
+      "export_name": "ThemeToggle",
+      "story_id": "components-themetoggle--default",
+      "story_file": "stories/ThemeToggle.stories.tsx",
+      "source_sha256": "195df304153ed6d7838c4b57ff29688fefd69ec38d5f732ac477417791e324fc"
+    },
+    {
+      "stable_id": "cmp_60a47502246482a444e4a33a",
+      "component_key": "autotooltiptext-7da6bf76",
+      "file_path": "apps/client/src/components/ui/auto-tooltip-text.tsx",
+      "export_name": "AutoTooltipText",
+      "story_id": "components-autotooltiptext--default",
+      "story_file": "stories/AutoTooltipText.stories.tsx",
+      "source_sha256": "4996c37e5d9d26c093583c1fb5b7820a7db907a62dccad835a8fc749a352af62"
+    },
+    {
+      "stable_id": "cmp_2dd3b5d89f966226789a7441",
+      "component_key": "cardcarousel-29324a53",
+      "file_path": "apps/client/src/components/ui/card-carousel.tsx",
+      "export_name": "CardCarousel",
+      "story_id": "components-cardcarousel--default",
+      "story_file": "stories/CardCarousel.stories.tsx",
+      "source_sha256": "b64a756481e5a76c3842afa0b8feb74f7e3843127d27ced13e2595f51d1b43e6"
+    },
+    {
+      "stable_id": "cmp_3ab55f010698b2fa8c6fa355",
+      "component_key": "checkboxmenuitem-52dc301f",
+      "file_path": "apps/client/src/components/ui/checkbox-menu-item.tsx",
+      "export_name": "CheckboxMenuItem",
+      "story_id": "components-checkboxmenuitem--default",
+      "story_file": "stories/CheckboxMenuItem.stories.tsx",
+      "source_sha256": "bc70ee17732e1699de9b3764a3cd9af027af63c1fcbb2a6e0b6ed4769930d329"
+    },
+    {
+      "stable_id": "cmp_7340faab5fdf138a00191ec5",
+      "component_key": "customavatar-7ff9d399",
+      "file_path": "apps/client/src/components/ui/custom-avatar.tsx",
+      "export_name": "CustomAvatar",
+      "story_id": "components-customavatar--default",
+      "story_file": "stories/CustomAvatar.stories.tsx",
+      "source_sha256": "2d6f5286c5bb6945d6c4786542be9784b0636594e03f56e2422c7a2e8210e7a4"
+    },
+    {
+      "stable_id": "cmp_53f0133ac517f9b902151f6e",
+      "component_key": "destinationpickermodal-df895d0f",
+      "file_path": "apps/client/src/components/ui/destination-picker/destination-picker-modal.tsx",
+      "export_name": "DestinationPickerModal",
+      "story_id": "components-destinationpickermodal--default",
+      "story_file": "stories/DestinationPickerModal.stories.tsx",
+      "source_sha256": "f07c45b2b3a329b91932bd89cc18fd2e89fa94f603790071a153a411daa8f923"
+    },
+    {
+      "stable_id": "cmp_6d69d82754f676a2b16a9d1b",
+      "component_key": "destinationpicker-324633df",
+      "file_path": "apps/client/src/components/ui/destination-picker/destination-picker.tsx",
+      "export_name": "DestinationPicker",
+      "story_id": "components-destinationpicker--default",
+      "story_file": "stories/DestinationPicker.stories.tsx",
+      "source_sha256": "cd3d205cdf652e4d0f332d286305b75634d3aa5e92062638655079e8177426d0"
+    },
+    {
+      "stable_id": "cmp_ed303e206a6b8e31840370c5",
+      "component_key": "pagechildren-be64347e",
+      "file_path": "apps/client/src/components/ui/destination-picker/page-children.tsx",
+      "export_name": "PageChildren",
+      "story_id": "components-pagechildren--default",
+      "story_file": "stories/PageChildren.stories.tsx",
+      "source_sha256": "8a4943d6584ac49087fde82313e2c5265b735799cc96bc36ce2f4251561b9de7"
+    },
+    {
+      "stable_id": "cmp_16f6192378a83ae2e5e58345",
+      "component_key": "pagerow-d3c88c67",
+      "file_path": "apps/client/src/components/ui/destination-picker/page-row.tsx",
+      "export_name": "PageRow",
+      "story_id": "components-pagerow--default",
+      "story_file": "stories/PageRow.stories.tsx",
+      "source_sha256": "128093db67469f254d694f1150f94005a92284808eebe6d3965214a85c55f5d1"
+    },
+    {
+      "stable_id": "cmp_b29a56ed860e51a8ef77f171",
+      "component_key": "spacerow-127f697c",
+      "file_path": "apps/client/src/components/ui/destination-picker/space-row.tsx",
+      "export_name": "SpaceRow",
+      "story_id": "components-spacerow--default",
+      "story_file": "stories/SpaceRow.stories.tsx",
+      "source_sha256": "ad6fce9d57e9d0847468ee70b1a088816588c453e96786a0d61d8c6859550e3d"
+    },
+    {
+      "stable_id": "cmp_6b246594c25c49bb7f6cb830",
+      "component_key": "documenttitle-cd2d1517",
+      "file_path": "apps/client/src/components/ui/document-title.tsx",
+      "export_name": "DocumentTitle",
+      "story_id": "components-documenttitle--default",
+      "story_file": "stories/DocumentTitle.stories.tsx",
+      "source_sha256": "d23672ad71fa4f208f7796eca05b94cb6b429970936ecb5c3aa73e987c60f970"
+    },
+    {
+      "stable_id": "cmp_03df80dfafe91902a1b599b0",
+      "component_key": "emojipicker-b61bcb72",
+      "file_path": "apps/client/src/components/ui/emoji-picker.tsx",
+      "export_name": "EmojiPicker",
+      "story_id": "components-emojipicker--default",
+      "story_file": "stories/EmojiPicker.stories.tsx",
+      "source_sha256": "d8051ee3d938c84484b69cb631359303f93fe841b7e5d0ce12b74da0e5efa51b"
+    },
+    {
+      "stable_id": "cmp_ed3b46f4aa7eb4b08ace15e6",
+      "component_key": "emptystate-171e1bc7",
+      "file_path": "apps/client/src/components/ui/empty-state.tsx",
+      "export_name": "EmptyState",
+      "story_id": "components-emptystate--default",
+      "story_file": "stories/EmptyState.stories.tsx",
+      "source_sha256": "9fee16f5d177de6f0024b7d471452f0fe4725f35ad103ca6123e9cf52295f417"
+    },
+    {
+      "stable_id": "cmp_b1c71e24d8effbde9aafafc2",
+      "component_key": "error404-a1797700",
+      "file_path": "apps/client/src/components/ui/error-404.tsx",
+      "export_name": "Error404",
+      "story_id": "components-error404--default",
+      "story_file": "stories/Error404.stories.tsx",
+      "source_sha256": "9517ce07d85d7477c7cc5f9d9ef18ce8aa30bc6b37fa587d721906f36c433441"
+    },
+    {
+      "stable_id": "cmp_943ac8387293402b1e17737b",
+      "component_key": "pagelistskeleton-4026da9a",
+      "file_path": "apps/client/src/components/ui/page-list-skeleton.tsx",
+      "export_name": "PageListSkeleton",
+      "story_id": "components-pagelistskeleton--default",
+      "story_file": "stories/PageListSkeleton.stories.tsx",
+      "source_sha256": "cf11f3bd36afa8c3dda70a047eec2c18c4a7de3cb00d6e08106cb363e2326642"
+    },
+    {
+      "stable_id": "cmp_9131709b0be09d8cdfd1fc2e",
+      "component_key": "radiomenuitem-3d13df30",
+      "file_path": "apps/client/src/components/ui/radio-menu-item.tsx",
+      "export_name": "RadioMenuItem",
+      "story_id": "components-radiomenuitem--default",
+      "story_file": "stories/RadioMenuItem.stories.tsx",
+      "source_sha256": "f7cffe4b4b99e882ab3e7d65c3d9f2eb8f5eb013dfbffe9f617bed8b8af3fa32"
+    },
+    {
+      "stable_id": "cmp_27d0aaf37ff13fb999342751",
+      "component_key": "responsivesettingscontent-cd213387",
+      "file_path": "apps/client/src/components/ui/responsive-settings-row.tsx",
+      "export_name": "ResponsiveSettingsContent",
+      "story_id": "components-responsivesettingscontent--default",
+      "story_file": "stories/ResponsiveSettingsContent.stories.tsx",
+      "source_sha256": "ec18078c940b9da00a87cfbf393e5718d98db9afad4d6f38c546338ea77a0aa9"
+    },
+    {
+      "stable_id": "cmp_27aa3b4075d9a1a0716f8f14",
+      "component_key": "responsivesettingscontrol-be83ea19",
+      "file_path": "apps/client/src/components/ui/responsive-settings-row.tsx",
+      "export_name": "ResponsiveSettingsControl",
+      "story_id": "components-responsivesettingscontrol--default",
+      "story_file": "stories/ResponsiveSettingsControl.stories.tsx",
+      "source_sha256": "ec18078c940b9da00a87cfbf393e5718d98db9afad4d6f38c546338ea77a0aa9"
+    },
+    {
+      "stable_id": "cmp_11b5c58e7418009add66a753",
+      "component_key": "responsivesettingsrow-8502747c",
+      "file_path": "apps/client/src/components/ui/responsive-settings-row.tsx",
+      "export_name": "ResponsiveSettingsRow",
+      "story_id": "components-responsivesettingsrow--default",
+      "story_file": "stories/ResponsiveSettingsRow.stories.tsx",
+      "source_sha256": "ec18078c940b9da00a87cfbf393e5718d98db9afad4d6f38c546338ea77a0aa9"
+    },
+    {
+      "stable_id": "cmp_b3bafcd2d01cdf79922f3222",
+      "component_key": "roleselectmenu-7d55e73c",
+      "file_path": "apps/client/src/components/ui/role-select-menu.tsx",
+      "export_name": "RoleSelectMenu",
+      "story_id": "components-roleselectmenu--default",
+      "story_file": "stories/RoleSelectMenu.stories.tsx",
+      "source_sha256": "188d79d5a09f4f42c9a76c779327763d099032158e23a27e82d9272d21c5fedb"
+    },
+    {
+      "stable_id": "cmp_213464840a3910c9cb409e95",
+      "component_key": "sidebartoggle-11f819cf",
+      "file_path": "apps/client/src/components/ui/sidebar-toggle-button.tsx",
+      "export_name": "SidebarToggle",
+      "story_id": "components-sidebartoggle--default",
+      "story_file": "stories/SidebarToggle.stories.tsx",
+      "source_sha256": "a2e1fafad84a514ca28720fa25055bd0d313ef1da03058840f0bc0359ca186f8"
+    },
+    {
+      "stable_id": "cmp_64afb48b5f0fb9d018797cda",
+      "component_key": "skiptomain-7f9dfab2",
+      "file_path": "apps/client/src/components/ui/skip-to-main.tsx",
+      "export_name": "SkipToMain",
+      "story_id": "components-skiptomain--default",
+      "story_file": "stories/SkipToMain.stories.tsx",
+      "source_sha256": "d0e06db443db05bc968c058a594d26389f55cafe09ac7942b78dac206242efaf"
+    },
+    {
+      "stable_id": "cmp_af8a925ca287454ff4c1d7b0",
+      "component_key": "statusbadge-b519801a",
+      "file_path": "apps/client/src/components/ui/status-badge.tsx",
+      "export_name": "StatusBadge",
+      "story_id": "components-statusbadge--default",
+      "story_file": "stories/StatusBadge.stories.tsx",
+      "source_sha256": "7dffd1fe2aa9156558af2efe3eb5e2f2910b9ce89dce37a2525969d257ca1932"
+    },
+    {
+      "stable_id": "cmp_bd048ab36f18a4fb9fe2de41",
+      "component_key": "aichatlayout-1e1329cf",
+      "file_path": "apps/client/src/ee/ai-chat/components/ai-chat-layout.tsx",
+      "export_name": "AiChatLayout",
+      "story_id": "components-aichatlayout--default",
+      "story_file": "stories/AiChatLayout.stories.tsx",
+      "source_sha256": "3ec500eb580480ae685d548cac35a52233a7c83801ccb5d11427717fb0c950b0"
+    },
+    {
+      "stable_id": "cmp_43fb5ac40f5aacaa8a15d2c3",
+      "component_key": "aichatreadonly-450ae597",
+      "file_path": "apps/client/src/ee/ai-chat/components/ai-chat-read-only.tsx",
+      "export_name": "AiChatReadOnly",
+      "story_id": "components-aichatreadonly--default",
+      "story_file": "stories/AiChatReadOnly.stories.tsx",
+      "source_sha256": "4f12b7216d1e85340886ef92227634b79cb8e791ba3a348fff16036dcecf8795"
+    },
+    {
+      "stable_id": "cmp_e89665ff033416f31fb1b567",
+      "component_key": "aichatsidebaritem-e48759c8",
+      "file_path": "apps/client/src/ee/ai-chat/components/ai-chat-sidebar-item.tsx",
+      "export_name": "AiChatSidebarItem",
+      "story_id": "components-aichatsidebaritem--default",
+      "story_file": "stories/AiChatSidebarItem.stories.tsx",
+      "source_sha256": "50dc6f1e1d5271cb217e79063055971152b8e3ed3665b7abacaaba449139c9e5"
+    },
+    {
+      "stable_id": "cmp_674064ba0b7144fcf900e412",
+      "component_key": "aichatsidebar-81f7353b",
+      "file_path": "apps/client/src/ee/ai-chat/components/ai-chat-sidebar.tsx",
+      "export_name": "AiChatSidebar",
+      "story_id": "components-aichatsidebar--default",
+      "story_file": "stories/AiChatSidebar.stories.tsx",
+      "source_sha256": "066acd7c0386cb6b1e75def9a95d3493c1d0434d9c8dc02f297a1846a7f819f8"
+    },
+    {
+      "stable_id": "cmp_6df58134ec3d1988378f6264",
+      "component_key": "aichatworkspaceknowledgeonly-6974b981",
+      "file_path": "apps/client/src/ee/ai-chat/components/ai-chat-workspace-knowledge-only.tsx",
+      "export_name": "AiChatWorkspaceKnowledgeOnly",
+      "story_id": "components-aichatworkspaceknowledgeonly--default",
+      "story_file": "stories/AiChatWorkspaceKnowledgeOnly.stories.tsx",
+      "source_sha256": "c2c7dea48e880602ca9f37c9194e96c9a239e9bb1785f5c7355c122ff0726988"
+    },
+    {
+      "stable_id": "cmp_801ce0cf50423ab2355c15cd",
+      "component_key": "asidechathistory-75825a5c",
+      "file_path": "apps/client/src/ee/ai-chat/components/aside-chat-history.tsx",
+      "export_name": "AsideChatHistory",
+      "story_id": "components-asidechathistory--default",
+      "story_file": "stories/AsideChatHistory.stories.tsx",
+      "source_sha256": "372189fdde09c8ad4af22c96a8d5edc219b4f83fa2b7bfc7935c3d61af5e353d"
+    },
+    {
+      "stable_id": "cmp_7f5c284ca85522c56c73d451",
+      "component_key": "asidechatpanel-937ea1a6",
+      "file_path": "apps/client/src/ee/ai-chat/components/aside-chat-panel.tsx",
+      "export_name": "AsideChatPanel",
+      "story_id": "components-asidechatpanel--default",
+      "story_file": "stories/AsideChatPanel.stories.tsx",
+      "source_sha256": "43873877a6b53a35a2a0cb6ae5a20920b1a8ceef327ecec1a4d377640824edf9"
+    },
+    {
+      "stable_id": "cmp_fb73edeff964bf24504dce18",
+      "component_key": "chatemptystate-28abef2b",
+      "file_path": "apps/client/src/ee/ai-chat/components/chat-empty-state.tsx",
+      "export_name": "ChatEmptyState",
+      "story_id": "components-chatemptystate--default",
+      "story_file": "stories/ChatEmptyState.stories.tsx",
+      "source_sha256": "9c53493b3fc7f37d01f9b185b13f77b8f9d3baf8cac588ee0259cbe6906c4063"
+    },
+    {
+      "stable_id": "cmp_a0f39567993c1457fb81d9b8",
+      "component_key": "chatinput-f883624f",
+      "file_path": "apps/client/src/ee/ai-chat/components/chat-input.tsx",
+      "export_name": "ChatInput",
+      "story_id": "components-chatinput--default",
+      "story_file": "stories/ChatInput.stories.tsx",
+      "source_sha256": "27ebc9329bc7b442e36421a7d0f79f2dbd3390396424059a72bd267d9ea088cc"
+    },
+    {
+      "stable_id": "cmp_221a1d4e58f73c3d83595bb7",
+      "component_key": "chatmessagelist-6155b13c",
+      "file_path": "apps/client/src/ee/ai-chat/components/chat-message-list.tsx",
+      "export_name": "ChatMessageList",
+      "story_id": "components-chatmessagelist--default",
+      "story_file": "stories/ChatMessageList.stories.tsx",
+      "source_sha256": "8090aacf1069165c626b70c2a28544467881db4a49371167c86a4fc84ea76dff"
+    },
+    {
+      "stable_id": "cmp_5261d984efc1a1541069bbaa",
+      "component_key": "chatmessage-c4e7ef23",
+      "file_path": "apps/client/src/ee/ai-chat/components/chat-message.tsx",
+      "export_name": "ChatMessage",
+      "story_id": "components-chatmessage--default",
+      "story_file": "stories/ChatMessage.stories.tsx",
+      "source_sha256": "8334a60ad60f687cc712e55416bc17264499ac460af6bbdaba0af56ae7d62151"
+    },
+    {
+      "stable_id": "cmp_b1f254cff3ea58d87ec7faa0",
+      "component_key": "chattoolgroup-35f21ba1",
+      "file_path": "apps/client/src/ee/ai-chat/components/chat-tool-group.tsx",
+      "export_name": "ChatToolGroup",
+      "story_id": "components-chattoolgroup--default",
+      "story_file": "stories/ChatToolGroup.stories.tsx",
+      "source_sha256": "0f06d7306fb1366b6ada9df8b06a78227283cd9e9b53c7a0d1d5c6a42e60a6eb"
+    },
+    {
+      "stable_id": "cmp_6623367dab5b215ff2133afe",
+      "component_key": "chattoolresult-5587288f",
+      "file_path": "apps/client/src/ee/ai-chat/components/chat-tool-result.tsx",
+      "export_name": "ChatToolResult",
+      "story_id": "components-chattoolresult--default",
+      "story_file": "stories/ChatToolResult.stories.tsx",
+      "source_sha256": "f0db5900f842bf25be87235fba90758f0c9ab04d62abcde9270d9cf7aca5488d"
+    },
+    {
+      "stable_id": "cmp_debe3dc00554be4617a6f977",
+      "component_key": "enableaichat-e8df4ee1",
+      "file_path": "apps/client/src/ee/ai-chat/components/enable-ai-chat.tsx",
+      "export_name": "EnableAiChat",
+      "story_id": "components-enableaichat--default",
+      "story_file": "stories/EnableAiChat.stories.tsx",
+      "source_sha256": "280d8b446c303ae7ae8ce04fd06acf6aee61ade94376977f373edab7b4691d7f"
+    },
+    {
+      "stable_id": "cmp_d66bfdeaf0c178f0fa631035",
+      "component_key": "aichat-4b317094",
+      "file_path": "apps/client/src/ee/ai-chat/pages/ai-chat.tsx",
+      "export_name": "AiChat",
+      "story_id": "components-aichat--default",
+      "story_file": "stories/AiChat.stories.tsx",
+      "source_sha256": "522d404bd8cd50b1cee2136e7f6659e3aa170ed1eccb8b591aad3dd62bc510d4"
+    },
+    {
+      "stable_id": "cmp_a83261cff5c757162edf7fa6",
+      "component_key": "aisearchresult-759d8a44",
+      "file_path": "apps/client/src/ee/ai/components/ai-search-result.tsx",
+      "export_name": "AiSearchResult",
+      "story_id": "components-aisearchresult--default",
+      "story_file": "stories/AiSearchResult.stories.tsx",
+      "source_sha256": "0acb8d4eabcd2cb3da354735b910ddcd9cf00f505f95befb325d3cb93a1769fd"
+    },
+    {
+      "stable_id": "cmp_588dddd6eb2f43812a2963aa",
+      "component_key": "editoraimenu-3550d1c7",
+      "file_path": "apps/client/src/ee/ai/components/editor/ai-menu/ai-menu.tsx",
+      "export_name": "EditorAiMenu",
+      "story_id": "components-editoraimenu--default",
+      "story_file": "stories/EditorAiMenu.stories.tsx",
+      "source_sha256": "8260e6d93e532945d1a01d24a63e50c0403ea430d074b06080420c882b3d12eb"
+    },
+    {
+      "stable_id": "cmp_3817c8a497c7bfb3e443ce12",
+      "component_key": "commandselector-25963d60",
+      "file_path": "apps/client/src/ee/ai/components/editor/ai-menu/command-selector.tsx",
+      "export_name": "CommandSelector",
+      "story_id": "components-commandselector--default",
+      "story_file": "stories/CommandSelector.stories.tsx",
+      "source_sha256": "029eb7b387130f10581a726e4f7af5b993611ed23f0776ee76846a4e3bdf8d19"
+    },
+    {
+      "stable_id": "cmp_198c3d4f02a176d895732dad",
+      "component_key": "resultpreview-cd009747",
+      "file_path": "apps/client/src/ee/ai/components/editor/ai-menu/result-preview.tsx",
+      "export_name": "ResultPreview",
+      "story_id": "components-resultpreview--default",
+      "story_file": "stories/ResultPreview.stories.tsx",
+      "source_sha256": "79f903c51d17be8d819d1cdae3dc93385328d33921ce043ae4ed2b66efd65370"
+    },
+    {
+      "stable_id": "cmp_7f4e1b64e44ca1696c45ec94",
+      "component_key": "aisearchtoggle-2d1fb191",
+      "file_path": "apps/client/src/ee/ai/components/enable-ai-search.tsx",
+      "export_name": "AiSearchToggle",
+      "story_id": "components-aisearchtoggle--default",
+      "story_file": "stories/AiSearchToggle.stories.tsx",
+      "source_sha256": "443aca4aaf73d1611ca2514959c91dbea8f242cd6d27ab99c6316e63748019ca"
+    },
+    {
+      "stable_id": "cmp_706f11171667258cbe2af6d8",
+      "component_key": "enableaisearch-b54173aa",
+      "file_path": "apps/client/src/ee/ai/components/enable-ai-search.tsx",
+      "export_name": "EnableAiSearch",
+      "story_id": "components-enableaisearch--default",
+      "story_file": "stories/EnableAiSearch.stories.tsx",
+      "source_sha256": "443aca4aaf73d1611ca2514959c91dbea8f242cd6d27ab99c6316e63748019ca"
+    },
+    {
+      "stable_id": "cmp_ae04a5824058110abd9c5eeb",
+      "component_key": "enablegenerativeai-cbe3f085",
+      "file_path": "apps/client/src/ee/ai/components/enable-generative-ai.tsx",
+      "export_name": "EnableGenerativeAi",
+      "story_id": "components-enablegenerativeai--default",
+      "story_file": "stories/EnableGenerativeAi.stories.tsx",
+      "source_sha256": "1dc5c8597ed32eed68705af813a04d4504993a1d800cc44e3092622a4f585ac9"
+    },
+    {
+      "stable_id": "cmp_2b09dd37ef4c696981784db1",
+      "component_key": "mcpsettings-47d02d4a",
+      "file_path": "apps/client/src/ee/ai/components/mcp-settings.tsx",
+      "export_name": "McpSettings",
+      "story_id": "components-mcpsettings--default",
+      "story_file": "stories/McpSettings.stories.tsx",
+      "source_sha256": "1da214e746141123ecb56a22be7d89447c688b248f1b8a12f109b28f1fd90ef4"
+    },
+    {
+      "stable_id": "cmp_da4f7b2eb129b383120f7d8c",
+      "component_key": "aisettings-904df232",
+      "file_path": "apps/client/src/ee/ai/pages/ai-settings.tsx",
+      "export_name": "AiSettings",
+      "story_id": "components-aisettings--default",
+      "story_file": "stories/AiSettings.stories.tsx",
+      "source_sha256": "f72fb0006f450bda8b3cc68b94055602fa47e6ee2e386581cb9d5070deaa308c"
+    },
+    {
+      "stable_id": "cmp_1d762575b71f400282a3fc92",
+      "component_key": "apikeycreatedmodal-72b7b34e",
+      "file_path": "apps/client/src/ee/api-key/components/api-key-created-modal.tsx",
+      "export_name": "ApiKeyCreatedModal",
+      "story_id": "components-apikeycreatedmodal--default",
+      "story_file": "stories/ApiKeyCreatedModal.stories.tsx",
+      "source_sha256": "f839fb4efd29e258062b634396dc25ef290df5e733fa061f6deaf9bf9476e896"
+    },
+    {
+      "stable_id": "cmp_529de3eec2ced6764669b776",
+      "component_key": "apikeytable-080fc42e",
+      "file_path": "apps/client/src/ee/api-key/components/api-key-table.tsx",
+      "export_name": "ApiKeyTable",
+      "story_id": "components-apikeytable--default",
+      "story_file": "stories/ApiKeyTable.stories.tsx",
+      "source_sha256": "94334e0343c24d01fcfac91c81c1d2e38493dfc436ef54cec3a5bdef5e3b8321"
+    },
+    {
+      "stable_id": "cmp_91e8754c65b4502306a63cc8",
+      "component_key": "createapikeymodal-6991c220",
+      "file_path": "apps/client/src/ee/api-key/components/create-api-key-modal.tsx",
+      "export_name": "CreateApiKeyModal",
+      "story_id": "components-createapikeymodal--default",
+      "story_file": "stories/CreateApiKeyModal.stories.tsx",
+      "source_sha256": "a84063bad1b5a8d1495b4b703fd9e9e83f95bda3fe423b21f7adcedcbe4d9030"
+    },
+    {
+      "stable_id": "cmp_a1a751110fa7abc6b2361895",
+      "component_key": "restrictapitoadmins-82e3dfc7",
+      "file_path": "apps/client/src/ee/api-key/components/restrict-api-to-admins.tsx",
+      "export_name": "RestrictApiToAdmins",
+      "story_id": "components-restrictapitoadmins--default",
+      "story_file": "stories/RestrictApiToAdmins.stories.tsx",
+      "source_sha256": "163ac94e1d8905525d171150ecfd45af11de24ce02e2547b47d66e8d055c6800"
+    },
+    {
+      "stable_id": "cmp_074d5fb405373d40094c1df4",
+      "component_key": "revokeapikeymodal-ca3d1027",
+      "file_path": "apps/client/src/ee/api-key/components/revoke-api-key-modal.tsx",
+      "export_name": "RevokeApiKeyModal",
+      "story_id": "components-revokeapikeymodal--default",
+      "story_file": "stories/RevokeApiKeyModal.stories.tsx",
+      "source_sha256": "c4c12357dfdd9a617fef10df249780d251ca7f871e6e2b6d187f6122e98e8e08"
+    },
+    {
+      "stable_id": "cmp_cc7734293a453c1e7a08241e",
+      "component_key": "updateapikeymodal-a3141327",
+      "file_path": "apps/client/src/ee/api-key/components/update-api-key-modal.tsx",
+      "export_name": "UpdateApiKeyModal",
+      "story_id": "components-updateapikeymodal--default",
+      "story_file": "stories/UpdateApiKeyModal.stories.tsx",
+      "source_sha256": "42d7eec35b4c3d3e8541476db26b4c6c8f60642afcc3cbbe5aabffa959410759"
     }
   ],
   "skipped_components": [
@@ -288,9 +855,446 @@
       "file_path": "apps/client/src/components/common/export-modal.tsx",
       "export_name": "ExportFormatSelection",
       "reason": "not exported by its file"
+    },
+    {
+      "stable_id": "cmp_7f90ded9c4c98e33ed21b11f",
+      "file_path": "apps/client/src/components/ui/emoji-picker.tsx",
+      "export_name": "Picker",
+      "reason": "not exported by its file"
+    },
+    {
+      "stable_id": "cmp_d40cb211791fb30e5d5a2f37",
+      "file_path": "apps/client/src/components/ui/role-select-menu.tsx",
+      "export_name": "RoleButton",
+      "reason": "not exported by its file"
+    },
+    {
+      "stable_id": "cmp_4bd2458ddcd9449f40ec9bfb",
+      "file_path": "apps/client/src/ee/ai-chat/components/ai-chat-read-only.tsx",
+      "export_name": "AiChatReadOnlyToggle",
+      "reason": "not exported by its file"
+    },
+    {
+      "stable_id": "cmp_4818af55614dfddd4bd26206",
+      "file_path": "apps/client/src/ee/ai-chat/components/ai-chat-workspace-knowledge-only.tsx",
+      "export_name": "AiChatWorkspaceKnowledgeOnlyToggle",
+      "reason": "not exported by its file"
+    },
+    {
+      "stable_id": "cmp_35fc0a3a16afa2ee8a2889ae",
+      "file_path": "apps/client/src/ee/ai-chat/components/chat-message-list.tsx",
+      "export_name": "ChatMessageErrorFallback",
+      "reason": "not exported by its file"
+    },
+    {
+      "stable_id": "cmp_40ec97a50573c43d9b79a6ed",
+      "file_path": "apps/client/src/ee/ai-chat/components/enable-ai-chat.tsx",
+      "export_name": "AiChatToggle",
+      "reason": "not exported by its file"
+    },
+    {
+      "stable_id": "cmp_e1ea3a8bfb3cefbc63acc4cc",
+      "file_path": "apps/client/src/ee/ai/components/mcp-settings.tsx",
+      "export_name": "McpEnforceOauthSetting",
+      "reason": "not exported by its file"
     }
   ],
   "denied_install_scripts": [
     "core-js"
-  ]
+  ],
+  "last_update": {
+    "base_git_sha": "e2224a42444446be1edb4ead6a62bfae154c56b3",
+    "previous_base_git_sha": "f2781e601087ad67f5ef889237558e5182238f63",
+    "added": [
+      {
+        "file_path": "apps/client/src/components/icons/youtube-icon.tsx",
+        "export_name": "YoutubeIcon",
+        "story_file": "stories/YoutubeIcon.stories.tsx",
+        "story_id": "components-youtubeicon--default"
+      },
+      {
+        "file_path": "apps/client/src/components/layouts/global/app-header.tsx",
+        "export_name": "AppHeader",
+        "story_file": "stories/AppHeader.stories.tsx",
+        "story_id": "components-appheader--default"
+      },
+      {
+        "file_path": "apps/client/src/components/layouts/global/aside.tsx",
+        "export_name": "Aside",
+        "story_file": "stories/Aside.stories.tsx",
+        "story_id": "components-aside--default"
+      },
+      {
+        "file_path": "apps/client/src/components/layouts/global/global-app-shell.tsx",
+        "export_name": "GlobalAppShell",
+        "story_file": "stories/GlobalAppShell.stories.tsx",
+        "story_id": "components-globalappshell--default"
+      },
+      {
+        "file_path": "apps/client/src/components/layouts/global/global-sidebar.tsx",
+        "export_name": "GlobalSidebar",
+        "story_file": "stories/GlobalSidebar.stories.tsx",
+        "story_id": "components-globalsidebar--default"
+      },
+      {
+        "file_path": "apps/client/src/components/layouts/global/layout.tsx",
+        "export_name": "Layout",
+        "story_file": "stories/Layout.stories.tsx",
+        "story_id": "components-layout--default"
+      },
+      {
+        "file_path": "apps/client/src/components/layouts/global/top-menu.tsx",
+        "export_name": "TopMenu",
+        "story_file": "stories/TopMenu.stories.tsx",
+        "story_id": "components-topmenu--default"
+      },
+      {
+        "file_path": "apps/client/src/components/settings/app-version.tsx",
+        "export_name": "AppVersion",
+        "story_file": "stories/AppVersion.stories.tsx",
+        "story_id": "components-appversion--default"
+      },
+      {
+        "file_path": "apps/client/src/components/settings/settings-sidebar.tsx",
+        "export_name": "SettingsSidebar",
+        "story_file": "stories/SettingsSidebar.stories.tsx",
+        "story_id": "components-settingssidebar--default"
+      },
+      {
+        "file_path": "apps/client/src/components/settings/settings-title.tsx",
+        "export_name": "SettingsTitle",
+        "story_file": "stories/SettingsTitle.stories.tsx",
+        "story_id": "components-settingstitle--default"
+      },
+      {
+        "file_path": "apps/client/src/components/theme-toggle.tsx",
+        "export_name": "ThemeToggle",
+        "story_file": "stories/ThemeToggle.stories.tsx",
+        "story_id": "components-themetoggle--default"
+      },
+      {
+        "file_path": "apps/client/src/components/ui/auto-tooltip-text.tsx",
+        "export_name": "AutoTooltipText",
+        "story_file": "stories/AutoTooltipText.stories.tsx",
+        "story_id": "components-autotooltiptext--default"
+      },
+      {
+        "file_path": "apps/client/src/components/ui/card-carousel.tsx",
+        "export_name": "CardCarousel",
+        "story_file": "stories/CardCarousel.stories.tsx",
+        "story_id": "components-cardcarousel--default"
+      },
+      {
+        "file_path": "apps/client/src/components/ui/checkbox-menu-item.tsx",
+        "export_name": "CheckboxMenuItem",
+        "story_file": "stories/CheckboxMenuItem.stories.tsx",
+        "story_id": "components-checkboxmenuitem--default"
+      },
+      {
+        "file_path": "apps/client/src/components/ui/custom-avatar.tsx",
+        "export_name": "CustomAvatar",
+        "story_file": "stories/CustomAvatar.stories.tsx",
+        "story_id": "components-customavatar--default"
+      },
+      {
+        "file_path": "apps/client/src/components/ui/destination-picker/destination-picker-modal.tsx",
+        "export_name": "DestinationPickerModal",
+        "story_file": "stories/DestinationPickerModal.stories.tsx",
+        "story_id": "components-destinationpickermodal--default"
+      },
+      {
+        "file_path": "apps/client/src/components/ui/destination-picker/destination-picker.tsx",
+        "export_name": "DestinationPicker",
+        "story_file": "stories/DestinationPicker.stories.tsx",
+        "story_id": "components-destinationpicker--default"
+      },
+      {
+        "file_path": "apps/client/src/components/ui/destination-picker/page-children.tsx",
+        "export_name": "PageChildren",
+        "story_file": "stories/PageChildren.stories.tsx",
+        "story_id": "components-pagechildren--default"
+      },
+      {
+        "file_path": "apps/client/src/components/ui/destination-picker/page-row.tsx",
+        "export_name": "PageRow",
+        "story_file": "stories/PageRow.stories.tsx",
+        "story_id": "components-pagerow--default"
+      },
+      {
+        "file_path": "apps/client/src/components/ui/destination-picker/space-row.tsx",
+        "export_name": "SpaceRow",
+        "story_file": "stories/SpaceRow.stories.tsx",
+        "story_id": "components-spacerow--default"
+      },
+      {
+        "file_path": "apps/client/src/components/ui/document-title.tsx",
+        "export_name": "DocumentTitle",
+        "story_file": "stories/DocumentTitle.stories.tsx",
+        "story_id": "components-documenttitle--default"
+      },
+      {
+        "file_path": "apps/client/src/components/ui/emoji-picker.tsx",
+        "export_name": "EmojiPicker",
+        "story_file": "stories/EmojiPicker.stories.tsx",
+        "story_id": "components-emojipicker--default"
+      },
+      {
+        "file_path": "apps/client/src/components/ui/empty-state.tsx",
+        "export_name": "EmptyState",
+        "story_file": "stories/EmptyState.stories.tsx",
+        "story_id": "components-emptystate--default"
+      },
+      {
+        "file_path": "apps/client/src/components/ui/error-404.tsx",
+        "export_name": "Error404",
+        "story_file": "stories/Error404.stories.tsx",
+        "story_id": "components-error404--default"
+      },
+      {
+        "file_path": "apps/client/src/components/ui/page-list-skeleton.tsx",
+        "export_name": "PageListSkeleton",
+        "story_file": "stories/PageListSkeleton.stories.tsx",
+        "story_id": "components-pagelistskeleton--default"
+      },
+      {
+        "file_path": "apps/client/src/components/ui/radio-menu-item.tsx",
+        "export_name": "RadioMenuItem",
+        "story_file": "stories/RadioMenuItem.stories.tsx",
+        "story_id": "components-radiomenuitem--default"
+      },
+      {
+        "file_path": "apps/client/src/components/ui/responsive-settings-row.tsx",
+        "export_name": "ResponsiveSettingsContent",
+        "story_file": "stories/ResponsiveSettingsContent.stories.tsx",
+        "story_id": "components-responsivesettingscontent--default"
+      },
+      {
+        "file_path": "apps/client/src/components/ui/responsive-settings-row.tsx",
+        "export_name": "ResponsiveSettingsControl",
+        "story_file": "stories/ResponsiveSettingsControl.stories.tsx",
+        "story_id": "components-responsivesettingscontrol--default"
+      },
+      {
+        "file_path": "apps/client/src/components/ui/responsive-settings-row.tsx",
+        "export_name": "ResponsiveSettingsRow",
+        "story_file": "stories/ResponsiveSettingsRow.stories.tsx",
+        "story_id": "components-responsivesettingsrow--default"
+      },
+      {
+        "file_path": "apps/client/src/components/ui/role-select-menu.tsx",
+        "export_name": "RoleSelectMenu",
+        "story_file": "stories/RoleSelectMenu.stories.tsx",
+        "story_id": "components-roleselectmenu--default"
+      },
+      {
+        "file_path": "apps/client/src/components/ui/sidebar-toggle-button.tsx",
+        "export_name": "SidebarToggle",
+        "story_file": "stories/SidebarToggle.stories.tsx",
+        "story_id": "components-sidebartoggle--default"
+      },
+      {
+        "file_path": "apps/client/src/components/ui/skip-to-main.tsx",
+        "export_name": "SkipToMain",
+        "story_file": "stories/SkipToMain.stories.tsx",
+        "story_id": "components-skiptomain--default"
+      },
+      {
+        "file_path": "apps/client/src/components/ui/status-badge.tsx",
+        "export_name": "StatusBadge",
+        "story_file": "stories/StatusBadge.stories.tsx",
+        "story_id": "components-statusbadge--default"
+      },
+      {
+        "file_path": "apps/client/src/ee/ai-chat/components/ai-chat-layout.tsx",
+        "export_name": "AiChatLayout",
+        "story_file": "stories/AiChatLayout.stories.tsx",
+        "story_id": "components-aichatlayout--default"
+      },
+      {
+        "file_path": "apps/client/src/ee/ai-chat/components/ai-chat-read-only.tsx",
+        "export_name": "AiChatReadOnly",
+        "story_file": "stories/AiChatReadOnly.stories.tsx",
+        "story_id": "components-aichatreadonly--default"
+      },
+      {
+        "file_path": "apps/client/src/ee/ai-chat/components/ai-chat-sidebar-item.tsx",
+        "export_name": "AiChatSidebarItem",
+        "story_file": "stories/AiChatSidebarItem.stories.tsx",
+        "story_id": "components-aichatsidebaritem--default"
+      },
+      {
+        "file_path": "apps/client/src/ee/ai-chat/components/ai-chat-sidebar.tsx",
+        "export_name": "AiChatSidebar",
+        "story_file": "stories/AiChatSidebar.stories.tsx",
+        "story_id": "components-aichatsidebar--default"
+      },
+      {
+        "file_path": "apps/client/src/ee/ai-chat/components/ai-chat-workspace-knowledge-only.tsx",
+        "export_name": "AiChatWorkspaceKnowledgeOnly",
+        "story_file": "stories/AiChatWorkspaceKnowledgeOnly.stories.tsx",
+        "story_id": "components-aichatworkspaceknowledgeonly--default"
+      },
+      {
+        "file_path": "apps/client/src/ee/ai-chat/components/aside-chat-history.tsx",
+        "export_name": "AsideChatHistory",
+        "story_file": "stories/AsideChatHistory.stories.tsx",
+        "story_id": "components-asidechathistory--default"
+      },
+      {
+        "file_path": "apps/client/src/ee/ai-chat/components/aside-chat-panel.tsx",
+        "export_name": "AsideChatPanel",
+        "story_file": "stories/AsideChatPanel.stories.tsx",
+        "story_id": "components-asidechatpanel--default"
+      },
+      {
+        "file_path": "apps/client/src/ee/ai-chat/components/chat-empty-state.tsx",
+        "export_name": "ChatEmptyState",
+        "story_file": "stories/ChatEmptyState.stories.tsx",
+        "story_id": "components-chatemptystate--default"
+      },
+      {
+        "file_path": "apps/client/src/ee/ai-chat/components/chat-input.tsx",
+        "export_name": "ChatInput",
+        "story_file": "stories/ChatInput.stories.tsx",
+        "story_id": "components-chatinput--default"
+      },
+      {
+        "file_path": "apps/client/src/ee/ai-chat/components/chat-message-list.tsx",
+        "export_name": "ChatMessageList",
+        "story_file": "stories/ChatMessageList.stories.tsx",
+        "story_id": "components-chatmessagelist--default"
+      },
+      {
+        "file_path": "apps/client/src/ee/ai-chat/components/chat-message.tsx",
+        "export_name": "ChatMessage",
+        "story_file": "stories/ChatMessage.stories.tsx",
+        "story_id": "components-chatmessage--default"
+      },
+      {
+        "file_path": "apps/client/src/ee/ai-chat/components/chat-tool-group.tsx",
+        "export_name": "ChatToolGroup",
+        "story_file": "stories/ChatToolGroup.stories.tsx",
+        "story_id": "components-chattoolgroup--default"
+      },
+      {
+        "file_path": "apps/client/src/ee/ai-chat/components/chat-tool-result.tsx",
+        "export_name": "ChatToolResult",
+        "story_file": "stories/ChatToolResult.stories.tsx",
+        "story_id": "components-chattoolresult--default"
+      },
+      {
+        "file_path": "apps/client/src/ee/ai-chat/components/enable-ai-chat.tsx",
+        "export_name": "EnableAiChat",
+        "story_file": "stories/EnableAiChat.stories.tsx",
+        "story_id": "components-enableaichat--default"
+      },
+      {
+        "file_path": "apps/client/src/ee/ai-chat/pages/ai-chat.tsx",
+        "export_name": "AiChat",
+        "story_file": "stories/AiChat.stories.tsx",
+        "story_id": "components-aichat--default"
+      },
+      {
+        "file_path": "apps/client/src/ee/ai/components/ai-search-result.tsx",
+        "export_name": "AiSearchResult",
+        "story_file": "stories/AiSearchResult.stories.tsx",
+        "story_id": "components-aisearchresult--default"
+      },
+      {
+        "file_path": "apps/client/src/ee/ai/components/editor/ai-menu/ai-menu.tsx",
+        "export_name": "EditorAiMenu",
+        "story_file": "stories/EditorAiMenu.stories.tsx",
+        "story_id": "components-editoraimenu--default"
+      },
+      {
+        "file_path": "apps/client/src/ee/ai/components/editor/ai-menu/command-selector.tsx",
+        "export_name": "CommandSelector",
+        "story_file": "stories/CommandSelector.stories.tsx",
+        "story_id": "components-commandselector--default"
+      },
+      {
+        "file_path": "apps/client/src/ee/ai/components/editor/ai-menu/result-preview.tsx",
+        "export_name": "ResultPreview",
+        "story_file": "stories/ResultPreview.stories.tsx",
+        "story_id": "components-resultpreview--default"
+      },
+      {
+        "file_path": "apps/client/src/ee/ai/components/enable-ai-search.tsx",
+        "export_name": "AiSearchToggle",
+        "story_file": "stories/AiSearchToggle.stories.tsx",
+        "story_id": "components-aisearchtoggle--default"
+      },
+      {
+        "file_path": "apps/client/src/ee/ai/components/enable-ai-search.tsx",
+        "export_name": "EnableAiSearch",
+        "story_file": "stories/EnableAiSearch.stories.tsx",
+        "story_id": "components-enableaisearch--default"
+      },
+      {
+        "file_path": "apps/client/src/ee/ai/components/enable-generative-ai.tsx",
+        "export_name": "EnableGenerativeAi",
+        "story_file": "stories/EnableGenerativeAi.stories.tsx",
+        "story_id": "components-enablegenerativeai--default"
+      },
+      {
+        "file_path": "apps/client/src/ee/ai/components/mcp-settings.tsx",
+        "export_name": "McpSettings",
+        "story_file": "stories/McpSettings.stories.tsx",
+        "story_id": "components-mcpsettings--default"
+      },
+      {
+        "file_path": "apps/client/src/ee/ai/pages/ai-settings.tsx",
+        "export_name": "AiSettings",
+        "story_file": "stories/AiSettings.stories.tsx",
+        "story_id": "components-aisettings--default"
+      },
+      {
+        "file_path": "apps/client/src/ee/api-key/components/api-key-created-modal.tsx",
+        "export_name": "ApiKeyCreatedModal",
+        "story_file": "stories/ApiKeyCreatedModal.stories.tsx",
+        "story_id": "components-apikeycreatedmodal--default"
+      },
+      {
+        "file_path": "apps/client/src/ee/api-key/components/api-key-table.tsx",
+        "export_name": "ApiKeyTable",
+        "story_file": "stories/ApiKeyTable.stories.tsx",
+        "story_id": "components-apikeytable--default"
+      },
+      {
+        "file_path": "apps/client/src/ee/api-key/components/create-api-key-modal.tsx",
+        "export_name": "CreateApiKeyModal",
+        "story_file": "stories/CreateApiKeyModal.stories.tsx",
+        "story_id": "components-createapikeymodal--default"
+      },
+      {
+        "file_path": "apps/client/src/ee/api-key/components/restrict-api-to-admins.tsx",
+        "export_name": "RestrictApiToAdmins",
+        "story_file": "stories/RestrictApiToAdmins.stories.tsx",
+        "story_id": "components-restrictapitoadmins--default"
+      },
+      {
+        "file_path": "apps/client/src/ee/api-key/components/revoke-api-key-modal.tsx",
+        "export_name": "RevokeApiKeyModal",
+        "story_file": "stories/RevokeApiKeyModal.stories.tsx",
+        "story_id": "components-revokeapikeymodal--default"
+      },
+      {
+        "file_path": "apps/client/src/ee/api-key/components/update-api-key-modal.tsx",
+        "export_name": "UpdateApiKeyModal",
+        "story_file": "stories/UpdateApiKeyModal.stories.tsx",
+        "story_id": "components-updateapikeymodal--default"
+      }
+    ],
+    "changed": [
+      {
+        "file_path": "apps/client/src/components/common/copy.tsx",
+        "export_name": "CopyTextButton",
+        "story_file": "stories/CopyTextButton.stories.tsx",
+        "story_id": "components-copytextbutton--default"
+      }
+    ],
+    "removed": [],
+    "dropped_cases": 0,
+    "entry_module_changed": false
+  }
 }
