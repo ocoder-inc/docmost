@@ -9,4 +9,5 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
+// The app's not-found page: the catch-all route and unknown shares, pages and workspaces.
 export const Default: Story = {};

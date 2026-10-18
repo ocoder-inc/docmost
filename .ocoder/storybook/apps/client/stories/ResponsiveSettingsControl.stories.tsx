@@ -1,4 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react-vite';
+import { Button } from '@mantine/core';
 
 import { ResponsiveSettingsControl } from '@source/apps/client/src/components/ui/responsive-settings-row';
 
@@ -9,7 +10,13 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
+// The control side of a settings row, as the 2-step verification button on /settings/account/profile.
 export const Default: Story = {
-  // Wrappers render what they are given; this shows the wrapper's own layout around it.
-  args: { children: 'Example content' },
+  args: {
+    children: (
+      <Button variant="default" style={{ whiteSpace: 'nowrap' }}>
+        Add 2FA method
+      </Button>
+    ),
+  },
 };

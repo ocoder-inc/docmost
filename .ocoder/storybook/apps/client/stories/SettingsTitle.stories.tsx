@@ -9,4 +9,7 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Default: Story = {};
+// Heading at the top of a settings page, e.g. /settings/ai.
+export const Default: Story = {
+  args: { title: 'AI settings' },
+};

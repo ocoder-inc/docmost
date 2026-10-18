@@ -1,3 +1,4 @@
+import '../fixtures/offline-socket';
 import { type ReactNode, useLayoutEffect, useState } from 'react';
 import { MemoryRouter } from 'react-router-dom';
 import { MantineProvider as Provider1 } from '@mantine/core';

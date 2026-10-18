@@ -9,4 +9,12 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
+// The first link on every signed-in page; it stays off-screen until it gets keyboard focus.
 export const Default: Story = {};
+
+// The link as a keyboard user sees it after pressing Tab.
+export const Focused: Story = {
+  play: async ({ canvasElement }) => {
+    canvasElement.querySelector<HTMLAnchorElement>('a')?.focus();
+  },
+};
