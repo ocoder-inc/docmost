@@ -9,4 +9,11 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Default: Story = {};
+// In the header, while the sidebar is open.
+export const Default: Story = {
+  args: { opened: true, size: 'sm', 'aria-label': 'Sidebar toggle' },
+};
+
+export const Collapsed: Story = {
+  args: { opened: false, size: 'sm', 'aria-label': 'Sidebar toggle' },
+};

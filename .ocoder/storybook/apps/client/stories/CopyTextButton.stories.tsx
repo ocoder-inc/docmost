@@ -9,4 +9,6 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Default: Story = {};
+export const Default: Story = {
+  args: { text: 'dm_live_8f2c41a9e7b3d05c6a1f', label: 'Copy API key' },
+};

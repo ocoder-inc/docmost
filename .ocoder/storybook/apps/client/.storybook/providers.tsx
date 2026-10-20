@@ -7,6 +7,63 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { HelmetProvider as Provider4 } from 'react-helmet-async';
 import { PostHogProvider as Provider5 } from 'posthog-js/react';
 import { default as value5_client } from 'posthog-js';
+import { Notifications } from '@mantine/notifications';
+import { Provider as JotaiProvider, createStore } from 'jotai';
+import api from '@source/apps/client/src/lib/api-client';
+import { currentUserAtom } from '@source/apps/client/src/features/user/atoms/current-user-atom';
+import { entitlementAtom } from '@source/apps/client/src/ee/entitlement/entitlement-atom';
+import { mockAdapter, resetApiRoutes } from '../fixtures/api';
+import { currentUser, entitlements } from '../fixtures/data';
+
+// The app's API client answers from sample data: there is no server behind the Storybook.
+api.defaults.adapter = mockAdapter;
+
+/**
+ * The app opens a socket.io connection once the user has loaded. There is no server to reach, so
+ * sockets are created but never connect, as when the server is briefly unreachable.
+ */
+class OfflineWebSocket extends EventTarget {
+  static readonly CONNECTING = 0;
+  static readonly OPEN = 1;
+  static readonly CLOSING = 2;
+  static readonly CLOSED = 3;
+  readonly CONNECTING = 0;
+  readonly OPEN = 1;
+  readonly CLOSING = 2;
+  readonly CLOSED = 3;
+  readyState = 0;
+  binaryType = 'blob';
+  bufferedAmount = 0;
+  extensions = '';
+  protocol = '';
+  onopen = null;
+  onclose = null;
+  onerror = null;
+  onmessage = null;
+  constructor(readonly url: string) {
+    super();
+  }
+  send() {}
+  close() {
+    this.readyState = 3;
+  }
+}
+window.WebSocket = OfflineWebSocket as unknown as typeof WebSocket;
+
+/**
+ * The app's atoms, in a store per story: signed in as the sample user of a workspace entitled to
+ * every feature, as the app is once its user provider has loaded `/users/me`.
+ */
+function StoryAtoms({ children }: { children: ReactNode }) {
+  const [store] = useState(() => {
+    resetApiRoutes();
+    const next = createStore();
+    next.set(currentUserAtom, currentUser);
+    next.set(entitlementAtom, entitlements);
+    return next;
+  });
+  return <JotaiProvider store={store}>{children}</JotaiProvider>;
+}
 
 /**
  * The stories' query client: no retries against a backend that is not there. One instance, so code
@@ -51,9 +108,10 @@ export function Providers({
         <Provider1 theme={value1_theme} cssVariablesResolver={value1_cssVariablesResolver} forceColorScheme={theme === 'dark' ? 'dark' : 'light'}>
           <Provider2>
             <StoryQueryClient>
+              <Notifications position="bottom-center" limit={3} zIndex={10000} />
               <Provider4>
                 <Provider5 client={value5_client}>
-                  {children}
+                  <StoryAtoms>{children}</StoryAtoms>
                 </Provider5>
               </Provider4>
             </StoryQueryClient>

@@ -9,4 +9,7 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Default: Story = {};
+// Toolbar and menu items show it at 18px, beside the item's label.
+export const Default: Story = {
+  args: { size: 18 },
+};

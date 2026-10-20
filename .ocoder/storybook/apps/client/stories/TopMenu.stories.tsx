@@ -9,4 +9,5 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
+// The workspace menu at the right of the header, for the signed-in user.
 export const Default: Story = {};
