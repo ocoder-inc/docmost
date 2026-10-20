@@ -110,10 +110,6 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
-        },
-        {
-          "kind": "visible",
-          "selector": "#storybook-root button[aria-label=\"Copy API key\"]"
         }
       ]
     },
