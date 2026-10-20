@@ -9,4 +9,11 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Default: Story = {};
+// Without an avatar image it shows the name's initials, as in the top menu.
+export const Default: Story = {
+  args: { name: 'Jane Cooper', size: 'md', radius: 'xl' },
+};
+
+export const Small: Story = {
+  args: { name: 'Devon Lane', size: 'sm', variant: 'filled' },
+};

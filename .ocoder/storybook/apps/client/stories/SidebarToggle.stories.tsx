@@ -9,4 +9,10 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Default: Story = {};
+export const Default: Story = {
+  args: { 'aria-label': 'Sidebar toggle', opened: true, size: 'sm' },
+};
+
+export const Collapsed: Story = {
+  args: { 'aria-label': 'Sidebar toggle', opened: false, size: 'sm' },
+};

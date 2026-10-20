@@ -9,4 +9,6 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
+// The switch alone, as in the AI search settings row.
 export const Default: Story = {};
+

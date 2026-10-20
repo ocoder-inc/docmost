@@ -9,4 +9,5 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
+// This is the app's not-found page itself.
 export const Default: Story = {};

@@ -7,6 +7,53 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { HelmetProvider as Provider4 } from 'react-helmet-async';
 import { PostHogProvider as Provider5 } from 'posthog-js/react';
 import { default as value5_client } from 'posthog-js';
+import { Notifications } from '@mantine/notifications';
+import { createStore, Provider as JotaiProvider } from 'jotai';
+import { currentUserAtom } from '@source/apps/client/src/features/user/atoms/current-user-atom';
+import { entitlementAtom } from '@source/apps/client/src/ee/entitlement/entitlement-atom';
+
+import { resetApiMocks } from '../fixtures/mock-api';
+import { sampleCurrentUser, sampleEntitlements } from '../fixtures/data';
+
+/**
+ * There is no server: the app's socket.io client and collaboration provider would open WebSockets.
+ * This stand-in never connects, so they stay quietly offline.
+ */
+class OfflineWebSocket extends EventTarget {
+  static CONNECTING = 0;
+  static OPEN = 1;
+  static CLOSING = 2;
+  static CLOSED = 3;
+  readyState = 0;
+  binaryType = 'blob';
+  bufferedAmount = 0;
+  extensions = '';
+  protocol = '';
+  onopen = null;
+  onclose = null;
+  onerror = null;
+  onmessage = null;
+  constructor(public url: string) {
+    super();
+  }
+  send() {}
+  close() {
+    this.readyState = 3;
+  }
+}
+(globalThis as any).WebSocket = OfflineWebSocket;
+
+/** The app keeps the signed-in user and the workspace's plan in jotai atoms; a fresh store per story. */
+function StoryStore({ children }: { children: ReactNode }) {
+  const [store] = useState(() => {
+    resetApiMocks();
+    const next = createStore();
+    next.set(currentUserAtom, sampleCurrentUser);
+    next.set(entitlementAtom, sampleEntitlements);
+    return next;
+  });
+  return <JotaiProvider store={store}>{children}</JotaiProvider>;
+}
 
 /**
  * The stories' query client: no retries against a backend that is not there. One instance, so code
@@ -51,9 +98,10 @@ export function Providers({
         <Provider1 theme={value1_theme} cssVariablesResolver={value1_cssVariablesResolver} forceColorScheme={theme === 'dark' ? 'dark' : 'light'}>
           <Provider2>
             <StoryQueryClient>
+              <Notifications position="bottom-center" limit={3} zIndex={10000} />
               <Provider4>
                 <Provider5 client={value5_client}>
-                  {children}
+                  <StoryStore>{children}</StoryStore>
                 </Provider5>
               </Provider4>
             </StoryQueryClient>

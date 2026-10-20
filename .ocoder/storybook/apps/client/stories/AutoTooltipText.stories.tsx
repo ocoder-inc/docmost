@@ -5,11 +5,16 @@ import { AutoTooltipText } from '@source/apps/client/src/components/ui/auto-tool
 const meta = {
   title: 'Components/AutoTooltipText',
   component: AutoTooltipText,
+  // In the page permissions list it truncates a member's name and email in a narrow column.
+  decorators: [(Story) => <div style={{ width: 220 }}><Story /></div>],
 } satisfies Meta<typeof AutoTooltipText>;
 export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {
-  // Wrappers render what they are given; this shows the wrapper's own layout around it.
-  args: { children: 'Example content' },
+  args: { children: 'Jane Cooper', fz: 'sm', fw: 500 },
+};
+
+export const Truncated: Story = {
+  args: { children: 'jane.cooper.platform-engineering@acme-corporation.com', fz: 'xs', c: 'dimmed' },
 };

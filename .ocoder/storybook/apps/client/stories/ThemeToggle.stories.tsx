@@ -9,4 +9,5 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
+// Shows the sun in light mode and the moon in dark mode.
 export const Default: Story = {};

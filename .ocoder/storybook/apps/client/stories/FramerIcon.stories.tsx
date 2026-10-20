@@ -9,4 +9,5 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Default: Story = {};
+// The app shows it as a menu item's leading icon.
+export const Default: Story = { args: { size: 16 } };

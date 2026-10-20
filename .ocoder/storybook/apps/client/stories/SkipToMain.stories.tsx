@@ -9,4 +9,9 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Default: Story = {};
+// The link stays off-screen until it has keyboard focus, as when tabbing into the app.
+export const Default: Story = {
+  play: async ({ canvasElement }) => {
+    canvasElement.querySelector<HTMLAnchorElement>('a')?.focus();
+  },
+};

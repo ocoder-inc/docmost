@@ -9,4 +9,13 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
+// A page without an emoji icon gets the document icon.
 export const Default: Story = {};
+
+export const Emoji: Story = {
+  args: { icon: '🚀' },
+};
+
+export const Base: Story = {
+  args: { isBase: true },
+};

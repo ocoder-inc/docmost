@@ -60,6 +60,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "button[aria-label=Copy]"
         }
       ]
     },
@@ -77,6 +81,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "button[aria-label=\"Copy link\"]"
         }
       ]
     },
@@ -111,6 +119,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "td",
+          "includes": "No results found"
         }
       ]
     },
@@ -128,6 +141,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root svg"
         }
       ]
     },
@@ -145,6 +162,16 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root button:not([disabled])",
+          "equals": 2
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Next"
         }
       ]
     },
@@ -179,6 +206,12 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "attribute",
+          "selector": "input",
+          "name": "placeholder",
+          "equals": "Search members"
         }
       ]
     },
@@ -196,6 +229,16 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Jane Cooper"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "jane.cooper@acme.com"
         }
       ]
     },
@@ -213,6 +256,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root svg"
         }
       ]
     },
@@ -230,6 +277,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root svg"
         }
       ]
     },
@@ -247,6 +298,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root svg"
         }
       ]
     },
@@ -264,6 +319,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root svg"
         }
       ]
     },
@@ -281,6 +340,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root svg"
         }
       ]
     },
@@ -298,6 +361,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root svg"
         }
       ]
     },
@@ -315,6 +382,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root svg"
         }
       ]
     },
@@ -332,6 +403,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root svg"
         }
       ]
     },
@@ -349,6 +424,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root svg"
         }
       ]
     },
@@ -366,6 +445,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root svg"
         }
       ]
     },
@@ -383,6 +466,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root svg"
         }
       ]
     },
@@ -400,6 +487,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root svg"
         }
       ]
     },
@@ -417,6 +508,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root svg"
         }
       ]
     },
@@ -434,6 +529,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root svg"
         }
       ]
     },
@@ -451,6 +550,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root svg"
         }
       ]
     },
@@ -468,6 +571,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root svg"
         }
       ]
     },
@@ -485,6 +592,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root svg"
         }
       ]
     },
@@ -502,6 +613,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root svg"
         }
       ]
     },
@@ -519,6 +634,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root svg"
         }
       ]
     },
@@ -638,6 +757,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "v0.24.0"
         }
       ]
     },
@@ -655,6 +779,22 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Settings"
+        },
+        {
+          "kind": "attribute",
+          "selector": "a[data-active]",
+          "name": "href",
+          "equals": "/settings/account/profile"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "v0.24.0"
         }
       ]
     },
@@ -672,6 +812,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "h1",
+          "includes": "API management"
         }
       ]
     },
@@ -689,6 +834,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "button[aria-label=\"Toggle color scheme\"]"
         }
       ]
     },
@@ -706,6 +855,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Jane Cooper"
         }
       ]
     },
@@ -723,6 +877,15 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "[role=region][aria-label=\"Spaces you belong to\"]"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Engineering"
         }
       ]
     },
@@ -740,6 +903,17 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "[role=menuitemcheckbox]",
+          "equals": 3
+        },
+        {
+          "kind": "attribute",
+          "selector": "[role=menuitemcheckbox]",
+          "name": "aria-checked",
+          "equals": "true"
         }
       ]
     },
@@ -757,6 +931,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "JC"
         }
       ]
     },
@@ -774,6 +953,20 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "[role=dialog]"
+        },
+        {
+          "kind": "text",
+          "selector": "[role=dialog]",
+          "includes": "Choose destination"
+        },
+        {
+          "kind": "text",
+          "selector": "[role=dialog]",
+          "includes": "Engineering"
         }
       ]
     },
@@ -791,6 +984,16 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Engineering"
+        },
+        {
+          "kind": "count",
+          "selector": "[data-space-id]",
+          "equals": 3
         }
       ]
     },
@@ -808,6 +1011,16 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Architecture overview"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root > div > [role=button]",
+          "equals": 3
         }
       ]
     },
@@ -825,6 +1038,15 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "[role=button]",
+          "includes": "Getting started"
+        },
+        {
+          "kind": "visible",
+          "selector": "button[aria-label=Expand]"
         }
       ]
     },
@@ -842,6 +1064,15 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "[data-space-id]",
+          "includes": "Engineering"
+        },
+        {
+          "kind": "visible",
+          "selector": "button[aria-label=Expand]"
         }
       ]
     },
@@ -876,6 +1107,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "button[aria-label=\"Pick emoji\"]"
         }
       ]
     },
@@ -893,6 +1128,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "No favorite pages"
         }
       ]
     },
@@ -910,6 +1150,15 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "h1",
+          "includes": "Page not found"
+        },
+        {
+          "kind": "visible",
+          "selector": "a[href=\"/home\"]"
         }
       ]
     },
@@ -927,6 +1176,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": ".mantine-Skeleton-root",
+          "equals": 13
         }
       ]
     },
@@ -944,6 +1198,16 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "[role=menuitemradio]",
+          "equals": 4
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Jane Cooper"
         }
       ]
     },
@@ -961,6 +1225,15 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Restrict API key creation to admins"
+        },
+        {
+          "kind": "visible",
+          "selector": ".mantine-Switch-track"
         }
       ]
     },
@@ -978,6 +1251,15 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Restrict API key creation to admins"
+        },
+        {
+          "kind": "visible",
+          "selector": ".mantine-Switch-track"
         }
       ]
     },
@@ -995,6 +1277,15 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Restrict API key creation to admins"
+        },
+        {
+          "kind": "visible",
+          "selector": ".mantine-Switch-track"
         }
       ]
     },
@@ -1012,6 +1303,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "button",
+          "includes": "Admin"
         }
       ]
     },
@@ -1029,6 +1325,12 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "attribute",
+          "selector": "button[aria-label=\"Sidebar toggle\"]",
+          "name": "aria-expanded",
+          "equals": "true"
         }
       ]
     },
@@ -1046,6 +1348,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "a[href=\"#main-content\"]",
+          "text": "Skip to main content"
         }
       ]
     },
@@ -1063,6 +1370,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "[role=article]",
+          "includes": "Promote the build to staging"
         }
       ]
     },
@@ -1080,6 +1392,15 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Read-only mode"
+        },
+        {
+          "kind": "visible",
+          "selector": ".mantine-Switch-track"
         }
       ]
     },
@@ -1097,6 +1418,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Draft Q4 roadmap announcement"
         }
       ]
     },
@@ -1114,6 +1440,16 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "h2",
+          "includes": "AI Chat"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Draft Q4 roadmap announcement"
         }
       ]
     },
@@ -1131,6 +1467,15 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Workspace knowledge only"
+        },
+        {
+          "kind": "visible",
+          "selector": ".mantine-Switch-track"
         }
       ]
     },
@@ -1148,6 +1493,16 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Summarize the deployment runbook"
+        },
+        {
+          "kind": "count",
+          "selector": "[data-active]",
+          "equals": 1
         }
       ]
     },
@@ -1165,6 +1520,21 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "How can I help you today?"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Summarize this page"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Deployment runbook"
         }
       ]
     },
@@ -1182,6 +1552,16 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "h1",
+          "includes": "What can I help you with?"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Search across all pages"
         }
       ]
     },
@@ -1199,6 +1579,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": ".ProseMirror"
         }
       ]
     },
@@ -1216,6 +1600,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "[role=article]",
+          "equals": 2
         }
       ]
     },
@@ -1233,6 +1622,16 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "[role=article]",
+          "includes": "Promote the build to staging"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Steps 1"
         }
       ]
     },
@@ -1250,6 +1649,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "[role=button]",
+          "includes": "Steps 3"
         }
       ]
     },
@@ -1267,6 +1671,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Searched pages"
         }
       ]
     },
@@ -1284,6 +1693,17 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "AI Chat"
+        },
+        {
+          "kind": "attribute",
+          "selector": "input[aria-label=\"Toggle AI Chat\"]",
+          "name": "aria-label",
+          "equals": "Toggle AI Chat"
         }
       ]
     },
@@ -1301,6 +1721,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "h1",
+          "includes": "What can I help you with?"
         }
       ]
     },
@@ -1318,6 +1743,21 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "AI Answer"
+        },
+        {
+          "kind": "text",
+          "selector": "strong",
+          "includes": "promote the build to staging"
+        },
+        {
+          "kind": "count",
+          "selector": "a[href^=\"/s/engineering/p/\"]",
+          "equals": 2
         }
       ]
     },
@@ -1335,6 +1775,19 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": ".ProseMirror"
+        },
+        {
+          "kind": "visible",
+          "selector": "input[placeholder=\"Ask AI...\"]"
+        },
+        {
+          "kind": "visible",
+          "selector": "[role=menu]",
+          "text": "Improve writing"
         }
       ]
     },
@@ -1352,6 +1805,16 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "[role=menuitem]",
+          "equals": 9
+        },
+        {
+          "kind": "visible",
+          "selector": "[role=menu]",
+          "text": "Change tone"
         }
       ]
     },
@@ -1369,6 +1832,16 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "ol li",
+          "equals": 3
+        },
+        {
+          "kind": "text",
+          "selector": "strong",
+          "includes": "merge to"
         }
       ]
     },
@@ -1386,6 +1859,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "input[aria-label=\"Toggle AI search\"]:checked",
+          "equals": 1
         }
       ]
     },
@@ -1403,6 +1881,16 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "AI-powered search (AI Answers)"
+        },
+        {
+          "kind": "count",
+          "selector": "input:checked",
+          "equals": 1
         }
       ]
     },
@@ -1420,6 +1908,16 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Generative AI (Ask AI)"
+        },
+        {
+          "kind": "count",
+          "selector": "input:checked",
+          "equals": 1
         }
       ]
     },
@@ -1437,6 +1935,16 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Model Context Protocol (MCP)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "MCP Server URL"
         }
       ]
     },
@@ -1454,6 +1962,21 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "h1",
+          "includes": "AI settings"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Generative AI (Ask AI)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Read-only mode"
         }
       ]
     },
@@ -1471,6 +1994,21 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "[role=dialog]"
+        },
+        {
+          "kind": "text",
+          "selector": "[role=dialog]",
+          "includes": "API key created"
+        },
+        {
+          "kind": "attribute",
+          "selector": "[role=dialog] input",
+          "name": "value",
+          "equals": "dm_live_8f2c1a9e4b7d4c0f9a3e2b1c5d6e7f80a1b2c3d4"
         }
       ]
     },
@@ -1488,6 +2026,21 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "tbody tr",
+          "equals": 2
+        },
+        {
+          "kind": "text",
+          "selector": "tbody",
+          "includes": "CI deploy bot"
+        },
+        {
+          "kind": "text",
+          "selector": "tbody",
+          "includes": "Never"
         }
       ]
     },
@@ -1505,6 +2058,15 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "[role=dialog]"
+        },
+        {
+          "kind": "text",
+          "selector": "[role=dialog]",
+          "includes": "30 days"
         }
       ]
     },
@@ -1522,6 +2084,20 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Restrict API key creation to admins"
+        },
+        {
+          "kind": "visible",
+          "selector": ".mantine-Switch-track"
+        },
+        {
+          "kind": "count",
+          "selector": "input:checked",
+          "equals": 0
         }
       ]
     },
@@ -1539,6 +2115,20 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "[role=dialog]"
+        },
+        {
+          "kind": "text",
+          "selector": "[role=dialog] strong",
+          "includes": "CI deploy bot"
+        },
+        {
+          "kind": "text",
+          "selector": "[role=dialog]",
+          "includes": "Revoke API key"
         }
       ]
     },
@@ -1556,6 +2146,21 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "[role=dialog]"
+        },
+        {
+          "kind": "attribute",
+          "selector": "[role=dialog] input",
+          "name": "value",
+          "equals": "CI deploy bot"
+        },
+        {
+          "kind": "text",
+          "selector": "[role=dialog]",
+          "includes": "Update API key"
         }
       ]
     },
@@ -1573,6 +2178,882 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "h1",
+          "includes": "API keys"
+        },
+        {
+          "kind": "count",
+          "selector": "tbody tr",
+          "equals": 2
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Create API Key"
+        }
+      ]
+    },
+    {
+      "component_key": "autotooltiptext-7da6bf76",
+      "scenario_key": "truncated",
+      "checkpoint_key": "default",
+      "source_binding": {
+        "file": "src/components/ui/auto-tooltip-text.tsx",
+        "export_name": "AutoTooltipText"
+      },
+      "storybook_story_id": "components-autotooltiptext--truncated",
+      "required": true,
+      "checks": [
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "jane.cooper"
+        }
+      ]
+    },
+    {
+      "component_key": "customavatar-7ff9d399",
+      "scenario_key": "small",
+      "checkpoint_key": "default",
+      "source_binding": {
+        "file": "src/components/ui/custom-avatar.tsx",
+        "export_name": "CustomAvatar"
+      },
+      "storybook_story_id": "components-customavatar--small",
+      "required": true,
+      "checks": [
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "DL"
+        }
+      ]
+    },
+    {
+      "component_key": "pagelisticon-1c22816c",
+      "scenario_key": "emoji",
+      "checkpoint_key": "default",
+      "source_binding": {
+        "file": "src/components/common/page-list-icon.tsx",
+        "export_name": "PageListIcon"
+      },
+      "storybook_story_id": "components-pagelisticon--emoji",
+      "required": true,
+      "checks": [
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "\ud83d\ude80"
+        }
+      ]
+    },
+    {
+      "component_key": "pagelisticon-1c22816c",
+      "scenario_key": "base",
+      "checkpoint_key": "default",
+      "source_binding": {
+        "file": "src/components/common/page-list-icon.tsx",
+        "export_name": "PageListIcon"
+      },
+      "storybook_story_id": "components-pagelisticon--base",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root svg"
+        }
+      ]
+    },
+    {
+      "component_key": "paginate-a660a09f",
+      "scenario_key": "first-page",
+      "checkpoint_key": "default",
+      "source_binding": {
+        "file": "src/components/common/paginate.tsx",
+        "export_name": "Paginate"
+      },
+      "storybook_story_id": "components-paginate--first-page",
+      "required": true,
+      "checks": [
+        {
+          "kind": "count",
+          "selector": "button[disabled]",
+          "equals": 1
+        }
+      ]
+    },
+    {
+      "component_key": "emojipicker-b61bcb72",
+      "scenario_key": "with-icon",
+      "checkpoint_key": "default",
+      "source_binding": {
+        "file": "src/components/ui/emoji-picker.tsx",
+        "export_name": "EmojiPicker"
+      },
+      "storybook_story_id": "components-emojipicker--with-icon",
+      "required": true,
+      "checks": [
+        {
+          "kind": "text",
+          "selector": "button[aria-label=\"Pick emoji\"]",
+          "includes": "\ud83d\ude80"
+        }
+      ]
+    },
+    {
+      "component_key": "roleselectmenu-7d55e73c",
+      "scenario_key": "space-role",
+      "checkpoint_key": "default",
+      "source_binding": {
+        "file": "src/components/ui/role-select-menu.tsx",
+        "export_name": "RoleSelectMenu"
+      },
+      "storybook_story_id": "components-roleselectmenu--space-role",
+      "required": true,
+      "checks": [
+        {
+          "kind": "text",
+          "selector": "button",
+          "includes": "Can edit"
+        }
+      ]
+    },
+    {
+      "component_key": "sidebartoggle-11f819cf",
+      "scenario_key": "collapsed",
+      "checkpoint_key": "default",
+      "source_binding": {
+        "file": "src/components/ui/sidebar-toggle-button.tsx",
+        "export_name": "SidebarToggle"
+      },
+      "storybook_story_id": "components-sidebartoggle--collapsed",
+      "required": true,
+      "checks": [
+        {
+          "kind": "attribute",
+          "selector": "button[aria-label=\"Sidebar toggle\"]",
+          "name": "aria-expanded",
+          "equals": "false"
+        }
+      ]
+    },
+    {
+      "component_key": "destinationpicker-324633df",
+      "scenario_key": "preselected-space",
+      "checkpoint_key": "default",
+      "source_binding": {
+        "file": "src/components/ui/destination-picker/destination-picker.tsx",
+        "export_name": "DestinationPicker"
+      },
+      "storybook_story_id": "components-destinationpicker--preselected-space",
+      "required": true,
+      "checks": [
+        {
+          "kind": "attribute",
+          "selector": "input",
+          "name": "placeholder",
+          "equals": "Search spaces..."
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Handbook"
+        }
+      ]
+    },
+    {
+      "component_key": "destinationpickermodal-df895d0f",
+      "scenario_key": "move-page",
+      "checkpoint_key": "default",
+      "source_binding": {
+        "file": "src/components/ui/destination-picker/destination-picker-modal.tsx",
+        "export_name": "DestinationPickerModal"
+      },
+      "storybook_story_id": "components-destinationpickermodal--move-page",
+      "required": true,
+      "checks": [
+        {
+          "kind": "text",
+          "selector": "[role=dialog]",
+          "includes": "Move page"
+        },
+        {
+          "kind": "count",
+          "selector": "[data-space-id]",
+          "equals": 3
+        }
+      ]
+    },
+    {
+      "component_key": "spacerow-127f697c",
+      "scenario_key": "selected",
+      "checkpoint_key": "default",
+      "source_binding": {
+        "file": "src/components/ui/destination-picker/space-row.tsx",
+        "export_name": "SpaceRow"
+      },
+      "storybook_story_id": "components-spacerow--selected",
+      "required": true,
+      "checks": [
+        {
+          "kind": "text",
+          "selector": "[data-space-id]",
+          "includes": "Product"
+        }
+      ]
+    },
+    {
+      "component_key": "spacerow-127f697c",
+      "scenario_key": "read-only",
+      "checkpoint_key": "default",
+      "source_binding": {
+        "file": "src/components/ui/destination-picker/space-row.tsx",
+        "export_name": "SpaceRow"
+      },
+      "storybook_story_id": "components-spacerow--read-only",
+      "required": true,
+      "checks": [
+        {
+          "kind": "attribute",
+          "selector": "[data-space-id]",
+          "name": "aria-disabled",
+          "equals": "true"
+        }
+      ]
+    },
+    {
+      "component_key": "pagerow-d3c88c67",
+      "scenario_key": "selected",
+      "checkpoint_key": "default",
+      "source_binding": {
+        "file": "src/components/ui/destination-picker/page-row.tsx",
+        "export_name": "PageRow"
+      },
+      "storybook_story_id": "components-pagerow--selected",
+      "required": true,
+      "checks": [
+        {
+          "kind": "text",
+          "selector": "[role=button]",
+          "includes": "Deployment runbook"
+        }
+      ]
+    },
+    {
+      "component_key": "pagerow-d3c88c67",
+      "scenario_key": "excluded",
+      "checkpoint_key": "default",
+      "source_binding": {
+        "file": "src/components/ui/destination-picker/page-row.tsx",
+        "export_name": "PageRow"
+      },
+      "storybook_story_id": "components-pagerow--excluded",
+      "required": true,
+      "checks": [
+        {
+          "kind": "attribute",
+          "selector": "[role=button]",
+          "name": "aria-disabled",
+          "equals": "true"
+        }
+      ]
+    },
+    {
+      "component_key": "pagechildren-be64347e",
+      "scenario_key": "child-pages",
+      "checkpoint_key": "default",
+      "source_binding": {
+        "file": "src/components/ui/destination-picker/page-children.tsx",
+        "export_name": "PageChildren"
+      },
+      "storybook_story_id": "components-pagechildren--child-pages",
+      "required": true,
+      "checks": [
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Local development setup"
+        }
+      ]
+    },
+    {
+      "component_key": "pagechildren-be64347e",
+      "scenario_key": "empty",
+      "checkpoint_key": "default",
+      "source_binding": {
+        "file": "src/components/ui/destination-picker/page-children.tsx",
+        "export_name": "PageChildren"
+      },
+      "storybook_story_id": "components-pagechildren--empty",
+      "required": true,
+      "checks": [
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "No pages inside"
+        }
+      ]
+    },
+    {
+      "component_key": "settingssidebar-faed8373",
+      "scenario_key": "api-management-active",
+      "checkpoint_key": "default",
+      "source_binding": {
+        "file": "src/components/settings/settings-sidebar.tsx",
+        "export_name": "SettingsSidebar"
+      },
+      "storybook_story_id": "components-settingssidebar--api-management-active",
+      "required": true,
+      "checks": [
+        {
+          "kind": "attribute",
+          "selector": "a[data-active]",
+          "name": "href",
+          "equals": "/settings/api-keys"
+        }
+      ]
+    },
+    {
+      "component_key": "appversion-3f257d98",
+      "scenario_key": "update-available",
+      "checkpoint_key": "default",
+      "source_binding": {
+        "file": "src/components/settings/app-version.tsx",
+        "export_name": "AppVersion"
+      },
+      "storybook_story_id": "components-appversion--update-available",
+      "required": true,
+      "checks": [
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "New update"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "v0.23.2"
+        }
+      ]
+    },
+    {
+      "component_key": "aichatreadonly-450ae597",
+      "scenario_key": "without-access",
+      "checkpoint_key": "default",
+      "source_binding": {
+        "file": "src/ee/ai-chat/components/ai-chat-read-only.tsx",
+        "export_name": "AiChatReadOnly"
+      },
+      "storybook_story_id": "components-aichatreadonly--without-access",
+      "required": true,
+      "checks": [
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Enterprise"
+        },
+        {
+          "kind": "attribute",
+          "selector": "input[aria-label=\"Toggle AI Chat read-only mode\"]",
+          "name": "disabled",
+          "equals": ""
+        }
+      ]
+    },
+    {
+      "component_key": "aichatworkspaceknowledgeonly-6974b981",
+      "scenario_key": "without-access",
+      "checkpoint_key": "default",
+      "source_binding": {
+        "file": "src/ee/ai-chat/components/ai-chat-workspace-knowledge-only.tsx",
+        "export_name": "AiChatWorkspaceKnowledgeOnly"
+      },
+      "storybook_story_id": "components-aichatworkspaceknowledgeonly--without-access",
+      "required": true,
+      "checks": [
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Enterprise"
+        },
+        {
+          "kind": "attribute",
+          "selector": "input[aria-label=\"Toggle workspace knowledge only\"]",
+          "name": "disabled",
+          "equals": ""
+        }
+      ]
+    },
+    {
+      "component_key": "enableaichat-e8df4ee1",
+      "scenario_key": "without-access",
+      "checkpoint_key": "default",
+      "source_binding": {
+        "file": "src/ee/ai-chat/components/enable-ai-chat.tsx",
+        "export_name": "EnableAiChat"
+      },
+      "storybook_story_id": "components-enableaichat--without-access",
+      "required": true,
+      "checks": [
+        {
+          "kind": "attribute",
+          "selector": "input[aria-label=\"Toggle AI Chat\"]",
+          "name": "disabled",
+          "equals": ""
+        }
+      ]
+    },
+    {
+      "component_key": "chattoolresult-5587288f",
+      "scenario_key": "expanded",
+      "checkpoint_key": "default",
+      "source_binding": {
+        "file": "src/ee/ai-chat/components/chat-tool-result.tsx",
+        "export_name": "ChatToolResult"
+      },
+      "storybook_story_id": "components-chattoolresult--expanded",
+      "required": true,
+      "checks": [
+        {
+          "kind": "text",
+          "selector": "pre",
+          "includes": "deployment runbook"
+        }
+      ]
+    },
+    {
+      "component_key": "chattoolgroup-35f21ba1",
+      "scenario_key": "expanded",
+      "checkpoint_key": "default",
+      "source_binding": {
+        "file": "src/ee/ai-chat/components/chat-tool-group.tsx",
+        "export_name": "ChatToolGroup"
+      },
+      "storybook_story_id": "components-chattoolgroup--expanded",
+      "required": true,
+      "checks": [
+        {
+          "kind": "attribute",
+          "selector": "[role=button]",
+          "name": "aria-expanded",
+          "equals": "true"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Read page"
+        }
+      ]
+    },
+    {
+      "component_key": "chattoolgroup-35f21ba1",
+      "scenario_key": "streaming",
+      "checkpoint_key": "default",
+      "source_binding": {
+        "file": "src/ee/ai-chat/components/chat-tool-group.tsx",
+        "export_name": "ChatToolGroup"
+      },
+      "storybook_story_id": "components-chattoolgroup--streaming",
+      "required": true,
+      "checks": [
+        {
+          "kind": "text",
+          "selector": "[role=button]",
+          "includes": "Searched pages\u2026"
+        }
+      ]
+    },
+    {
+      "component_key": "asidechathistory-75825a5c",
+      "scenario_key": "empty",
+      "checkpoint_key": "default",
+      "source_binding": {
+        "file": "src/ee/ai-chat/components/aside-chat-history.tsx",
+        "export_name": "AsideChatHistory"
+      },
+      "storybook_story_id": "components-asidechathistory--empty",
+      "required": true,
+      "checks": [
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "No chat history"
+        }
+      ]
+    },
+    {
+      "component_key": "chatmessage-c4e7ef23",
+      "scenario_key": "user-message",
+      "checkpoint_key": "default",
+      "source_binding": {
+        "file": "src/ee/ai-chat/components/chat-message.tsx",
+        "export_name": "ChatMessage"
+      },
+      "storybook_story_id": "components-chatmessage--user-message",
+      "required": true,
+      "checks": [
+        {
+          "kind": "text",
+          "selector": "[role=article]",
+          "includes": "Summarize the deployment runbook"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "release-checklist.pdf"
+        }
+      ]
+    },
+    {
+      "component_key": "chatmessage-c4e7ef23",
+      "scenario_key": "streaming",
+      "checkpoint_key": "default",
+      "source_binding": {
+        "file": "src/ee/ai-chat/components/chat-message.tsx",
+        "export_name": "ChatMessage"
+      },
+      "storybook_story_id": "components-chatmessage--streaming",
+      "required": true,
+      "checks": [
+        {
+          "kind": "text",
+          "selector": "strong",
+          "includes": "Deployment runbook"
+        }
+      ]
+    },
+    {
+      "component_key": "chatmessagelist-6155b13c",
+      "scenario_key": "streaming",
+      "checkpoint_key": "default",
+      "source_binding": {
+        "file": "src/ee/ai-chat/components/chat-message-list.tsx",
+        "export_name": "ChatMessageList"
+      },
+      "storybook_story_id": "components-chatmessagelist--streaming",
+      "required": true,
+      "checks": [
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Here is a summary"
+        }
+      ]
+    },
+    {
+      "component_key": "chatinput-f883624f",
+      "scenario_key": "with-page-context",
+      "checkpoint_key": "default",
+      "source_binding": {
+        "file": "src/ee/ai-chat/components/chat-input.tsx",
+        "export_name": "ChatInput"
+      },
+      "storybook_story_id": "components-chatinput--with-page-context",
+      "required": true,
+      "checks": [
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Deployment runbook"
+        }
+      ]
+    },
+    {
+      "component_key": "chatinput-f883624f",
+      "scenario_key": "streaming",
+      "checkpoint_key": "default",
+      "source_binding": {
+        "file": "src/ee/ai-chat/components/chat-input.tsx",
+        "export_name": "ChatInput"
+      },
+      "storybook_story_id": "components-chatinput--streaming",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": ".ProseMirror"
+        }
+      ]
+    },
+    {
+      "component_key": "aichatsidebaritem-e48759c8",
+      "scenario_key": "active",
+      "checkpoint_key": "default",
+      "source_binding": {
+        "file": "src/ee/ai-chat/components/ai-chat-sidebar-item.tsx",
+        "export_name": "AiChatSidebarItem"
+      },
+      "storybook_story_id": "components-aichatsidebaritem--active",
+      "required": true,
+      "checks": [
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Summarize the deployment runbook"
+        }
+      ]
+    },
+    {
+      "component_key": "aichat-4b317094",
+      "scenario_key": "existing-chat",
+      "checkpoint_key": "default",
+      "source_binding": {
+        "file": "src/ee/ai-chat/pages/ai-chat.tsx",
+        "export_name": "AiChat"
+      },
+      "storybook_story_id": "components-aichat--existing-chat",
+      "required": true,
+      "checks": [
+        {
+          "kind": "count",
+          "selector": "[role=article]",
+          "equals": 2
+        },
+        {
+          "kind": "visible",
+          "selector": ".ProseMirror"
+        }
+      ]
+    },
+    {
+      "component_key": "apikeytable-080fc42e",
+      "scenario_key": "with-user-column",
+      "checkpoint_key": "default",
+      "source_binding": {
+        "file": "src/ee/api-key/components/api-key-table.tsx",
+        "export_name": "ApiKeyTable"
+      },
+      "storybook_story_id": "components-apikeytable--with-user-column",
+      "required": true,
+      "checks": [
+        {
+          "kind": "text",
+          "selector": "thead",
+          "includes": "User"
+        },
+        {
+          "kind": "text",
+          "selector": "tbody",
+          "includes": "Jane Cooper"
+        }
+      ]
+    },
+    {
+      "component_key": "apikeytable-080fc42e",
+      "scenario_key": "empty",
+      "checkpoint_key": "default",
+      "source_binding": {
+        "file": "src/ee/api-key/components/api-key-table.tsx",
+        "export_name": "ApiKeyTable"
+      },
+      "storybook_story_id": "components-apikeytable--empty",
+      "required": true,
+      "checks": [
+        {
+          "kind": "count",
+          "selector": "tbody tr",
+          "equals": 1
+        }
+      ]
+    },
+    {
+      "component_key": "restrictapitoadmins-82e3dfc7",
+      "scenario_key": "restricted",
+      "checkpoint_key": "default",
+      "source_binding": {
+        "file": "src/ee/api-key/components/restrict-api-to-admins.tsx",
+        "export_name": "RestrictApiToAdmins"
+      },
+      "storybook_story_id": "components-restrictapitoadmins--restricted",
+      "required": true,
+      "checks": [
+        {
+          "kind": "count",
+          "selector": "input[aria-label=\"Toggle restrict API keys to admins\"]:checked",
+          "equals": 1
+        }
+      ]
+    },
+    {
+      "component_key": "aisettings-904df232",
+      "scenario_key": "mcp-tab",
+      "checkpoint_key": "default",
+      "source_binding": {
+        "file": "src/ee/ai/pages/ai-settings.tsx",
+        "export_name": "AiSettings"
+      },
+      "storybook_story_id": "components-aisettings--mcp-tab",
+      "required": true,
+      "checks": [
+        {
+          "kind": "attribute",
+          "selector": "[role=tab][aria-selected=true]",
+          "name": "aria-selected",
+          "equals": "true"
+        },
+        {
+          "kind": "visible",
+          "selector": "[role=tabpanel] input[readonly]"
+        }
+      ]
+    },
+    {
+      "component_key": "mcpsettings-47d02d4a",
+      "scenario_key": "without-access",
+      "checkpoint_key": "default",
+      "source_binding": {
+        "file": "src/ee/ai/components/mcp-settings.tsx",
+        "export_name": "McpSettings"
+      },
+      "storybook_story_id": "components-mcpsettings--without-access",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "[role=alert]"
+        },
+        {
+          "kind": "count",
+          "selector": "input:disabled",
+          "equals": 1
+        }
+      ]
+    },
+    {
+      "component_key": "enableaisearch-b54173aa",
+      "scenario_key": "without-access",
+      "checkpoint_key": "default",
+      "source_binding": {
+        "file": "src/ee/ai/components/enable-ai-search.tsx",
+        "export_name": "EnableAiSearch"
+      },
+      "storybook_story_id": "components-enableaisearch--without-access",
+      "required": true,
+      "checks": [
+        {
+          "kind": "count",
+          "selector": "input:disabled",
+          "equals": 1
+        }
+      ]
+    },
+    {
+      "component_key": "enablegenerativeai-cbe3f085",
+      "scenario_key": "without-access",
+      "checkpoint_key": "default",
+      "source_binding": {
+        "file": "src/ee/ai/components/enable-generative-ai.tsx",
+        "export_name": "EnableGenerativeAi"
+      },
+      "storybook_story_id": "components-enablegenerativeai--without-access",
+      "required": true,
+      "checks": [
+        {
+          "kind": "count",
+          "selector": "input:disabled",
+          "equals": 1
+        }
+      ]
+    },
+    {
+      "component_key": "aisearchresult-759d8a44",
+      "scenario_key": "loading",
+      "checkpoint_key": "default",
+      "source_binding": {
+        "file": "src/ee/ai/components/ai-search-result.tsx",
+        "export_name": "AiSearchResult"
+      },
+      "storybook_story_id": "components-aisearchresult--loading",
+      "required": true,
+      "checks": [
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "AI is thinking..."
+        }
+      ]
+    },
+    {
+      "component_key": "aisearchresult-759d8a44",
+      "scenario_key": "streaming",
+      "checkpoint_key": "default",
+      "source_binding": {
+        "file": "src/ee/ai/components/ai-search-result.tsx",
+        "export_name": "AiSearchResult"
+      },
+      "storybook_story_id": "components-aisearchresult--streaming",
+      "required": true,
+      "checks": [
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "merge your change"
+        },
+        {
+          "kind": "count",
+          "selector": "a[href^=\"/s/engineering/p/\"]",
+          "equals": 1
+        }
+      ]
+    },
+    {
+      "component_key": "resultpreview-cd009747",
+      "scenario_key": "generating",
+      "checkpoint_key": "default",
+      "source_binding": {
+        "file": "src/ee/ai/components/editor/ai-menu/result-preview.tsx",
+        "export_name": "ResultPreview"
+      },
+      "storybook_story_id": "components-resultpreview--generating",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": ".mantine-Loader-root"
+        }
+      ]
+    },
+    {
+      "component_key": "commandselector-25963d60",
+      "scenario_key": "result-actions",
+      "checkpoint_key": "default",
+      "source_binding": {
+        "file": "src/ee/ai/components/editor/ai-menu/command-selector.tsx",
+        "export_name": "CommandSelector"
+      },
+      "storybook_story_id": "components-commandselector--result-actions",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "[role=menu]",
+          "text": "Insert below"
+        },
+        {
+          "kind": "count",
+          "selector": "[role=menuitem]",
+          "equals": 5
+        }
+      ]
+    },
+    {
+      "component_key": "commandselector-25963d60",
+      "scenario_key": "change-tone",
+      "checkpoint_key": "default",
+      "source_binding": {
+        "file": "src/ee/ai/components/editor/ai-menu/command-selector.tsx",
+        "export_name": "CommandSelector"
+      },
+      "storybook_story_id": "components-commandselector--change-tone",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "[role=menu]",
+          "text": "Professional"
         }
       ]
     }
