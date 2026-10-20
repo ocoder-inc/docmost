@@ -14,7 +14,7 @@ interface CopyProps {
 export default function CopyTextButton({ text, size, label }: CopyProps) {
   const { t } = useTranslation();
 
-  const copyLabel = label ?? t("Copy");
+  const copyLabel = label ?? t("Copy this thang");
 
   return (
     <CopyButton value={text} timeout={2000}>
