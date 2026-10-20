@@ -5,6 +5,14 @@ import SettingsTitle from '@source/apps/client/src/components/settings/settings-
 const meta = {
   title: 'Components/SettingsTitle',
   component: SettingsTitle,
+  decorators: [
+    (Story) => (
+      <div style={{ maxWidth: 868 }}>
+        <Story />
+      </div>
+    ),
+  ],
+  args: { title: 'AI settings' },
 } satisfies Meta<typeof SettingsTitle>;
 export default meta;
 type Story = StoryObj<typeof meta>;

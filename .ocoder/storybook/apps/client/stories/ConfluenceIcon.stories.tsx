@@ -9,4 +9,7 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Default: Story = {};
+// The size the page import modal shows it at.
+export const Default: Story = {
+  args: { size: 18 },
+};

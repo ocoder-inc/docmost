@@ -1,10 +1,13 @@
 import type { Meta, StoryObj } from '@storybook/react-vite';
 
 import { UserInfo } from '@source/apps/client/src/components/common/user-info';
+import { user } from '../fixtures/data';
 
+// The avatar, name and email shown in member tables and on the OAuth consent page.
 const meta = {
   title: 'Components/UserInfo',
   component: UserInfo,
+  args: { user },
 } satisfies Meta<typeof UserInfo>;
 export default meta;
 type Story = StoryObj<typeof meta>;

@@ -26,6 +26,25 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Acme Inc."
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Onboarding guide"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Engineering"
+        },
+        {
+          "kind": "visible",
+          "selector": "header"
         }
       ]
     },
@@ -43,6 +62,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root button",
+          "text": "JC"
         }
       ]
     },
@@ -60,6 +84,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root button[aria-label=\"Copy\"]"
         }
       ]
     },
@@ -77,6 +105,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root button"
         }
       ]
     },
@@ -94,6 +126,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "[role=\"dialog\"]",
+          "text": "Include subpages"
         }
       ]
     },
@@ -111,6 +148,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "No results found..."
         }
       ]
     },
@@ -128,6 +170,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root svg"
         }
       ]
     },
@@ -145,6 +191,16 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root button",
+          "text": "Prev"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root button",
+          "text": "Next"
         }
       ]
     },
@@ -162,6 +218,21 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root tbody tr",
+          "equals": 5
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Onboarding guide"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Product"
         }
       ]
     },
@@ -179,6 +250,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root input[placeholder=\"Search members...\"]"
         }
       ]
     },
@@ -196,6 +271,16 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Jane Cooper"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "jane.cooper@acme.com"
         }
       ]
     },
@@ -213,6 +298,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root svg"
         }
       ]
     },
@@ -230,6 +319,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root svg"
         }
       ]
     },
@@ -247,6 +340,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root svg"
         }
       ]
     },
@@ -264,6 +361,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root svg"
         }
       ]
     },
@@ -281,6 +382,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root svg"
         }
       ]
     },
@@ -298,6 +403,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root svg"
         }
       ]
     },
@@ -315,6 +424,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root svg"
         }
       ]
     },
@@ -332,6 +445,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root svg"
         }
       ]
     },
@@ -349,6 +466,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root svg"
         }
       ]
     },
@@ -366,6 +487,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root svg"
         }
       ]
     },
@@ -383,6 +508,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root svg"
         }
       ]
     },
@@ -400,6 +529,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root svg"
         }
       ]
     },
@@ -417,6 +550,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root svg"
         }
       ]
     },
@@ -434,6 +571,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root svg"
         }
       ]
     },
@@ -451,6 +592,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root svg"
         }
       ]
     },
@@ -468,6 +613,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root svg"
         }
       ]
     },
@@ -485,6 +634,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root svg"
         }
       ]
     },
@@ -502,6 +655,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root svg"
         }
       ]
     },
@@ -519,6 +676,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root svg"
         }
       ]
     },
@@ -536,6 +697,21 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Docmost"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Acme Inc."
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "AI Chat"
         }
       ]
     },
@@ -553,6 +729,16 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "How can I help you today?"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Onboarding guide"
         }
       ]
     },
@@ -570,6 +756,20 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Favorite spaces"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Onboarding guide"
+        },
+        {
+          "kind": "visible",
+          "selector": "header"
         }
       ]
     },
@@ -587,6 +787,27 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Favorite spaces"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Engineering"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Marketing"
+        },
+        {
+          "kind": "attribute",
+          "selector": "#storybook-root a[href=\"/home\"]",
+          "name": "aria-current",
+          "equals": "page"
         }
       ]
     },
@@ -604,6 +825,20 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Acme Inc."
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Onboarding guide"
+        },
+        {
+          "kind": "visible",
+          "selector": "nav"
         }
       ]
     },
@@ -621,6 +856,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Acme Inc."
         }
       ]
     },
@@ -638,6 +878,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "v0.24.1"
         }
       ]
     },
@@ -655,6 +900,26 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Profile"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "API keys"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "AI settings"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "v0.24.1"
         }
       ]
     },
@@ -672,6 +937,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root h1",
+          "text": "AI settings"
         }
       ]
     },
@@ -689,6 +959,12 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "attribute",
+          "selector": "#storybook-root button",
+          "name": "aria-label",
+          "equals": "Toggle color scheme"
         }
       ]
     },
@@ -706,6 +982,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Engineering onboarding guide"
         }
       ]
     },
@@ -723,6 +1004,16 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root .mantine-Card-root",
+          "equals": 8
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Company Handbook"
         }
       ]
     },
@@ -740,6 +1031,17 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "[role=\"menuitemcheckbox\"]",
+          "equals": 3
+        },
+        {
+          "kind": "attribute",
+          "selector": "[role=\"menuitemcheckbox\"]",
+          "name": "aria-checked",
+          "equals": "true"
         }
       ]
     },
@@ -757,6 +1059,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "JC"
         }
       ]
     },
@@ -774,6 +1081,16 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "[role=\"dialog\"]",
+          "text": "Move page"
+        },
+        {
+          "kind": "count",
+          "selector": "[role=\"dialog\"] [data-space-id]",
+          "equals": 4
         }
       ]
     },
@@ -791,6 +1108,22 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root [data-space-id]",
+          "equals": 4
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Company Handbook"
+        },
+        {
+          "kind": "attribute",
+          "selector": "#storybook-root [data-space-id]",
+          "name": "aria-disabled",
+          "equals": "true"
         }
       ]
     },
@@ -808,6 +1141,21 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Onboarding guide"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Incident runbook"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root [role=\"button\"][tabindex]",
+          "equals": 3
         }
       ]
     },
@@ -825,6 +1173,15 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Onboarding guide"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root button[aria-label=\"Expand\"]"
         }
       ]
     },
@@ -842,6 +1199,15 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Engineering"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root button[aria-label=\"Expand\"]"
         }
       ]
     },
@@ -859,6 +1225,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "AI settings - Docmost"
         }
       ]
     },
@@ -876,6 +1247,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root button[aria-label=\"Pick emoji\"]"
         }
       ]
     },
@@ -893,6 +1268,16 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "No pages yet"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Pages you create will show up here."
         }
       ]
     },
@@ -910,6 +1295,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Page not found"
         }
       ]
     },
@@ -927,6 +1317,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root .mantine-Skeleton-root",
+          "equals": 13
         }
       ]
     },
@@ -944,6 +1339,17 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "[role=\"menuitemradio\"]",
+          "equals": 4
+        },
+        {
+          "kind": "attribute",
+          "selector": "[role=\"menuitemradio\"]",
+          "name": "aria-checked",
+          "equals": "true"
         }
       ]
     },
@@ -961,6 +1367,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Protect your account"
         }
       ]
     },
@@ -978,6 +1389,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root input[type=\"checkbox\"]"
         }
       ]
     },
@@ -995,6 +1410,16 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "2-step verification"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root button",
+          "text": "Add 2FA method"
         }
       ]
     },
@@ -1012,6 +1437,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root button",
+          "text": "Admin"
         }
       ]
     },
@@ -1029,6 +1459,12 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "attribute",
+          "selector": "#storybook-root button",
+          "name": "aria-expanded",
+          "equals": "true"
         }
       ]
     },
@@ -1046,6 +1482,12 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "attribute",
+          "selector": "#storybook-root a",
+          "name": "href",
+          "equals": "#main-content"
         }
       ]
     },
@@ -1063,6 +1505,16 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Summarize the Q4 roadmap in three bullet points."
+        },
+        {
+          "kind": "count",
+          "selector": "[role=\"article\"]",
+          "equals": 2
         }
       ]
     },
@@ -1080,6 +1532,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Read-only mode"
         }
       ]
     },
@@ -1097,6 +1554,15 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Summarize the Q4 roadmap"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root a[href^=\"/ai/chat/\"]"
         }
       ]
     },
@@ -1114,6 +1580,26 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "AI Chat"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Summarize the Q4 roadmap"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Untitled chat"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root a[href^=\"/ai/chat/\"]",
+          "equals": 5
         }
       ]
     },
@@ -1131,6 +1617,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Workspace knowledge only"
         }
       ]
     },
@@ -1148,6 +1639,22 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Summarize the Q4 roadmap"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "API pagination conventions"
+        },
+        {
+          "kind": "attribute",
+          "selector": "#storybook-root [data-active]",
+          "name": "data-active",
+          "equals": "true"
         }
       ]
     },
@@ -1165,6 +1672,21 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "How can I help you today?"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Onboarding guide"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Summarize this page"
         }
       ]
     },
@@ -1182,6 +1704,16 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "What can I help you with?"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Create a new page"
         }
       ]
     },
@@ -1199,6 +1731,10 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root .ProseMirror"
         }
       ]
     },
@@ -1216,6 +1752,16 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root [role=\"article\"]",
+          "equals": 2
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Platform"
         }
       ]
     },
@@ -1233,6 +1779,21 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Here is a summary of the"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Steps 2"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root li",
+          "equals": 3
         }
       ]
     },
@@ -1250,6 +1811,17 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Steps 2"
+        },
+        {
+          "kind": "attribute",
+          "selector": "#storybook-root [role=\"button\"]",
+          "name": "aria-expanded",
+          "equals": "false"
         }
       ]
     },
@@ -1267,6 +1839,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Searched pages"
         }
       ]
     },
@@ -1284,6 +1861,16 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "AI Chat"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Beta"
         }
       ]
     },
@@ -1301,6 +1888,20 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Summarize the Q4 roadmap in three bullet points."
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Q4 roadmap"
+        },
+        {
+          "kind": "visible",
+          "selector": "[role=\"article\"]"
         }
       ]
     },
@@ -1318,6 +1919,26 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "AI Answer"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Onboarding guide"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "API design guidelines"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Sources"
         }
       ]
     },
@@ -1335,6 +1956,20 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Incident runbook"
+        },
+        {
+          "kind": "visible",
+          "selector": "input[placeholder=\"Ask AI...\"]"
+        },
+        {
+          "kind": "text",
+          "selector": "body",
+          "includes": "Improve writing"
         }
       ]
     },
@@ -1352,6 +1987,20 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "input[placeholder=\"Ask AI...\"]"
+        },
+        {
+          "kind": "text",
+          "selector": "body",
+          "includes": "Improve writing"
+        },
+        {
+          "kind": "text",
+          "selector": "body",
+          "includes": "Change tone"
         }
       ]
     },
@@ -1369,6 +2018,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "acknowledges it within five minutes"
         }
       ]
     },
@@ -1386,6 +2040,16 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root input[type=\"checkbox\"]"
+        },
+        {
+          "kind": "attribute",
+          "selector": "#storybook-root input[type=\"checkbox\"]",
+          "name": "aria-label",
+          "equals": "Toggle AI search"
         }
       ]
     },
@@ -1403,6 +2067,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "AI-powered search (AI Answers)"
         }
       ]
     },
@@ -1420,6 +2089,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Generative AI (Ask AI)"
         }
       ]
     },
@@ -1437,6 +2111,21 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Model Context Protocol (MCP)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "MCP Server URL"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "search_pages, get_page"
         }
       ]
     },
@@ -1454,6 +2143,21 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "AI settings"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Generative AI (Ask AI)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Read-only mode"
         }
       ]
     },
@@ -1471,6 +2175,17 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "attribute",
+          "selector": "[role=\"dialog\"] input",
+          "name": "value",
+          "equals": "dm_live_8f3K2pQ9xV7mT4bN6cR1sW5yZ0aE3hJ2"
+        },
+        {
+          "kind": "visible",
+          "selector": "[role=\"dialog\"]",
+          "text": "Important"
         }
       ]
     },
@@ -1488,6 +2203,26 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root tbody tr",
+          "equals": 3
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "CI deploy bot"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Expired"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Never"
         }
       ]
     },
@@ -1505,6 +2240,14 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "[role=\"dialog\"]"
+        },
+        {
+          "kind": "visible",
+          "selector": "[role=\"dialog\"] input"
         }
       ]
     },
@@ -1522,6 +2265,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Restrict API key creation to admins"
         }
       ]
     },
@@ -1539,6 +2287,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "[role=\"dialog\"]",
+          "text": "Zapier integration"
         }
       ]
     },
@@ -1556,6 +2309,16 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "[role=\"dialog\"]"
+        },
+        {
+          "kind": "attribute",
+          "selector": "[role=\"dialog\"] input",
+          "name": "value",
+          "equals": "CI deploy bot"
         }
       ]
     },
@@ -1573,6 +2336,1179 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "API keys"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root [id$=\"-panel-api-keys\"] tbody tr",
+          "equals": 3
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Zapier integration"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Create API Key"
+        }
+      ]
+    },
+    {
+      "component_key": "aichat-4b317094",
+      "scenario_key": "new-chat",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/ai-chat/pages/ai-chat.tsx",
+        "export_name": "AiChat"
+      },
+      "storybook_story_id": "components-aichat--new-chat",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "What can I help you with?"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Search across all pages"
+        }
+      ]
+    },
+    {
+      "component_key": "aichatlayout-1e1329cf",
+      "scenario_key": "empty",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/ai-chat/components/ai-chat-layout.tsx",
+        "export_name": "AiChatLayout"
+      },
+      "storybook_story_id": "components-aichatlayout--empty",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "What can I help you with?"
+        }
+      ]
+    },
+    {
+      "component_key": "aichatsidebar-81f7353b",
+      "scenario_key": "no-conversations",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/ai-chat/components/ai-chat-sidebar.tsx",
+        "export_name": "AiChatSidebar"
+      },
+      "storybook_story_id": "components-aichatsidebar--no-conversations",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "No conversations yet"
+        }
+      ]
+    },
+    {
+      "component_key": "aichatsidebaritem-e48759c8",
+      "scenario_key": "active",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/ai-chat/components/ai-chat-sidebar-item.tsx",
+        "export_name": "AiChatSidebarItem"
+      },
+      "storybook_story_id": "components-aichatsidebaritem--active",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "attribute",
+          "selector": "#storybook-root a",
+          "name": "data-active",
+          "equals": "true"
+        }
+      ]
+    },
+    {
+      "component_key": "aichatsidebaritem-e48759c8",
+      "scenario_key": "untitled",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/ai-chat/components/ai-chat-sidebar-item.tsx",
+        "export_name": "AiChatSidebarItem"
+      },
+      "storybook_story_id": "components-aichatsidebaritem--untitled",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Untitled chat"
+        }
+      ]
+    },
+    {
+      "component_key": "chatinput-f883624f",
+      "scenario_key": "with-context-page",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/ai-chat/components/chat-input.tsx",
+        "export_name": "ChatInput"
+      },
+      "storybook_story_id": "components-chatinput--with-context-page",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root .ProseMirror"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Onboarding guide"
+        }
+      ]
+    },
+    {
+      "component_key": "chatinput-f883624f",
+      "scenario_key": "streaming",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/ai-chat/components/chat-input.tsx",
+        "export_name": "ChatInput"
+      },
+      "storybook_story_id": "components-chatinput--streaming",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root .ProseMirror"
+        }
+      ]
+    },
+    {
+      "component_key": "chatmessage-c4e7ef23",
+      "scenario_key": "user-message",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/ai-chat/components/chat-message.tsx",
+        "export_name": "ChatMessage"
+      },
+      "storybook_story_id": "components-chatmessage--user-message",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Summarize the Q4 roadmap in three bullet points."
+        }
+      ]
+    },
+    {
+      "component_key": "chatmessage-c4e7ef23",
+      "scenario_key": "streaming",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/ai-chat/components/chat-message.tsx",
+        "export_name": "ChatMessage"
+      },
+      "storybook_story_id": "components-chatmessage--streaming",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Steps 2"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "ship semantic search"
+        }
+      ]
+    },
+    {
+      "component_key": "chatmessagelist-6155b13c",
+      "scenario_key": "streaming",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/ai-chat/components/chat-message-list.tsx",
+        "export_name": "ChatMessageList"
+      },
+      "storybook_story_id": "components-chatmessagelist--streaming",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Summarize the Q4 roadmap in three bullet points."
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Thinking"
+        }
+      ]
+    },
+    {
+      "component_key": "chattoolgroup-35f21ba1",
+      "scenario_key": "running",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/ai-chat/components/chat-tool-group.tsx",
+        "export_name": "ChatToolGroup"
+      },
+      "storybook_story_id": "components-chattoolgroup--running",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Read page"
+        }
+      ]
+    },
+    {
+      "component_key": "aisearchresult-759d8a44",
+      "scenario_key": "thinking",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/ai/components/ai-search-result.tsx",
+        "export_name": "AiSearchResult"
+      },
+      "storybook_story_id": "components-aisearchresult--thinking",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "AI is thinking..."
+        }
+      ]
+    },
+    {
+      "component_key": "aisearchtoggle-2d1fb191",
+      "scenario_key": "with-label",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/ai/components/enable-ai-search.tsx",
+        "export_name": "AiSearchToggle"
+      },
+      "storybook_story_id": "components-aisearchtoggle--with-label",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Ask AI"
+        }
+      ]
+    },
+    {
+      "component_key": "aisettings-904df232",
+      "scenario_key": "mcp",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/ai/pages/ai-settings.tsx",
+        "export_name": "AiSettings"
+      },
+      "storybook_story_id": "components-aisettings--mcp",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Model Context Protocol (MCP)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "MCP Server URL"
+        }
+      ]
+    },
+    {
+      "component_key": "aichatreadonly-450ae597",
+      "scenario_key": "upgrade-required",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/ai-chat/components/ai-chat-read-only.tsx",
+        "export_name": "AiChatReadOnly"
+      },
+      "storybook_story_id": "components-aichatreadonly--upgrade-required",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Enterprise"
+        }
+      ]
+    },
+    {
+      "component_key": "aichatworkspaceknowledgeonly-6974b981",
+      "scenario_key": "upgrade-required",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/ai-chat/components/ai-chat-workspace-knowledge-only.tsx",
+        "export_name": "AiChatWorkspaceKnowledgeOnly"
+      },
+      "storybook_story_id": "components-aichatworkspaceknowledgeonly--upgrade-required",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Enterprise"
+        }
+      ]
+    },
+    {
+      "component_key": "enableaichat-e8df4ee1",
+      "scenario_key": "upgrade-required",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/ai-chat/components/enable-ai-chat.tsx",
+        "export_name": "EnableAiChat"
+      },
+      "storybook_story_id": "components-enableaichat--upgrade-required",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root input[type=\"checkbox\"]:disabled"
+        }
+      ]
+    },
+    {
+      "component_key": "enableaisearch-b54173aa",
+      "scenario_key": "upgrade-required",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/ai/components/enable-ai-search.tsx",
+        "export_name": "EnableAiSearch"
+      },
+      "storybook_story_id": "components-enableaisearch--upgrade-required",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root input[type=\"checkbox\"]:disabled"
+        }
+      ]
+    },
+    {
+      "component_key": "enablegenerativeai-cbe3f085",
+      "scenario_key": "upgrade-required",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/ai/components/enable-generative-ai.tsx",
+        "export_name": "EnableGenerativeAi"
+      },
+      "storybook_story_id": "components-enablegenerativeai--upgrade-required",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root input[type=\"checkbox\"]:disabled"
+        }
+      ]
+    },
+    {
+      "component_key": "mcpsettings-47d02d4a",
+      "scenario_key": "upgrade-required",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/ai/components/mcp-settings.tsx",
+        "export_name": "McpSettings"
+      },
+      "storybook_story_id": "components-mcpsettings--upgrade-required",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "MCP is only available in the Docmost enterprise edition"
+        }
+      ]
+    },
+    {
+      "component_key": "restrictapitoadmins-82e3dfc7",
+      "scenario_key": "upgrade-required",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/api-key/components/restrict-api-to-admins.tsx",
+        "export_name": "RestrictApiToAdmins"
+      },
+      "storybook_story_id": "components-restrictapitoadmins--upgrade-required",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root input[type=\"checkbox\"]:disabled"
+        }
+      ]
+    },
+    {
+      "component_key": "commandselector-25963d60",
+      "scenario_key": "tone",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/ai/components/editor/ai-menu/command-selector.tsx",
+        "export_name": "CommandSelector"
+      },
+      "storybook_story_id": "components-commandselector--tone",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "[role=\"menu\"]"
+        }
+      ]
+    },
+    {
+      "component_key": "resultpreview-cd009747",
+      "scenario_key": "generating",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/ai/components/editor/ai-menu/result-preview.tsx",
+        "export_name": "ResultPreview"
+      },
+      "storybook_story_id": "components-resultpreview--generating",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "When an alert fires"
+        }
+      ]
+    },
+    {
+      "component_key": "apikeytable-080fc42e",
+      "scenario_key": "with-user-column",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/api-key/components/api-key-table.tsx",
+        "export_name": "ApiKeyTable"
+      },
+      "storybook_story_id": "components-apikeytable--with-user-column",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Jane Cooper"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "User"
+        }
+      ]
+    },
+    {
+      "component_key": "apikeytable-080fc42e",
+      "scenario_key": "empty",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/ee/api-key/components/api-key-table.tsx",
+        "export_name": "ApiKeyTable"
+      },
+      "storybook_story_id": "components-apikeytable--empty",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "No results found..."
+        }
+      ]
+    },
+    {
+      "component_key": "globalappshell-ffc33a47",
+      "scenario_key": "settings",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/layouts/global/global-app-shell.tsx",
+        "export_name": "GlobalAppShell"
+      },
+      "storybook_story_id": "components-globalappshell--settings",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Profile"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "AI settings"
+        }
+      ]
+    },
+    {
+      "component_key": "appversion-3f257d98",
+      "scenario_key": "update-available",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/settings/app-version.tsx",
+        "export_name": "AppVersion"
+      },
+      "storybook_story_id": "components-appversion--update-available",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "New update"
+        }
+      ]
+    },
+    {
+      "component_key": "avataruploader-e42f82dd",
+      "scenario_key": "workspace-icon",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/common/avatar-uploader.tsx",
+        "export_name": "AvatarUploader"
+      },
+      "storybook_story_id": "components-avataruploader--workspace-icon",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root button",
+          "text": "AI"
+        }
+      ]
+    },
+    {
+      "component_key": "avataruploader-e42f82dd",
+      "scenario_key": "uploading",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/common/avatar-uploader.tsx",
+        "export_name": "AvatarUploader"
+      },
+      "storybook_story_id": "components-avataruploader--uploading",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root .mantine-Loader-root"
+        }
+      ]
+    },
+    {
+      "component_key": "copytextbutton-6a33294b",
+      "scenario_key": "with-label",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/common/copy.tsx",
+        "export_name": "CopyTextButton"
+      },
+      "storybook_story_id": "components-copytextbutton--with-label",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "attribute",
+          "selector": "#storybook-root button",
+          "name": "aria-label",
+          "equals": "Copy assistant response"
+        }
+      ]
+    },
+    {
+      "component_key": "exportmodal-24af0d7a",
+      "scenario_key": "space",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/common/export-modal.tsx",
+        "export_name": "ExportModal"
+      },
+      "storybook_story_id": "components-exportmodal--space",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "[role=\"dialog\"]",
+          "text": "Include attachments"
+        }
+      ]
+    },
+    {
+      "component_key": "notableresults-6977f6a3",
+      "scenario_key": "custom-text",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/common/no-table-results.tsx",
+        "export_name": "NoTableResults"
+      },
+      "storybook_story_id": "components-notableresults--custom-text",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "No API keys yet"
+        }
+      ]
+    },
+    {
+      "component_key": "pagelisticon-1c22816c",
+      "scenario_key": "emoji",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/common/page-list-icon.tsx",
+        "export_name": "PageListIcon"
+      },
+      "storybook_story_id": "components-pagelisticon--emoji",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "📐"
+        }
+      ]
+    },
+    {
+      "component_key": "pagelisticon-1c22816c",
+      "scenario_key": "base",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/common/page-list-icon.tsx",
+        "export_name": "PageListIcon"
+      },
+      "storybook_story_id": "components-pagelisticon--base",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root svg"
+        }
+      ]
+    },
+    {
+      "component_key": "paginate-a660a09f",
+      "scenario_key": "first-page",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/common/paginate.tsx",
+        "export_name": "Paginate"
+      },
+      "storybook_story_id": "components-paginate--first-page",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root button:disabled",
+          "text": "Prev"
+        }
+      ]
+    },
+    {
+      "component_key": "recentchanges-e7518728",
+      "scenario_key": "in-space",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/common/recent-changes.tsx",
+        "export_name": "RecentChanges"
+      },
+      "storybook_story_id": "components-recentchanges--in-space",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root tbody tr",
+          "equals": 5
+        }
+      ]
+    },
+    {
+      "component_key": "recentchanges-e7518728",
+      "scenario_key": "empty",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/common/recent-changes.tsx",
+        "export_name": "RecentChanges"
+      },
+      "storybook_story_id": "components-recentchanges--empty",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "No pages yet"
+        }
+      ]
+    },
+    {
+      "component_key": "autotooltiptext-7da6bf76",
+      "scenario_key": "short",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/ui/auto-tooltip-text.tsx",
+        "export_name": "AutoTooltipText"
+      },
+      "storybook_story_id": "components-autotooltiptext--short",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Q4 roadmap"
+        }
+      ]
+    },
+    {
+      "component_key": "customavatar-7ff9d399",
+      "scenario_key": "space-icon",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/ui/custom-avatar.tsx",
+        "export_name": "CustomAvatar"
+      },
+      "storybook_story_id": "components-customavatar--space-icon",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "EN"
+        }
+      ]
+    },
+    {
+      "component_key": "documenttitle-cd2d1517",
+      "scenario_key": "without-app-name",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/ui/document-title.tsx",
+        "export_name": "DocumentTitle"
+      },
+      "storybook_story_id": "components-documenttitle--without-app-name",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root code",
+          "text": "Onboarding guide"
+        }
+      ]
+    },
+    {
+      "component_key": "emojipicker-b61bcb72",
+      "scenario_key": "with-emoji",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/ui/emoji-picker.tsx",
+        "export_name": "EmojiPicker"
+      },
+      "storybook_story_id": "components-emojipicker--with-emoji",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "📐"
+        }
+      ]
+    },
+    {
+      "component_key": "emptystate-171e1bc7",
+      "scenario_key": "with-action",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/ui/empty-state.tsx",
+        "export_name": "EmptyState"
+      },
+      "storybook_story_id": "components-emptystate--with-action",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root button",
+          "text": "Try again"
+        }
+      ]
+    },
+    {
+      "component_key": "roleselectmenu-7d55e73c",
+      "scenario_key": "space-roles",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/ui/role-select-menu.tsx",
+        "export_name": "RoleSelectMenu"
+      },
+      "storybook_story_id": "components-roleselectmenu--space-roles",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root button",
+          "text": "Can edit"
+        }
+      ]
+    },
+    {
+      "component_key": "roleselectmenu-7d55e73c",
+      "scenario_key": "disabled",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/ui/role-select-menu.tsx",
+        "export_name": "RoleSelectMenu"
+      },
+      "storybook_story_id": "components-roleselectmenu--disabled",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root button:disabled",
+          "text": "Owner"
+        }
+      ]
+    },
+    {
+      "component_key": "sidebartoggle-11f819cf",
+      "scenario_key": "collapsed",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/ui/sidebar-toggle-button.tsx",
+        "export_name": "SidebarToggle"
+      },
+      "storybook_story_id": "components-sidebartoggle--collapsed",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "attribute",
+          "selector": "#storybook-root button",
+          "name": "aria-expanded",
+          "equals": "false"
+        }
+      ]
+    },
+    {
+      "component_key": "destinationpicker-324633df",
+      "scenario_key": "initial-space",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/ui/destination-picker/destination-picker.tsx",
+        "export_name": "DestinationPicker"
+      },
+      "storybook_story_id": "components-destinationpicker--initial-space",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root [data-space-id]",
+          "text": "Engineering"
+        }
+      ]
+    },
+    {
+      "component_key": "spacerow-127f697c",
+      "scenario_key": "selected",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/ui/destination-picker/space-row.tsx",
+        "export_name": "SpaceRow"
+      },
+      "storybook_story_id": "components-spacerow--selected",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "visible",
+          "selector": "#storybook-root [data-space-id]",
+          "text": "Engineering"
+        }
+      ]
+    },
+    {
+      "component_key": "spacerow-127f697c",
+      "scenario_key": "read-only",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/ui/destination-picker/space-row.tsx",
+        "export_name": "SpaceRow"
+      },
+      "storybook_story_id": "components-spacerow--read-only",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "attribute",
+          "selector": "#storybook-root [data-space-id]",
+          "name": "aria-disabled",
+          "equals": "true"
+        }
+      ]
+    },
+    {
+      "component_key": "pagerow-d3c88c67",
+      "scenario_key": "selected",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/ui/destination-picker/page-row.tsx",
+        "export_name": "PageRow"
+      },
+      "storybook_story_id": "components-pagerow--selected",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Incident runbook"
+        }
+      ]
+    },
+    {
+      "component_key": "pagerow-d3c88c67",
+      "scenario_key": "excluded",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/ui/destination-picker/page-row.tsx",
+        "export_name": "PageRow"
+      },
+      "storybook_story_id": "components-pagerow--excluded",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "attribute",
+          "selector": "#storybook-root [role=\"button\"]",
+          "name": "aria-disabled",
+          "equals": "true"
+        }
+      ]
+    },
+    {
+      "component_key": "pagechildren-be64347e",
+      "scenario_key": "empty-space",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/ui/destination-picker/page-children.tsx",
+        "export_name": "PageChildren"
+      },
+      "storybook_story_id": "components-pagechildren--empty-space",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "No pages in this space"
         }
       ]
     }
