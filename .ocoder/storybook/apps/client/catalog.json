@@ -110,6 +110,35 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "attribute",
+          "selector": "#storybook-root button",
+          "name": "aria-label",
+          "equals": "Copy API key"
+        }
+      ]
+    },
+    {
+      "component_key": "copytextbutton-6a33294b",
+      "scenario_key": "default-label",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "src/components/common/copy.tsx",
+        "export_name": "CopyTextButton"
+      },
+      "storybook_story_id": "components-copytextbutton--default-label",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "attribute",
+          "selector": "#storybook-root button",
+          "name": "aria-label",
+          "equals": "Copy this thang"
         }
       ]
     },
@@ -2870,7 +2899,7 @@
           "kind": "attribute",
           "selector": "#storybook-root button[aria-haspopup=\"menu\"]",
           "name": "aria-label",
-          "equals": "Acme Inc – Change workspace icon"
+          "equals": "Acme Inc \u2013 Change workspace icon"
         }
       ]
     },
@@ -3101,7 +3130,7 @@
         {
           "kind": "text",
           "selector": "#storybook-root",
-          "includes": "Read page…"
+          "includes": "Read page\u2026"
         }
       ]
     },
@@ -3216,7 +3245,7 @@
         {
           "kind": "visible",
           "selector": "#storybook-root button",
-          "text": "🚀"
+          "text": "\ud83d\ude80"
         }
       ]
     },
@@ -3491,7 +3520,7 @@
         {
           "kind": "text",
           "selector": "#storybook-root",
-          "includes": "🚀"
+          "includes": "\ud83d\ude80"
         }
       ]
     },
