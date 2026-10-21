@@ -1,0 +1,719 @@
+{
+  "schema_version": 1,
+  "target_id": "visual-preview",
+  "viewport": {
+    "viewport_key": "desktop",
+    "width": 1280,
+    "height": 800,
+    "device_scale_factor": 1
+  },
+  "themes": [
+    "light",
+    "dark"
+  ],
+  "cases": [
+    {
+      "component_key": "app-a2249dbe",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "apps/client/src/App.tsx",
+        "export_name": "App"
+      },
+      "storybook_story_id": "components-app--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Login"
+        },
+        {
+          "kind": "visible",
+          "selector": "input#email"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Sign In"
+        }
+      ]
+    },
+    {
+      "component_key": "avataruploader-e42f82dd",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "apps/client/src/components/common/avatar-uploader.tsx",
+        "export_name": "AvatarUploader"
+      },
+      "storybook_story_id": "components-avataruploader--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "copybutton-b757d092",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "apps/client/src/components/common/copy-button.tsx",
+        "export_name": "CopyButton"
+      },
+      "storybook_story_id": "components-copybutton--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Copy link"
+        }
+      ]
+    },
+    {
+      "component_key": "copytextbutton-6a33294b",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "apps/client/src/components/common/copy.tsx",
+        "export_name": "CopyTextButton"
+      },
+      "storybook_story_id": "components-copytextbutton--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "attribute",
+          "selector": "#storybook-root button",
+          "name": "aria-label",
+          "equals": "Copy"
+        }
+      ]
+    },
+    {
+      "component_key": "copytextbutton-6a33294b",
+      "scenario_key": "with-label",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "apps/client/src/components/common/copy.tsx",
+        "export_name": "CopyTextButton"
+      },
+      "storybook_story_id": "components-copytextbutton--with-label",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "attribute",
+          "selector": "#storybook-root button",
+          "name": "aria-label",
+          "equals": "Copy assistant response"
+        }
+      ]
+    },
+    {
+      "component_key": "exportmodal-24af0d7a",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "apps/client/src/components/common/export-modal.tsx",
+        "export_name": "ExportModal"
+      },
+      "storybook_story_id": "components-exportmodal--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Export page"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Include subpages"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Include attachments"
+        }
+      ]
+    },
+    {
+      "component_key": "exportmodal-24af0d7a",
+      "scenario_key": "space",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "apps/client/src/components/common/export-modal.tsx",
+        "export_name": "ExportModal"
+      },
+      "storybook_story_id": "components-exportmodal--space",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Export space"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Include attachments"
+        }
+      ]
+    },
+    {
+      "component_key": "notableresults-6977f6a3",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "apps/client/src/components/common/no-table-results.tsx",
+        "export_name": "NoTableResults"
+      },
+      "storybook_story_id": "components-notableresults--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "No results found..."
+        },
+        {
+          "kind": "attribute",
+          "selector": "#storybook-root tbody td",
+          "name": "colspan",
+          "equals": "4"
+        }
+      ]
+    },
+    {
+      "component_key": "notableresults-6977f6a3",
+      "scenario_key": "custom-text",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "apps/client/src/components/common/no-table-results.tsx",
+        "export_name": "NoTableResults"
+      },
+      "storybook_story_id": "components-notableresults--custom-text",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "No API keys yet"
+        }
+      ]
+    },
+    {
+      "component_key": "pagelisticon-1c22816c",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "apps/client/src/components/common/page-list-icon.tsx",
+        "export_name": "PageListIcon"
+      },
+      "storybook_story_id": "components-pagelisticon--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "paginate-a660a09f",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "apps/client/src/components/common/paginate.tsx",
+        "export_name": "Paginate"
+      },
+      "storybook_story_id": "components-paginate--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root button",
+          "equals": 2
+        },
+        {
+          "kind": "attribute",
+          "selector": "#storybook-root button:first-of-type",
+          "name": "disabled",
+          "equals": ""
+        }
+      ]
+    },
+    {
+      "component_key": "paginate-a660a09f",
+      "scenario_key": "middle-page",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "apps/client/src/components/common/paginate.tsx",
+        "export_name": "Paginate"
+      },
+      "storybook_story_id": "components-paginate--middle-page",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Prev"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Next"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root button:disabled",
+          "equals": 0
+        }
+      ]
+    },
+    {
+      "component_key": "recentchanges-e7518728",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "apps/client/src/components/common/recent-changes.tsx",
+        "export_name": "RecentChanges"
+      },
+      "storybook_story_id": "components-recentchanges--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root tbody tr",
+          "equals": 4
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Onboarding guide"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Engineering"
+        }
+      ]
+    },
+    {
+      "component_key": "searchinput-4aa0d700",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "apps/client/src/components/common/search-input.tsx",
+        "export_name": "SearchInput"
+      },
+      "storybook_story_id": "components-searchinput--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "attribute",
+          "selector": "#storybook-root input",
+          "name": "placeholder",
+          "equals": "Search..."
+        }
+      ]
+    },
+    {
+      "component_key": "searchinput-4aa0d700",
+      "scenario_key": "with-placeholder",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "apps/client/src/components/common/search-input.tsx",
+        "export_name": "SearchInput"
+      },
+      "storybook_story_id": "components-searchinput--with-placeholder",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "attribute",
+          "selector": "#storybook-root input",
+          "name": "aria-label",
+          "equals": "Search members"
+        }
+      ]
+    },
+    {
+      "component_key": "userinfo-1404fa2f",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "apps/client/src/components/common/user-info.tsx",
+        "export_name": "UserInfo"
+      },
+      "storybook_story_id": "components-userinfo--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "airtableicon-14aadcaa",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "apps/client/src/components/icons/airtable-icon.tsx",
+        "export_name": "AirtableIcon"
+      },
+      "storybook_story_id": "components-airtableicon--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "confluenceicon-24ec310f",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "apps/client/src/components/icons/confluence-icon.tsx",
+        "export_name": "ConfluenceIcon"
+      },
+      "storybook_story_id": "components-confluenceicon--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "figmaicon-9078bd14",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "apps/client/src/components/icons/figma-icon.tsx",
+        "export_name": "FigmaIcon"
+      },
+      "storybook_story_id": "components-figmaicon--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "framericon-66551287",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "apps/client/src/components/icons/framer-icon.tsx",
+        "export_name": "FramerIcon"
+      },
+      "storybook_story_id": "components-framericon--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "googledriveicon-f9fdb309",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "apps/client/src/components/icons/google-drive-icon.tsx",
+        "export_name": "GoogleDriveIcon"
+      },
+      "storybook_story_id": "components-googledriveicon--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "googleicon-75d06d75",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "apps/client/src/components/icons/google-icon.tsx",
+        "export_name": "GoogleIcon"
+      },
+      "storybook_story_id": "components-googleicon--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "googlesheetsicon-5d3f572b",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "apps/client/src/components/icons/google-sheets-icon.tsx",
+        "export_name": "GoogleSheetsIcon"
+      },
+      "storybook_story_id": "components-googlesheetsicon--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "iconcolumns4-ee90d69d",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "apps/client/src/components/icons/icon-columns-4.tsx",
+        "export_name": "IconColumns4"
+      },
+      "storybook_story_id": "components-iconcolumns4--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "iconcolumns5-1e2417d2",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "apps/client/src/components/icons/icon-columns-5.tsx",
+        "export_name": "IconColumns5"
+      },
+      "storybook_story_id": "components-iconcolumns5--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "icondrawio-cc18160c",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "apps/client/src/components/icons/icon-drawio.tsx",
+        "export_name": "IconDrawio"
+      },
+      "storybook_story_id": "components-icondrawio--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "iconexcalidraw-04d7985f",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "apps/client/src/components/icons/icon-excalidraw.tsx",
+        "export_name": "IconExcalidraw"
+      },
+      "storybook_story_id": "components-iconexcalidraw--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "iconmermaid-5f98157b",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "apps/client/src/components/icons/icon-mermaid.tsx",
+        "export_name": "IconMermaid"
+      },
+      "storybook_story_id": "components-iconmermaid--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "icongroupcircle-19afa51e",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "apps/client/src/components/icons/icon-people-circle.tsx",
+        "export_name": "IconGroupCircle"
+      },
+      "storybook_story_id": "components-icongroupcircle--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "loomicon-b33d9dcb",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "apps/client/src/components/icons/loom-icon.tsx",
+        "export_name": "LoomIcon"
+      },
+      "storybook_story_id": "components-loomicon--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "miroicon-6bca332b",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "apps/client/src/components/icons/miro-icon.tsx",
+        "export_name": "MiroIcon"
+      },
+      "storybook_story_id": "components-miroicon--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "openidicon-606c34ea",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "apps/client/src/components/icons/openid-icon.tsx",
+        "export_name": "OpenIdIcon"
+      },
+      "storybook_story_id": "components-openidicon--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "typeformicon-e4fa81aa",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "apps/client/src/components/icons/typeform-icon.tsx",
+        "export_name": "TypeformIcon"
+      },
+      "storybook_story_id": "components-typeformicon--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    },
+    {
+      "component_key": "vimeoicon-6a8cf3df",
+      "scenario_key": "default",
+      "checkpoint_key": "settled",
+      "source_binding": {
+        "file": "apps/client/src/components/icons/vimeo-icon.tsx",
+        "export_name": "VimeoIcon"
+      },
+      "storybook_story_id": "components-vimeoicon--default",
+      "required": true,
+      "checks": [
+        {
+          "kind": "visible",
+          "selector": "#storybook-root > :not(style):not(script)"
+        }
+      ]
+    }
+  ]
+}
