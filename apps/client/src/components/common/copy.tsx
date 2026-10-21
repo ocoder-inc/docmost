@@ -20,18 +20,18 @@ export default function CopyTextButton({ text, size, label }: CopyProps) {
     <CopyButton value={text} timeout={2000}>
       {({ copied, copy }) => (
         <Tooltip
-          label={copied ? t("Copied More") : copyLabel}
+          label={copied ? t("Copied") : copyLabel}
           withArrow
           position="right"
         >
           <ActionIcon
-            color={copied ? "teal" : "gray"}
+            color={copied ? "red" : "blue"}
             variant="subtle"
             onClick={copy}
             size={size}
             aria-label={copied ? t("Copied") : copyLabel}
           >
-            {copied ? <IconCheck size={16} /> : <IconCopy size={16} />}
+            {copied ? <IconCheck size={64} /> : <IconCopy size={64} />}
           </ActionIcon>
         </Tooltip>
       )}
