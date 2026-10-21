@@ -1,0 +1,16 @@
+# Makes this folder its own pnpm workspace root. Without it, pnpm walks up to the customer's
+# pnpm-workspace.yaml and installs their whole workspace instead of this one.
+packages: []
+
+# Quarantine new releases for 8 days, matching Ocoder's own supply-chain posture.
+minimumReleaseAge: 11520
+
+# No dependency install scripts run, except for packages the project's settings allow.
+allowBuilds:
+  esbuild: false
+  core-js: false
+
+# Dependencies are installed once, before the harness runs, then the folder is copied for the
+# harness to work in. pnpm's check before every `pnpm run` treats the copy as stale and tries to
+# reinstall, which the harness cannot do: it has no network.
+verifyDepsBeforeRun: false
