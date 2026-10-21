@@ -1,0 +1,296 @@
+{
+  "generator_version": "ocoder-storybook-generator-v1",
+  "base_git_sha": "80fcae78535f380d5fda44cf4a4de17838b748de",
+  "app_dir": "apps/client",
+  "project_root": ".",
+  "unpinnable_dependencies": [],
+  "undeclared_imports": [],
+  "providers": [
+    "recipe:react-router",
+    "MantineProvider",
+    "ModalsProvider",
+    "recipe:react-query",
+    "HelmetProvider",
+    "PostHogProvider"
+  ],
+  "providers_skipped": [],
+  "stubbed_packages": [],
+  "entry_module": {
+    "path": "apps/client/src/main.tsx",
+    "source_sha256": "7e671949031e280c07bd1551de4f2dfb97545b622858bd60b014151a67a9e1c5"
+  },
+  "components": [
+    {
+      "stable_id": "cmp_74cbd6abce5e27adf1d85484",
+      "component_key": "app-a2249dbe",
+      "file_path": "apps/client/src/App.tsx",
+      "export_name": "App",
+      "story_id": "components-app--default",
+      "story_file": "stories/App.stories.tsx",
+      "source_sha256": "0bdc3eae9f0aa6b6ab22b5b9fae5620ba705d72ba13d156b328eec5936cdd960"
+    },
+    {
+      "stable_id": "cmp_1a813265188ae3fd18f85ab3",
+      "component_key": "avataruploader-e42f82dd",
+      "file_path": "apps/client/src/components/common/avatar-uploader.tsx",
+      "export_name": "AvatarUploader",
+      "story_id": "components-avataruploader--default",
+      "story_file": "stories/AvatarUploader.stories.tsx",
+      "source_sha256": "5a3e3aad4485be4ba9889c72bdfbf070d5ae0d286cb9baef85fe0b0afa612b43"
+    },
+    {
+      "stable_id": "cmp_a9db60d73ebb06ac780d7f38",
+      "component_key": "copybutton-b757d092",
+      "file_path": "apps/client/src/components/common/copy-button.tsx",
+      "export_name": "CopyButton",
+      "story_id": "components-copybutton--default",
+      "story_file": "stories/CopyButton.stories.tsx",
+      "source_sha256": "0dfe2d43d0bbecd45bda0ae8ca861f35e814aa1fc7c4d71b5165b2cae4e5bb75"
+    },
+    {
+      "stable_id": "cmp_29843ea44cb04ea3ea33c822",
+      "component_key": "copytextbutton-6a33294b",
+      "file_path": "apps/client/src/components/common/copy.tsx",
+      "export_name": "CopyTextButton",
+      "story_id": "components-copytextbutton--default",
+      "story_file": "stories/CopyTextButton.stories.tsx",
+      "source_sha256": "0bd72bd697f40e36df6e0f3abb39eb99acee96c2bb9381ab2a70cc839987367f"
+    },
+    {
+      "stable_id": "cmp_c4f74503d44ca5e9254ebc74",
+      "component_key": "exportmodal-24af0d7a",
+      "file_path": "apps/client/src/components/common/export-modal.tsx",
+      "export_name": "ExportModal",
+      "story_id": "components-exportmodal--default",
+      "story_file": "stories/ExportModal.stories.tsx",
+      "source_sha256": "90a3911b21942941bbc065cb15ab53dbfe12069a2eeab5780976ce51a297e067"
+    },
+    {
+      "stable_id": "cmp_54eb576807b7fbf957cee194",
+      "component_key": "notableresults-6977f6a3",
+      "file_path": "apps/client/src/components/common/no-table-results.tsx",
+      "export_name": "NoTableResults",
+      "story_id": "components-notableresults--default",
+      "story_file": "stories/NoTableResults.stories.tsx",
+      "source_sha256": "9aca0aa890b7d7320b28e9f6f09f3e25b09a3cebdffe1d648ad32af320993106"
+    },
+    {
+      "stable_id": "cmp_87804c09ef53640648255077",
+      "component_key": "pagelisticon-1c22816c",
+      "file_path": "apps/client/src/components/common/page-list-icon.tsx",
+      "export_name": "PageListIcon",
+      "story_id": "components-pagelisticon--default",
+      "story_file": "stories/PageListIcon.stories.tsx",
+      "source_sha256": "efbe07d3f088947dd36ac7d9b8aa34dffdf8d40f51cab3253f15b12f5e17e117"
+    },
+    {
+      "stable_id": "cmp_bf7fe516393528decff582ad",
+      "component_key": "paginate-a660a09f",
+      "file_path": "apps/client/src/components/common/paginate.tsx",
+      "export_name": "Paginate",
+      "story_id": "components-paginate--default",
+      "story_file": "stories/Paginate.stories.tsx",
+      "source_sha256": "a43dcc88786892d269a94f8eded6a7ee19fd88df792b9c2773412b37baaee2b2"
+    },
+    {
+      "stable_id": "cmp_2fba12d75ba7bd07722d0e80",
+      "component_key": "recentchanges-e7518728",
+      "file_path": "apps/client/src/components/common/recent-changes.tsx",
+      "export_name": "RecentChanges",
+      "story_id": "components-recentchanges--default",
+      "story_file": "stories/RecentChanges.stories.tsx",
+      "source_sha256": "edf3b13f7ae4bf1f827bf5f210aeb33fb77ffca9d9eb716ed22a5441ff072d60"
+    },
+    {
+      "stable_id": "cmp_4369f47950a549411df97172",
+      "component_key": "searchinput-4aa0d700",
+      "file_path": "apps/client/src/components/common/search-input.tsx",
+      "export_name": "SearchInput",
+      "story_id": "components-searchinput--default",
+      "story_file": "stories/SearchInput.stories.tsx",
+      "source_sha256": "c361d2119cc26c7460e9c5b5efe2d3c7524ea15ddb248160a2a94e61a41e89e2"
+    },
+    {
+      "stable_id": "cmp_d77733a64aa5c9598c14f671",
+      "component_key": "userinfo-1404fa2f",
+      "file_path": "apps/client/src/components/common/user-info.tsx",
+      "export_name": "UserInfo",
+      "story_id": "components-userinfo--default",
+      "story_file": "stories/UserInfo.stories.tsx",
+      "source_sha256": "81c6fd5eeece4bee5083ada00a10c582a514643a447cdcd8033bbbe796f2acf6"
+    },
+    {
+      "stable_id": "cmp_17be705a8bdfddaa4b6ba4ac",
+      "component_key": "airtableicon-14aadcaa",
+      "file_path": "apps/client/src/components/icons/airtable-icon.tsx",
+      "export_name": "AirtableIcon",
+      "story_id": "components-airtableicon--default",
+      "story_file": "stories/AirtableIcon.stories.tsx",
+      "source_sha256": "26245ab2f3ba8a626de319c6818a4e88893b42bd7c8ced7f9de42a65fe5ea1e4"
+    },
+    {
+      "stable_id": "cmp_7897de32d734ed851073db43",
+      "component_key": "confluenceicon-24ec310f",
+      "file_path": "apps/client/src/components/icons/confluence-icon.tsx",
+      "export_name": "ConfluenceIcon",
+      "story_id": "components-confluenceicon--default",
+      "story_file": "stories/ConfluenceIcon.stories.tsx",
+      "source_sha256": "3fe136e4352693d46a19b4a8b5219eeec2d0acb96efd0fd82401cff5bbbe538c"
+    },
+    {
+      "stable_id": "cmp_77020c211197d3c6e2a5fc2e",
+      "component_key": "figmaicon-9078bd14",
+      "file_path": "apps/client/src/components/icons/figma-icon.tsx",
+      "export_name": "FigmaIcon",
+      "story_id": "components-figmaicon--default",
+      "story_file": "stories/FigmaIcon.stories.tsx",
+      "source_sha256": "be25fd0242e3c098057c41b15444afb8fd3b57b852e7c5f962d5cdb45eb0efe1"
+    },
+    {
+      "stable_id": "cmp_e9ca410df6050ed34ac08e49",
+      "component_key": "framericon-66551287",
+      "file_path": "apps/client/src/components/icons/framer-icon.tsx",
+      "export_name": "FramerIcon",
+      "story_id": "components-framericon--default",
+      "story_file": "stories/FramerIcon.stories.tsx",
+      "source_sha256": "c5a7591b41271d4de81f74445ba10cff8feb968e5925480f899b3cbf95836908"
+    },
+    {
+      "stable_id": "cmp_f65f0491185317f6ccdc65fd",
+      "component_key": "googledriveicon-f9fdb309",
+      "file_path": "apps/client/src/components/icons/google-drive-icon.tsx",
+      "export_name": "GoogleDriveIcon",
+      "story_id": "components-googledriveicon--default",
+      "story_file": "stories/GoogleDriveIcon.stories.tsx",
+      "source_sha256": "09c017e87b8e4d87fed5d69ebe3cf00ae9fc5af599f3a94e6cae943c8530ef4d"
+    },
+    {
+      "stable_id": "cmp_886fe18ad995051339ad67c6",
+      "component_key": "googleicon-75d06d75",
+      "file_path": "apps/client/src/components/icons/google-icon.tsx",
+      "export_name": "GoogleIcon",
+      "story_id": "components-googleicon--default",
+      "story_file": "stories/GoogleIcon.stories.tsx",
+      "source_sha256": "c4e91f17f7e9b34286dc0c1a5cc32636000125d9b9f43a5d282559ee45b6f851"
+    },
+    {
+      "stable_id": "cmp_e5fc2017136aaf2d2c322ce2",
+      "component_key": "googlesheetsicon-5d3f572b",
+      "file_path": "apps/client/src/components/icons/google-sheets-icon.tsx",
+      "export_name": "GoogleSheetsIcon",
+      "story_id": "components-googlesheetsicon--default",
+      "story_file": "stories/GoogleSheetsIcon.stories.tsx",
+      "source_sha256": "d5393880d035a1ebc80bba26d622fff19ed6f6b88cb8496117b0296a83057784"
+    },
+    {
+      "stable_id": "cmp_6d5fd620e66085bf340fc9f0",
+      "component_key": "iconcolumns4-ee90d69d",
+      "file_path": "apps/client/src/components/icons/icon-columns-4.tsx",
+      "export_name": "IconColumns4",
+      "story_id": "components-iconcolumns4--default",
+      "story_file": "stories/IconColumns4.stories.tsx",
+      "source_sha256": "b6ba06d3a4302487c5634eb591e290f5990a560e888c06480990fe335536b70c"
+    },
+    {
+      "stable_id": "cmp_fcf5770af68b3cc146e207db",
+      "component_key": "iconcolumns5-1e2417d2",
+      "file_path": "apps/client/src/components/icons/icon-columns-5.tsx",
+      "export_name": "IconColumns5",
+      "story_id": "components-iconcolumns5--default",
+      "story_file": "stories/IconColumns5.stories.tsx",
+      "source_sha256": "7aa05539ae77f5ea66ae11ea9045f59dc67be5ad6faa7b45cf703de60774551f"
+    },
+    {
+      "stable_id": "cmp_9383131bc49676ca62839a44",
+      "component_key": "icondrawio-cc18160c",
+      "file_path": "apps/client/src/components/icons/icon-drawio.tsx",
+      "export_name": "IconDrawio",
+      "story_id": "components-icondrawio--default",
+      "story_file": "stories/IconDrawio.stories.tsx",
+      "source_sha256": "bda2530c0134d0285e4f7bd71af3c5c53e22e941e1a8d8b304186d3ea24533db"
+    },
+    {
+      "stable_id": "cmp_54805cb58c8fb645a49972ef",
+      "component_key": "iconexcalidraw-04d7985f",
+      "file_path": "apps/client/src/components/icons/icon-excalidraw.tsx",
+      "export_name": "IconExcalidraw",
+      "story_id": "components-iconexcalidraw--default",
+      "story_file": "stories/IconExcalidraw.stories.tsx",
+      "source_sha256": "c20fe4bcba3a8ce32bdfe4735e7eaef4fd10e8d97b7f605adf68a8306c2d9abc"
+    },
+    {
+      "stable_id": "cmp_411ab81ffe52ed5438933e98",
+      "component_key": "iconmermaid-5f98157b",
+      "file_path": "apps/client/src/components/icons/icon-mermaid.tsx",
+      "export_name": "IconMermaid",
+      "story_id": "components-iconmermaid--default",
+      "story_file": "stories/IconMermaid.stories.tsx",
+      "source_sha256": "efc308e12719431288fa7c0c9a00fc748e527f7599ecb81130323b83554a4b2b"
+    },
+    {
+      "stable_id": "cmp_bbb3a6feb7de8af01ea4bcf5",
+      "component_key": "icongroupcircle-19afa51e",
+      "file_path": "apps/client/src/components/icons/icon-people-circle.tsx",
+      "export_name": "IconGroupCircle",
+      "story_id": "components-icongroupcircle--default",
+      "story_file": "stories/IconGroupCircle.stories.tsx",
+      "source_sha256": "dbc900f5d5cb9351c7cb76fdf349f3574af171df68e657f403255296d70c3eb9"
+    },
+    {
+      "stable_id": "cmp_0ddb1f48e7a161e060776106",
+      "component_key": "loomicon-b33d9dcb",
+      "file_path": "apps/client/src/components/icons/loom-icon.tsx",
+      "export_name": "LoomIcon",
+      "story_id": "components-loomicon--default",
+      "story_file": "stories/LoomIcon.stories.tsx",
+      "source_sha256": "de950dfe795e41ef4c5403e59fbb86a82b4a7cb5c6f7099f95cacd46249307f3"
+    },
+    {
+      "stable_id": "cmp_bab8ff10db636a9554e3d18d",
+      "component_key": "miroicon-6bca332b",
+      "file_path": "apps/client/src/components/icons/miro-icon.tsx",
+      "export_name": "MiroIcon",
+      "story_id": "components-miroicon--default",
+      "story_file": "stories/MiroIcon.stories.tsx",
+      "source_sha256": "02eafed537b8bab2e8062df70a01fc72b79e2820f4d872be7db9fd6e55c48f81"
+    },
+    {
+      "stable_id": "cmp_864ef4b1629273981a1a9396",
+      "component_key": "openidicon-606c34ea",
+      "file_path": "apps/client/src/components/icons/openid-icon.tsx",
+      "export_name": "OpenIdIcon",
+      "story_id": "components-openidicon--default",
+      "story_file": "stories/OpenIdIcon.stories.tsx",
+      "source_sha256": "1d078a8f376b40a0e546b0b504eed4ed2b5662ea98639a451f24400afef9156e"
+    },
+    {
+      "stable_id": "cmp_e21730b5ed4fe8330ff7a842",
+      "component_key": "typeformicon-e4fa81aa",
+      "file_path": "apps/client/src/components/icons/typeform-icon.tsx",
+      "export_name": "TypeformIcon",
+      "story_id": "components-typeformicon--default",
+      "story_file": "stories/TypeformIcon.stories.tsx",
+      "source_sha256": "d2dd63b7f941bc4422779fb4b7428888b61771ac6e0cc11de62dd480eba6990a"
+    },
+    {
+      "stable_id": "cmp_a2cb3721a0a0cbded86583f3",
+      "component_key": "vimeoicon-6a8cf3df",
+      "file_path": "apps/client/src/components/icons/vimeo-icon.tsx",
+      "export_name": "VimeoIcon",
+      "story_id": "components-vimeoicon--default",
+      "story_file": "stories/VimeoIcon.stories.tsx",
+      "source_sha256": "0e71a6747f348b0b6e31f56989209bfb7296516b171e65feaa9da68fde6daaee"
+    }
+  ],
+  "skipped_components": [
+    {
+      "stable_id": "cmp_f5d99c5c6fdcd272411a460d",
+      "file_path": "apps/client/src/components/common/export-modal.tsx",
+      "export_name": "ExportFormatSelection",
+      "reason": "not exported by its file"
+    }
+  ],
+  "denied_install_scripts": [
+    "core-js"
+  ]
+}
