@@ -26,6 +26,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Login"
         }
       ]
     },
@@ -43,6 +48,12 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "attribute",
+          "selector": "button[aria-haspopup=\"menu\"]",
+          "name": "aria-label",
+          "equals": "Alex Morgan – Change avatar"
         }
       ]
     },
@@ -60,6 +71,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Copy link"
         }
       ]
     },
@@ -77,6 +93,12 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "attribute",
+          "selector": "button",
+          "name": "aria-label",
+          "equals": "Copy public link"
         }
       ]
     },
@@ -94,6 +116,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "body",
+          "includes": "Export page"
         }
       ]
     },
@@ -111,6 +138,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "No results found"
         }
       ]
     },
@@ -145,6 +177,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "count",
+          "selector": "#storybook-root button",
+          "equals": 2
         }
       ]
     },
@@ -162,6 +199,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "Getting started"
         }
       ]
     },
@@ -179,6 +221,12 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "attribute",
+          "selector": "input",
+          "name": "placeholder",
+          "equals": "Search spaces..."
         }
       ]
     },
@@ -196,6 +244,11 @@
         {
           "kind": "visible",
           "selector": "#storybook-root > :not(style):not(script)"
+        },
+        {
+          "kind": "text",
+          "selector": "#storybook-root",
+          "includes": "alex@example.com"
         }
       ]
     },
