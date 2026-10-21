@@ -1,6 +1,6 @@
 {
   "generator_version": "ocoder-storybook-generator-v1",
-  "base_git_sha": "4789c62880cf22f8ba16702112e6694802a07243",
+  "base_git_sha": "b24f374f674cdea7dfece953cb5d9053ce8fe43f",
   "app_dir": "apps/client",
   "project_root": ".",
   "unpinnable_dependencies": [],
@@ -54,7 +54,7 @@
       "export_name": "CopyTextButton",
       "story_id": "components-copytextbutton--default",
       "story_file": "stories/CopyTextButton.stories.tsx",
-      "source_sha256": "601f94c1d18aefef22a6189d77ea28beb4abbf828ad08159617659b09ad81e75"
+      "source_sha256": "cd61ad62812528504d71ed5d9aec73464014a47b80ce82be184d27241d976bda"
     },
     {
       "stable_id": "cmp_c4f74503d44ca5e9254ebc74",
@@ -284,6 +284,12 @@
   ],
   "skipped_components": [
     {
+      "stable_id": "cmp_ff94a328fa6e902af809ee7e",
+      "file_path": ".ocoder/storybook/.storybook/providers.tsx",
+      "export_name": "StoryQueryClient",
+      "reason": "not exported by its file"
+    },
+    {
       "stable_id": "cmp_f5d99c5c6fdcd272411a460d",
       "file_path": "apps/client/src/components/common/export-modal.tsx",
       "export_name": "ExportFormatSelection",
@@ -292,5 +298,21 @@
   ],
   "denied_install_scripts": [
     "core-js"
-  ]
+  ],
+  "last_update": {
+    "base_git_sha": "b24f374f674cdea7dfece953cb5d9053ce8fe43f",
+    "previous_base_git_sha": "4789c62880cf22f8ba16702112e6694802a07243",
+    "added": [],
+    "changed": [
+      {
+        "file_path": "apps/client/src/components/common/copy.tsx",
+        "export_name": "CopyTextButton",
+        "story_file": "stories/CopyTextButton.stories.tsx",
+        "story_id": "components-copytextbutton--default"
+      }
+    ],
+    "removed": [],
+    "dropped_cases": 0,
+    "entry_module_changed": false
+  }
 }
