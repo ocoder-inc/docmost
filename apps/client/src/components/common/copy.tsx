@@ -20,7 +20,7 @@ export default function CopyTextButton({ text, size, label }: CopyProps) {
     <CopyButton value={text} timeout={2000}>
       {({ copied, copy }) => (
         <Tooltip
-          label={copied ? t("Copied again") : copyLabel}
+          label={copied ? t("Copied again and again") : copyLabel}
           withArrow
           position="right"
         >
