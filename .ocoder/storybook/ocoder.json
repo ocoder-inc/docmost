@@ -1,6 +1,6 @@
 {
   "generator_version": "ocoder-storybook-generator-v1",
-  "base_git_sha": "b24f374f674cdea7dfece953cb5d9053ce8fe43f",
+  "base_git_sha": "651b01b9ffe2bace65cded0de38982f45f1efe1f",
   "app_dir": "apps/client",
   "project_root": ".",
   "unpinnable_dependencies": [],
@@ -54,7 +54,7 @@
       "export_name": "CopyTextButton",
       "story_id": "components-copytextbutton--default",
       "story_file": "stories/CopyTextButton.stories.tsx",
-      "source_sha256": "cd61ad62812528504d71ed5d9aec73464014a47b80ce82be184d27241d976bda"
+      "source_sha256": "dc846e62df5906ebc0823e8b46aa213f7a52c45be3b2eb276b5a500571373ccb"
     },
     {
       "stable_id": "cmp_c4f74503d44ca5e9254ebc74",
@@ -300,8 +300,8 @@
     "core-js"
   ],
   "last_update": {
-    "base_git_sha": "b24f374f674cdea7dfece953cb5d9053ce8fe43f",
-    "previous_base_git_sha": "4789c62880cf22f8ba16702112e6694802a07243",
+    "base_git_sha": "651b01b9ffe2bace65cded0de38982f45f1efe1f",
+    "previous_base_git_sha": "b24f374f674cdea7dfece953cb5d9053ce8fe43f",
     "added": [],
     "changed": [
       {
