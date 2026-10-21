@@ -1,0 +1,38 @@
+{
+  "appDir": "apps/client",
+  "postcss": true,
+  "workspaceRoot": ".ocoder/storybook",
+  "aliases": [
+    {
+      "prefix": "@docmost/base-formula/client",
+      "target": "packages/base-formula/src/index.client.ts",
+      "wildcard": false
+    },
+    {
+      "prefix": "@docmost/base-formula/server",
+      "target": "packages/base-formula/src/index.server.ts",
+      "wildcard": false
+    },
+    {
+      "prefix": "@docmost/base-formula",
+      "target": "packages/base-formula/src/index.server.ts",
+      "wildcard": false
+    },
+    {
+      "prefix": "@docmost/editor-ext",
+      "target": "packages/editor-ext/src/index.ts",
+      "wildcard": false
+    },
+    {
+      "prefix": "@/",
+      "target": "apps/client/src/",
+      "wildcard": true
+    }
+  ],
+  "publicDir": "apps/client/public",
+  "entry": {
+    "module": "apps/client/src/main.tsx",
+    "standIn": "entry.tsx"
+  },
+  "stubs": {}
+}
