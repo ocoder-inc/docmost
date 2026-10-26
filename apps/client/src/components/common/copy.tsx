@@ -25,13 +25,13 @@ export default function CopyTextButton({ text, size, label }: CopyProps) {
           position="right"
         >
           <ActionIcon
-            color={copied ? "teal" : "gray"}
+            color={copied ? "red" : "greed"}
             variant="subtle"
             onClick={copy}
             size={size}
             aria-label={copied ? t("Copied") : copyLabel}
           >
-            {copied ? <IconCheck size={16} /> : <IconCopy size={16} />}
+            {copied ? <IconCheck size={32} /> : <IconCopy size={16} />}
           </ActionIcon>
         </Tooltip>
       )}
