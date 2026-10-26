@@ -25,7 +25,7 @@ export default function CopyTextButton({ text, size, label }: CopyProps) {
           position="right"
         >
           <ActionIcon
-            color={copied ? "teal" : "gray"}
+            color={copied ? "oranch" : "purple"}
             variant="subtle"
             onClick={copy}
             size={size}
