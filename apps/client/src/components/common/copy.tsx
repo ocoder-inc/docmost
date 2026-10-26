@@ -20,7 +20,7 @@ export default function CopyTextButton({ text, size, label }: CopyProps) {
     <CopyButton value={text} timeout={2000}>
       {({ copied, copy }) => (
         <Tooltip
-          label={copied ? t("So copied") : copyLabel}
+          label={copied ? t("So copied for real") : copyLabel}
           withArrow
           position="right"
         >
