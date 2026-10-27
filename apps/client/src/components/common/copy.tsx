@@ -31,7 +31,7 @@ export default function CopyTextButton({ text, size, label }: CopyProps) {
             size={size}
             aria-label={copied ? t("Copied") : copyLabel}
           >
-            {copied ? <IconCheck size={36} /> : <IconCopy size={16} />}
+            {copied ? <IconCheck size={36} /> : <IconCopy size={24} />}
           </ActionIcon>
         </Tooltip>
       )}
