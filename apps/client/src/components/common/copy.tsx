@@ -20,7 +20,7 @@ export default function CopyTextButton({ text, size, label }: CopyProps) {
     <CopyButton value={text} timeout={2000}>
       {({ copied, copy }) => (
         <Tooltip
-          label={copied ? t("Copied again") : copyLabel}
+          label={copied ? t("Copied") : copyLabel}
           withArrow
           position="right"
         >
@@ -31,7 +31,7 @@ export default function CopyTextButton({ text, size, label }: CopyProps) {
             size={size}
             aria-label={copied ? t("Copied") : copyLabel}
           >
-            {copied ? <IconCheck size={32} /> : <IconCopy size={16} />}
+            {copied ? <IconCheck size={48} /> : <IconCopy size={32} />}
           </ActionIcon>
         </Tooltip>
       )}
